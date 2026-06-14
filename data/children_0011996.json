@@ -1,0 +1,676 @@
+{
+  "_embedded" : {
+    "terms" : [ {
+      "iri" : "http://purl.obolibrary.org/obo/MONDO_0021367",
+      "lang" : "en",
+      "description" : [ "The phase of chronic myeloid leukemia following the chronic phase (leukemia, myeloid, chronic-phase), where there are increased systemic symptoms, worsening cytopenias, and refractory leukocytosis." ],
+      "synonyms" : [ "Accelerated Phase CML", "Accelerated Phase Chronic Granulocytic Leukaemia", "Accelerated Phase Chronic Granulocytic Leukemia", "Accelerated Phase Chronic Myelocytic Leukaemia", "Accelerated Phase Chronic Myelocytic Leukemia", "Accelerated Phase Chronic Myelogenous Leukaemia", "Accelerated Phase Chronic Myelogenous Leukemia", "Accelerated Phase Chronic Myelogenous Leukemia, BCR-ABL1 Positive", "Accelerated Phase Chronic Myeloid Leukaemia", "Accelerated Phase Chronic Myeloid Leukemia", "Accelerated phase chronic myeloid leukaemia", "Accelerated phase chronic myeloid leukemia", "Aggressive-Phase CML", "Aggressive-Phase Chronic Myelocytic Leukaemia", "Aggressive-Phase Chronic Myelocytic Leukemia", "Aggressive-Phase Chronic Myelogenous Leukaemia", "Aggressive-Phase Chronic Myelogenous Leukemia", "Aggressive-Phase Chronic Myeloid Leukaemia", "Aggressive-Phase Chronic Myeloid Leukemia", "CML ACCELERATED", "CML AGGRESSIVE", "Leukemia, Myelogenous, Aggressive Phase", "Leukemia, Myelogenous, Aggressive-Phase", "Leukemia, Myeloid, Accelerated Phase", "Leukemia, Myeloid, Accelerated-Phase", "Leukemia, Myeloid, Aggressive-Phase", "Myelogenous Leukemia, Chronic, Aggressive Phase", "Myelogenous Leukemia, Chronic, Aggressive-Phase", "Myeloid Leukemia, Chronic, Accelerated Phase", "Myeloid Leukemia, Chronic, Accelerated-Phase", "Myeloid Leukemia, Chronic, Aggressive Phase", "Myeloid Leukemia, Chronic, Aggressive-Phase" ],
+      "annotation" : {
+        "has exact match" : [ "http://identifiers.org/medgen/6059", "http://identifiers.org/mesh/D015465", "http://linkedlifedata.com/resource/umls/id/C0023472", "http://purl.obolibrary.org/obo/NCIT_C3173" ],
+        "has_dbxref" : [ "MEDGEN:6059", "MESH:D015465", "NCIT:C3173", "UMLS:C0023472" ],
+        "id" : [ "MONDO:0021367" ],
+        "term tracker item" : [ "https://github.com/monarch-initiative/mondo/issues/8567" ]
+      },
+      "label" : "leukemia, myeloid, accelerated-phase",
+      "ontology_name" : "mondo",
+      "ontology_prefix" : "MONDO",
+      "ontology_iri" : "http://purl.obolibrary.org/obo/mondo/mondo-international.owl",
+      "is_obsolete" : false,
+      "term_replaced_by" : null,
+      "is_defining_ontology" : true,
+      "has_children" : false,
+      "is_root" : false,
+      "short_form" : "MONDO_0021367",
+      "obo_id" : "MONDO:0021367",
+      "in_subset" : [ "gard_rare", "rare" ],
+      "obo_definition_citation" : [ {
+        "definition" : "The phase of chronic myeloid leukemia following the chronic phase (leukemia, myeloid, chronic-phase), where there are increased systemic symptoms, worsening cytopenias, and refractory leukocytosis.",
+        "oboXrefs" : [ {
+          "database" : "MESH",
+          "id" : "D015465",
+          "description" : null,
+          "url" : "http://id.nlm.nih.gov/mesh/D015465"
+        } ]
+      } ],
+      "obo_xref" : [ {
+        "database" : "MEDGEN",
+        "id" : "6059",
+        "description" : "MONDO:equivalentTo",
+        "url" : "https://www.ncbi.nlm.nih.gov/medgen/6059"
+      }, {
+        "database" : "MESH",
+        "id" : "D015465",
+        "description" : "UMLS:C0023472",
+        "url" : "http://id.nlm.nih.gov/mesh/D015465"
+      }, {
+        "database" : "NCIT",
+        "id" : "C3173",
+        "description" : "https://orcid.org/0000-0002-5002-8648",
+        "url" : "http://purl.obolibrary.org/obo/NCIT_C3173"
+      }, {
+        "database" : "UMLS",
+        "id" : "C0023472",
+        "description" : "MONDO:equivalentTo",
+        "url" : "https://uts.nlm.nih.gov/uts/umls/concept/C0023472"
+      } ],
+      "obo_synonym" : [ {
+        "name" : "Accelerated Phase Chronic Granulocytic Leukaemia",
+        "scope" : "hasRelatedSynonym",
+        "type" : "UK spelling synonym",
+        "xrefs" : [ ]
+      }, {
+        "name" : "Accelerated Phase Chronic Myelocytic Leukaemia",
+        "scope" : "hasRelatedSynonym",
+        "type" : "UK spelling synonym",
+        "xrefs" : [ ]
+      }, {
+        "name" : "Accelerated Phase Chronic Myelogenous Leukaemia",
+        "scope" : "hasRelatedSynonym",
+        "type" : "UK spelling synonym",
+        "xrefs" : [ ]
+      }, {
+        "name" : "Accelerated Phase Chronic Myeloid Leukaemia",
+        "scope" : "hasRelatedSynonym",
+        "type" : "UK spelling synonym",
+        "xrefs" : [ ]
+      }, {
+        "name" : "Accelerated phase chronic myeloid leukaemia",
+        "scope" : "hasRelatedSynonym",
+        "type" : "UK spelling synonym",
+        "xrefs" : [ ]
+      }, {
+        "name" : "Accelerated phase chronic myeloid leukemia",
+        "scope" : "hasRelatedSynonym",
+        "type" : null,
+        "xrefs" : [ {
+          "database" : "UMLS",
+          "id" : "C0023472",
+          "description" : null,
+          "url" : "https://uts.nlm.nih.gov/uts/umls/concept/C0023472"
+        } ]
+      }, {
+        "name" : "Aggressive-Phase Chronic Myelocytic Leukaemia",
+        "scope" : "hasRelatedSynonym",
+        "type" : "UK spelling synonym",
+        "xrefs" : [ ]
+      }, {
+        "name" : "Aggressive-Phase Chronic Myelogenous Leukaemia",
+        "scope" : "hasRelatedSynonym",
+        "type" : "UK spelling synonym",
+        "xrefs" : [ ]
+      }, {
+        "name" : "Aggressive-Phase Chronic Myeloid Leukaemia",
+        "scope" : "hasRelatedSynonym",
+        "type" : "UK spelling synonym",
+        "xrefs" : [ ]
+      }, {
+        "name" : "CML ACCELERATED",
+        "scope" : "hasRelatedSynonym",
+        "type" : null,
+        "xrefs" : [ {
+          "database" : "MESH",
+          "id" : "D015465",
+          "description" : null,
+          "url" : "http://id.nlm.nih.gov/mesh/D015465"
+        } ]
+      }, {
+        "name" : "CML AGGRESSIVE",
+        "scope" : "hasRelatedSynonym",
+        "type" : null,
+        "xrefs" : [ {
+          "database" : "MESH",
+          "id" : "D015465",
+          "description" : null,
+          "url" : "http://id.nlm.nih.gov/mesh/D015465"
+        } ]
+      }, {
+        "name" : "Leukemia, Myelogenous, Aggressive Phase",
+        "scope" : "hasRelatedSynonym",
+        "type" : null,
+        "xrefs" : [ {
+          "database" : "MESH",
+          "id" : "D015465",
+          "description" : null,
+          "url" : "http://id.nlm.nih.gov/mesh/D015465"
+        } ]
+      }, {
+        "name" : "Leukemia, Myelogenous, Aggressive-Phase",
+        "scope" : "hasRelatedSynonym",
+        "type" : null,
+        "xrefs" : [ {
+          "database" : "MESH",
+          "id" : "D015465",
+          "description" : null,
+          "url" : "http://id.nlm.nih.gov/mesh/D015465"
+        } ]
+      }, {
+        "name" : "Leukemia, Myeloid, Accelerated Phase",
+        "scope" : "hasRelatedSynonym",
+        "type" : null,
+        "xrefs" : [ {
+          "database" : "MESH",
+          "id" : "D015465",
+          "description" : null,
+          "url" : "http://id.nlm.nih.gov/mesh/D015465"
+        } ]
+      }, {
+        "name" : "Leukemia, Myeloid, Accelerated-Phase",
+        "scope" : "hasRelatedSynonym",
+        "type" : null,
+        "xrefs" : [ {
+          "database" : "MESH",
+          "id" : "D015465",
+          "description" : null,
+          "url" : "http://id.nlm.nih.gov/mesh/D015465"
+        } ]
+      }, {
+        "name" : "Leukemia, Myeloid, Aggressive-Phase",
+        "scope" : "hasRelatedSynonym",
+        "type" : null,
+        "xrefs" : [ {
+          "database" : "MESH",
+          "id" : "D015465",
+          "description" : null,
+          "url" : "http://id.nlm.nih.gov/mesh/D015465"
+        } ]
+      }, {
+        "name" : "Myelogenous Leukemia, Chronic, Aggressive Phase",
+        "scope" : "hasRelatedSynonym",
+        "type" : null,
+        "xrefs" : [ {
+          "database" : "MESH",
+          "id" : "D015465",
+          "description" : null,
+          "url" : "http://id.nlm.nih.gov/mesh/D015465"
+        } ]
+      }, {
+        "name" : "Myelogenous Leukemia, Chronic, Aggressive-Phase",
+        "scope" : "hasRelatedSynonym",
+        "type" : null,
+        "xrefs" : [ {
+          "database" : "MESH",
+          "id" : "D015465",
+          "description" : null,
+          "url" : "http://id.nlm.nih.gov/mesh/D015465"
+        } ]
+      }, {
+        "name" : "Myeloid Leukemia, Chronic, Accelerated Phase",
+        "scope" : "hasRelatedSynonym",
+        "type" : null,
+        "xrefs" : [ {
+          "database" : "MESH",
+          "id" : "D015465",
+          "description" : null,
+          "url" : "http://id.nlm.nih.gov/mesh/D015465"
+        } ]
+      }, {
+        "name" : "Myeloid Leukemia, Chronic, Accelerated-Phase",
+        "scope" : "hasRelatedSynonym",
+        "type" : null,
+        "xrefs" : [ {
+          "database" : "MESH",
+          "id" : "D015465",
+          "description" : null,
+          "url" : "http://id.nlm.nih.gov/mesh/D015465"
+        } ]
+      }, {
+        "name" : "Myeloid Leukemia, Chronic, Aggressive Phase",
+        "scope" : "hasRelatedSynonym",
+        "type" : null,
+        "xrefs" : [ {
+          "database" : "MESH",
+          "id" : "D015465",
+          "description" : null,
+          "url" : "http://id.nlm.nih.gov/mesh/D015465"
+        } ]
+      }, {
+        "name" : "Myeloid Leukemia, Chronic, Aggressive-Phase",
+        "scope" : "hasRelatedSynonym",
+        "type" : null,
+        "xrefs" : [ {
+          "database" : "MESH",
+          "id" : "D015465",
+          "description" : null,
+          "url" : "http://id.nlm.nih.gov/mesh/D015465"
+        } ]
+      } ],
+      "is_preferred_root" : false,
+      "_links" : {
+        "self" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0021367?lang=en"
+        },
+        "parents" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0021367/parents"
+        },
+        "ancestors" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0021367/ancestors"
+        },
+        "hierarchicalParents" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0021367/hierarchicalParents"
+        },
+        "hierarchicalAncestors" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0021367/hierarchicalAncestors"
+        },
+        "jstree" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0021367/jstree"
+        },
+        "graph" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0021367/graph"
+        }
+      }
+    }, {
+      "iri" : "http://purl.obolibrary.org/obo/MONDO_0010809",
+      "lang" : "en",
+      "description" : [ "A chronic myeloid leukemia characterized by chronic myelocytic leukemia in early infancy and absence of the BCR/ABL fusion gene (Philadelphia chromosome)." ],
+      "synonyms" : [ "familial CML-like syndrome", "CML-like syndrome, familial", "myelocytic leukemia-like syndrome, familial, chronic" ],
+      "annotation" : {
+        "curated content resource" : [ "https://www.malacards.org/card/myelocytic_leukemia_like_syndrome_familial_chronic" ],
+        "excluded_from_qc_check" : [ "http://purl.obolibrary.org/obo/mondo/sparql/qc/mondo/qc-omim-subsumption.sparql" ],
+        "has exact match" : [ "http://identifiers.org/medgen/325075", "http://identifiers.org/mesh/C536093", "http://linkedlifedata.com/resource/umls/id/C1838670", "http://purl.obolibrary.org/obo/DOID_0060761", "https://omim.org/entry/600080" ],
+        "has_dbxref" : [ "DOID:0060761", "GARD:10141", "MEDGEN:325075", "MESH:C536093", "OMIM:600080", "UMLS:C1838670" ],
+        "id" : [ "MONDO:0010809" ],
+        "seeAlso" : [ "https://rarediseases.info.nih.gov/diseases/10141/myelocytic-leukemia-like-syndrome-familial-chronic" ]
+      },
+      "label" : "familial chronic myelocytic leukemia-like syndrome",
+      "ontology_name" : "mondo",
+      "ontology_prefix" : "MONDO",
+      "ontology_iri" : "http://purl.obolibrary.org/obo/mondo/mondo-international.owl",
+      "is_obsolete" : false,
+      "term_replaced_by" : null,
+      "is_defining_ontology" : true,
+      "has_children" : false,
+      "is_root" : false,
+      "short_form" : "MONDO_0010809",
+      "obo_id" : "MONDO:0010809",
+      "in_subset" : [ "gard_rare", "nord_rare", "rare" ],
+      "obo_definition_citation" : [ {
+        "definition" : "A chronic myeloid leukemia characterized by chronic myelocytic leukemia in early infancy and absence of the BCR/ABL fusion gene (Philadelphia chromosome).",
+        "oboXrefs" : [ {
+          "database" : "DOID",
+          "id" : "0060761",
+          "description" : null,
+          "url" : "http://purl.obolibrary.org/obo/DOID_0060761"
+        }, {
+          "database" : "PMID",
+          "id" : "8086739",
+          "description" : null,
+          "url" : "http://www.ncbi.nlm.nih.gov/pubmed/8086739"
+        } ]
+      } ],
+      "obo_xref" : [ {
+        "database" : "DOID",
+        "id" : "0060761",
+        "description" : "MONDO:equivalentTo",
+        "url" : "http://purl.obolibrary.org/obo/DOID_0060761"
+      }, {
+        "database" : "GARD",
+        "id" : "10141",
+        "description" : "MONDO:GARD",
+        "url" : "https://rarediseases.info.nih.gov/diseases/10141/index"
+      }, {
+        "database" : "MEDGEN",
+        "id" : "325075",
+        "description" : "MONDO:equivalentTo",
+        "url" : "https://www.ncbi.nlm.nih.gov/medgen/325075"
+      }, {
+        "database" : "MESH",
+        "id" : "C536093",
+        "description" : "MONDO:equivalentTo",
+        "url" : "http://id.nlm.nih.gov/mesh/C536093"
+      }, {
+        "database" : "OMIM",
+        "id" : "600080",
+        "description" : "MONDO:equivalentTo",
+        "url" : "https://omim.org/entry/600080"
+      }, {
+        "database" : "UMLS",
+        "id" : "C1838670",
+        "description" : "MONDO:equivalentTo",
+        "url" : "https://uts.nlm.nih.gov/uts/umls/concept/C1838670"
+      } ],
+      "obo_synonym" : [ {
+        "name" : "familial CML-like syndrome",
+        "scope" : "hasExactSynonym",
+        "type" : null,
+        "xrefs" : [ {
+          "database" : "DOID",
+          "id" : "0060761",
+          "description" : null,
+          "url" : "http://purl.obolibrary.org/obo/DOID_0060761"
+        } ]
+      } ],
+      "is_preferred_root" : false,
+      "_links" : {
+        "self" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0010809?lang=en"
+        },
+        "parents" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0010809/parents"
+        },
+        "ancestors" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0010809/ancestors"
+        },
+        "hierarchicalParents" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0010809/hierarchicalParents"
+        },
+        "hierarchicalAncestors" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0010809/hierarchicalAncestors"
+        },
+        "jstree" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0010809/jstree"
+        },
+        "graph" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0010809/graph"
+        }
+      }
+    }, {
+      "iri" : "http://purl.obolibrary.org/obo/MONDO_0006115",
+      "lang" : "en",
+      "description" : [ "An advanced phase of chronic myelogenous leukemia. It is characterized by: 1. the presence of blasts in the peripheral blood or bone marrow that are at least 20% of the peripheral blood white cells or of the nucleated cells in the bone marrow respectively, or 2. an extramedullary proliferation of blasts, and/or 3. when there are large aggregates and clusters of blasts in the bone marrow biopsy specimen (adapted from WHO, 2001)." ],
+      "synonyms" : [ "blast crisis", "blast phase CML", "blast phase chronic granulocytic leukaemia", "blast phase chronic granulocytic leukemia", "blast phase chronic myelocytic leukaemia", "blast phase chronic myelocytic leukemia", "blast phase chronic myelogenous leukaemia", "blast phase chronic myelogenous leukemia", "blast phase chronic myeloid leukaemia", "blast phase chronic myeloid leukemia", "blastic phase CML", "blastic phase chronic granulocytic leukaemia", "blastic phase chronic granulocytic leukemia", "blastic phase chronic myelocytic leukaemia", "blastic phase chronic myelocytic leukemia", "blastic phase chronic myelogenous leukaemia", "blastic phase chronic myelogenous leukemia", "blastic phase chronic myeloid leukaemia", "blastic phase chronic myeloid leukemia", "blast crises", "blast phase", "blast phases", "crises, blast", "crisis, blast", "phase, blast", "phases, blast" ],
+      "annotation" : {
+        "has exact match" : [ "http://identifiers.org/medgen/2281", "http://identifiers.org/mesh/D001752", "http://identifiers.org/snomedct/413656006", "http://linkedlifedata.com/resource/umls/id/C0005699", "http://purl.obolibrary.org/obo/NCIT_C9110", "http://www.ebi.ac.uk/efo/EFO_1000131" ],
+        "has_dbxref" : [ "EFO:1000131", "MEDGEN:2281", "MESH:D001752", "NCIT:C9110", "SCTID:413656006", "UMLS:C0005699" ],
+        "id" : [ "MONDO:0006115" ]
+      },
+      "label" : "blast phase chronic myelogenous leukemia, BCR-ABL1 positive",
+      "ontology_name" : "mondo",
+      "ontology_prefix" : "MONDO",
+      "ontology_iri" : "http://purl.obolibrary.org/obo/mondo/mondo-international.owl",
+      "is_obsolete" : false,
+      "term_replaced_by" : null,
+      "is_defining_ontology" : true,
+      "has_children" : false,
+      "is_root" : false,
+      "short_form" : "MONDO_0006115",
+      "obo_id" : "MONDO:0006115",
+      "in_subset" : [ "gard_rare", "nord_rare", "otar", "rare" ],
+      "obo_definition_citation" : [ {
+        "definition" : "An advanced phase of chronic myelogenous leukemia. It is characterized by: 1. the presence of blasts in the peripheral blood or bone marrow that are at least 20% of the peripheral blood white cells or of the nucleated cells in the bone marrow respectively, or 2. an extramedullary proliferation of blasts, and/or 3. when there are large aggregates and clusters of blasts in the bone marrow biopsy specimen (adapted from WHO, 2001).",
+        "oboXrefs" : [ {
+          "database" : "NCIT",
+          "id" : "C9110",
+          "description" : null,
+          "url" : "http://purl.obolibrary.org/obo/NCIT_C9110"
+        } ]
+      } ],
+      "obo_xref" : [ {
+        "database" : "EFO",
+        "id" : "1000131",
+        "description" : "MONDO:equivalentTo",
+        "url" : "http://www.ebi.ac.uk/efo/EFO_1000131"
+      }, {
+        "database" : "MEDGEN",
+        "id" : "2281",
+        "description" : "MONDO:equivalentTo",
+        "url" : "https://www.ncbi.nlm.nih.gov/medgen/2281"
+      }, {
+        "database" : "MESH",
+        "id" : "D001752",
+        "description" : "MONDO:equivalentTo",
+        "url" : "http://id.nlm.nih.gov/mesh/D001752"
+      }, {
+        "database" : "NCIT",
+        "id" : "C9110",
+        "description" : "MONDO:exact-label-match",
+        "url" : "http://purl.obolibrary.org/obo/NCIT_C9110"
+      }, {
+        "database" : "SCTID",
+        "id" : "413656006",
+        "description" : "MONDO:equivalentTo",
+        "url" : "http://snomed.info/id/413656006"
+      }, {
+        "database" : "UMLS",
+        "id" : "C0005699",
+        "description" : "MONDO:equivalentTo",
+        "url" : "https://uts.nlm.nih.gov/uts/umls/concept/C0005699"
+      } ],
+      "obo_synonym" : [ {
+        "name" : "blast phase CML",
+        "scope" : "hasExactSynonym",
+        "type" : null,
+        "xrefs" : [ {
+          "database" : "NCIT",
+          "id" : "C9110",
+          "description" : null,
+          "url" : "http://purl.obolibrary.org/obo/NCIT_C9110"
+        } ]
+      }, {
+        "name" : "blast phase chronic granulocytic leukaemia",
+        "scope" : "hasExactSynonym",
+        "type" : "UK spelling synonym",
+        "xrefs" : [ ]
+      }, {
+        "name" : "blast phase chronic granulocytic leukemia",
+        "scope" : "hasExactSynonym",
+        "type" : null,
+        "xrefs" : [ {
+          "database" : "NCIT",
+          "id" : "C9110",
+          "description" : null,
+          "url" : "http://purl.obolibrary.org/obo/NCIT_C9110"
+        } ]
+      }, {
+        "name" : "blast phase chronic myelocytic leukaemia",
+        "scope" : "hasExactSynonym",
+        "type" : "UK spelling synonym",
+        "xrefs" : [ ]
+      }, {
+        "name" : "blast phase chronic myelocytic leukemia",
+        "scope" : "hasExactSynonym",
+        "type" : null,
+        "xrefs" : [ {
+          "database" : "NCIT",
+          "id" : "C9110",
+          "description" : null,
+          "url" : "http://purl.obolibrary.org/obo/NCIT_C9110"
+        } ]
+      }, {
+        "name" : "blast phase chronic myelogenous leukaemia",
+        "scope" : "hasExactSynonym",
+        "type" : "UK spelling synonym",
+        "xrefs" : [ ]
+      }, {
+        "name" : "blast phase chronic myelogenous leukemia",
+        "scope" : "hasExactSynonym",
+        "type" : null,
+        "xrefs" : [ {
+          "database" : "NCIT",
+          "id" : "C9110",
+          "description" : null,
+          "url" : "http://purl.obolibrary.org/obo/NCIT_C9110"
+        } ]
+      }, {
+        "name" : "blast phase chronic myeloid leukaemia",
+        "scope" : "hasExactSynonym",
+        "type" : "UK spelling synonym",
+        "xrefs" : [ ]
+      }, {
+        "name" : "blast phase chronic myeloid leukemia",
+        "scope" : "hasExactSynonym",
+        "type" : null,
+        "xrefs" : [ {
+          "database" : "NCIT",
+          "id" : "C9110",
+          "description" : null,
+          "url" : "http://purl.obolibrary.org/obo/NCIT_C9110"
+        } ]
+      }, {
+        "name" : "blastic phase CML",
+        "scope" : "hasExactSynonym",
+        "type" : null,
+        "xrefs" : [ {
+          "database" : "NCIT",
+          "id" : "C9110",
+          "description" : null,
+          "url" : "http://purl.obolibrary.org/obo/NCIT_C9110"
+        } ]
+      }, {
+        "name" : "blastic phase chronic granulocytic leukaemia",
+        "scope" : "hasExactSynonym",
+        "type" : "UK spelling synonym",
+        "xrefs" : [ ]
+      }, {
+        "name" : "blastic phase chronic granulocytic leukemia",
+        "scope" : "hasExactSynonym",
+        "type" : null,
+        "xrefs" : [ {
+          "database" : "NCIT",
+          "id" : "C9110",
+          "description" : null,
+          "url" : "http://purl.obolibrary.org/obo/NCIT_C9110"
+        } ]
+      }, {
+        "name" : "blastic phase chronic myelocytic leukaemia",
+        "scope" : "hasExactSynonym",
+        "type" : "UK spelling synonym",
+        "xrefs" : [ ]
+      }, {
+        "name" : "blastic phase chronic myelocytic leukemia",
+        "scope" : "hasExactSynonym",
+        "type" : null,
+        "xrefs" : [ {
+          "database" : "NCIT",
+          "id" : "C9110",
+          "description" : null,
+          "url" : "http://purl.obolibrary.org/obo/NCIT_C9110"
+        } ]
+      }, {
+        "name" : "blastic phase chronic myelogenous leukaemia",
+        "scope" : "hasExactSynonym",
+        "type" : "UK spelling synonym",
+        "xrefs" : [ ]
+      }, {
+        "name" : "blastic phase chronic myelogenous leukemia",
+        "scope" : "hasExactSynonym",
+        "type" : null,
+        "xrefs" : [ {
+          "database" : "NCIT",
+          "id" : "C9110",
+          "description" : null,
+          "url" : "http://purl.obolibrary.org/obo/NCIT_C9110"
+        } ]
+      }, {
+        "name" : "blastic phase chronic myeloid leukaemia",
+        "scope" : "hasExactSynonym",
+        "type" : "UK spelling synonym",
+        "xrefs" : [ ]
+      }, {
+        "name" : "blastic phase chronic myeloid leukemia",
+        "scope" : "hasExactSynonym",
+        "type" : null,
+        "xrefs" : [ {
+          "database" : "NCIT",
+          "id" : "C9110",
+          "description" : null,
+          "url" : "http://purl.obolibrary.org/obo/NCIT_C9110"
+        } ]
+      }, {
+        "name" : "blast crises",
+        "scope" : "hasRelatedSynonym",
+        "type" : null,
+        "xrefs" : [ {
+          "database" : "MESH",
+          "id" : "D001752",
+          "description" : null,
+          "url" : "http://id.nlm.nih.gov/mesh/D001752"
+        } ]
+      }, {
+        "name" : "blast phase",
+        "scope" : "hasRelatedSynonym",
+        "type" : null,
+        "xrefs" : [ {
+          "database" : "MESH",
+          "id" : "D001752",
+          "description" : null,
+          "url" : "http://id.nlm.nih.gov/mesh/D001752"
+        } ]
+      }, {
+        "name" : "blast phases",
+        "scope" : "hasRelatedSynonym",
+        "type" : null,
+        "xrefs" : [ {
+          "database" : "MESH",
+          "id" : "D001752",
+          "description" : null,
+          "url" : "http://id.nlm.nih.gov/mesh/D001752"
+        } ]
+      }, {
+        "name" : "crises, blast",
+        "scope" : "hasRelatedSynonym",
+        "type" : null,
+        "xrefs" : [ {
+          "database" : "MESH",
+          "id" : "D001752",
+          "description" : null,
+          "url" : "http://id.nlm.nih.gov/mesh/D001752"
+        } ]
+      }, {
+        "name" : "crisis, blast",
+        "scope" : "hasRelatedSynonym",
+        "type" : null,
+        "xrefs" : [ {
+          "database" : "MESH",
+          "id" : "D001752",
+          "description" : null,
+          "url" : "http://id.nlm.nih.gov/mesh/D001752"
+        } ]
+      }, {
+        "name" : "phase, blast",
+        "scope" : "hasRelatedSynonym",
+        "type" : null,
+        "xrefs" : [ {
+          "database" : "MESH",
+          "id" : "D001752",
+          "description" : null,
+          "url" : "http://id.nlm.nih.gov/mesh/D001752"
+        } ]
+      }, {
+        "name" : "phases, blast",
+        "scope" : "hasRelatedSynonym",
+        "type" : null,
+        "xrefs" : [ {
+          "database" : "MESH",
+          "id" : "D001752",
+          "description" : null,
+          "url" : "http://id.nlm.nih.gov/mesh/D001752"
+        } ]
+      } ],
+      "is_preferred_root" : false,
+      "_links" : {
+        "self" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0006115?lang=en"
+        },
+        "parents" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0006115/parents"
+        },
+        "ancestors" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0006115/ancestors"
+        },
+        "hierarchicalParents" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0006115/hierarchicalParents"
+        },
+        "hierarchicalAncestors" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0006115/hierarchicalAncestors"
+        },
+        "jstree" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0006115/jstree"
+        },
+        "graph" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0006115/graph"
+        }
+      }
+    } ]
+  },
+  "_links" : {
+    "self" : {
+      "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0011996/children?page=0&size=1000"
+    }
+  },
+  "page" : {
+    "size" : 1000,
+    "totalElements" : 3,
+    "totalPages" : 1,
+    "number" : 0
+  }
+}

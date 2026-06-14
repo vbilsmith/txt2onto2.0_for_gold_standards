@@ -1,0 +1,1324 @@
+{
+  "_embedded" : {
+    "terms" : [ {
+      "iri" : "http://purl.obolibrary.org/obo/MONDO_0024685",
+      "lang" : "en",
+      "description" : [ ],
+      "synonyms" : [ "Ph1-positive granulocytic leukaemia", "Ph1-positive granulocytic leukemia", "Ph1-positive myelocytic leukaemia", "Ph1-positive myelocytic leukemia", "Ph1-positive myelogenous leukaemia", "Ph1-positive myelogenous leukemia", "Ph1-positive myeloid leukaemia", "Ph1-positive myeloid leukemia", "Philadelphia-positive granulocytic leukaemia", "Philadelphia-positive granulocytic leukemia", "Philadelphia-positive myelocytic leukaemia", "Philadelphia-positive myelocytic leukemia", "Philadelphia-positive myelogenous leukemia", "Philadelphia-positive myeloid leukaemia", "Philadelphia-positive myeloid leukemia" ],
+      "annotation" : {
+        "has exact match" : [ "http://identifiers.org/medgen/9731", "http://linkedlifedata.com/resource/umls/id/C0023476", "http://purl.obolibrary.org/obo/NCIT_C3177" ],
+        "has_dbxref" : [ "MEDGEN:9731", "NCIT:C3177", "UMLS:C0023476" ],
+        "id" : [ "MONDO:0024685" ]
+      },
+      "label" : "Philadelphia-positive myelogenous leukemia",
+      "ontology_name" : "mondo",
+      "ontology_prefix" : "MONDO",
+      "ontology_iri" : "http://purl.obolibrary.org/obo/mondo/mondo-international.owl",
+      "is_obsolete" : false,
+      "term_replaced_by" : null,
+      "is_defining_ontology" : true,
+      "has_children" : false,
+      "is_root" : false,
+      "short_form" : "MONDO_0024685",
+      "obo_id" : "MONDO:0024685",
+      "in_subset" : [ "gard_rare", "rare" ],
+      "obo_definition_citation" : null,
+      "obo_xref" : [ {
+        "database" : "MEDGEN",
+        "id" : "9731",
+        "description" : "MONDO:equivalentTo",
+        "url" : "https://www.ncbi.nlm.nih.gov/medgen/9731"
+      }, {
+        "database" : "NCIT",
+        "id" : "C3177",
+        "description" : "MONDO:equivalentTo",
+        "url" : "http://purl.obolibrary.org/obo/NCIT_C3177"
+      }, {
+        "database" : "UMLS",
+        "id" : "C0023476",
+        "description" : "MONDO:equivalentTo",
+        "url" : "https://uts.nlm.nih.gov/uts/umls/concept/C0023476"
+      } ],
+      "obo_synonym" : [ {
+        "name" : "Ph1-positive granulocytic leukaemia",
+        "scope" : "hasExactSynonym",
+        "type" : "UK spelling synonym",
+        "xrefs" : [ ]
+      }, {
+        "name" : "Ph1-positive granulocytic leukemia",
+        "scope" : "hasExactSynonym",
+        "type" : null,
+        "xrefs" : [ {
+          "database" : "NCIT",
+          "id" : "C3177",
+          "description" : null,
+          "url" : "http://purl.obolibrary.org/obo/NCIT_C3177"
+        } ]
+      }, {
+        "name" : "Ph1-positive myelocytic leukaemia",
+        "scope" : "hasExactSynonym",
+        "type" : "UK spelling synonym",
+        "xrefs" : [ ]
+      }, {
+        "name" : "Ph1-positive myelocytic leukemia",
+        "scope" : "hasExactSynonym",
+        "type" : null,
+        "xrefs" : [ {
+          "database" : "NCIT",
+          "id" : "C3177",
+          "description" : null,
+          "url" : "http://purl.obolibrary.org/obo/NCIT_C3177"
+        } ]
+      }, {
+        "name" : "Ph1-positive myelogenous leukaemia",
+        "scope" : "hasExactSynonym",
+        "type" : "UK spelling synonym",
+        "xrefs" : [ ]
+      }, {
+        "name" : "Ph1-positive myelogenous leukemia",
+        "scope" : "hasExactSynonym",
+        "type" : null,
+        "xrefs" : [ {
+          "database" : "NCIT",
+          "id" : "C3177",
+          "description" : null,
+          "url" : "http://purl.obolibrary.org/obo/NCIT_C3177"
+        } ]
+      }, {
+        "name" : "Ph1-positive myeloid leukaemia",
+        "scope" : "hasExactSynonym",
+        "type" : "UK spelling synonym",
+        "xrefs" : [ ]
+      }, {
+        "name" : "Ph1-positive myeloid leukemia",
+        "scope" : "hasExactSynonym",
+        "type" : null,
+        "xrefs" : [ {
+          "database" : "NCIT",
+          "id" : "C3177",
+          "description" : null,
+          "url" : "http://purl.obolibrary.org/obo/NCIT_C3177"
+        } ]
+      }, {
+        "name" : "Philadelphia-positive granulocytic leukaemia",
+        "scope" : "hasExactSynonym",
+        "type" : "UK spelling synonym",
+        "xrefs" : [ ]
+      }, {
+        "name" : "Philadelphia-positive granulocytic leukemia",
+        "scope" : "hasExactSynonym",
+        "type" : null,
+        "xrefs" : [ {
+          "database" : "NCIT",
+          "id" : "C3177",
+          "description" : null,
+          "url" : "http://purl.obolibrary.org/obo/NCIT_C3177"
+        } ]
+      }, {
+        "name" : "Philadelphia-positive myelocytic leukaemia",
+        "scope" : "hasExactSynonym",
+        "type" : "UK spelling synonym",
+        "xrefs" : [ ]
+      }, {
+        "name" : "Philadelphia-positive myelocytic leukemia",
+        "scope" : "hasExactSynonym",
+        "type" : null,
+        "xrefs" : [ {
+          "database" : "NCIT",
+          "id" : "C3177",
+          "description" : null,
+          "url" : "http://purl.obolibrary.org/obo/NCIT_C3177"
+        } ]
+      }, {
+        "name" : "Philadelphia-positive myelogenous leukemia",
+        "scope" : "hasExactSynonym",
+        "type" : null,
+        "xrefs" : [ {
+          "database" : "NCIT",
+          "id" : "C3177",
+          "description" : null,
+          "url" : "http://purl.obolibrary.org/obo/NCIT_C3177"
+        } ]
+      }, {
+        "name" : "Philadelphia-positive myeloid leukaemia",
+        "scope" : "hasExactSynonym",
+        "type" : "UK spelling synonym",
+        "xrefs" : [ ]
+      }, {
+        "name" : "Philadelphia-positive myeloid leukemia",
+        "scope" : "hasExactSynonym",
+        "type" : null,
+        "xrefs" : [ {
+          "database" : "NCIT",
+          "id" : "C3177",
+          "description" : null,
+          "url" : "http://purl.obolibrary.org/obo/NCIT_C3177"
+        } ]
+      } ],
+      "is_preferred_root" : false,
+      "_links" : {
+        "self" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0024685?lang=en"
+        },
+        "parents" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0024685/parents"
+        },
+        "ancestors" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0024685/ancestors"
+        },
+        "hierarchicalParents" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0024685/hierarchicalParents"
+        },
+        "hierarchicalAncestors" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0024685/hierarchicalAncestors"
+        },
+        "jstree" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0024685/jstree"
+        },
+        "graph" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0024685/graph"
+        }
+      }
+    }, {
+      "iri" : "http://purl.obolibrary.org/obo/MONDO_0011996",
+      "lang" : "en",
+      "description" : [ "A chronic myeloproliferative neoplasm characterized by the expression of the BCR-ABL1 fusion gene. It presents with neutrophilic leukocytosis. It can appear at any age, but it mostly affects middle aged and older individuals. Patients usually present with fatigue, weight loss, anemia, night sweats, and splenomegaly. If untreated, it follows a biphasic or triphasic natural course; an initial indolent chronic phase which is followed by an accelerated phase, a blast phase, or both. Allogeneic stem cell transplantation and tyrosine kinase inhibitors delay disease progression and prolong overall survival." ],
+      "synonyms" : [ "BCR-ABL Positive chronic myelogenous leukaemia", "BCR-ABL Positive chronic myelogenous leukemia", "CML", "CML - chronic myelogenous leukaemia", "CML - chronic myelogenous leukemia", "chronic granulocytic leukaemia", "chronic granulocytic leukemia", "chronic myelocytic leukaemia", "chronic myelocytic leukemia", "chronic myelogenous leukaemia", "chronic myelogenous leukaemia (CML)", "chronic myelogenous leukemia", "chronic myelogenous leukemia (CML)", "chronic myelogenous leukemia, BCR-ABL1 Positive", "chronic myelogenous leukemias", "chronic myeloid leukaemia", "chronic myeloid leukemia", "hematopoeitic - chronic myelocytic leukaemia (CML)", "hematopoeitic - chronic myelocytic leukemia (CML)", "leukemia, Philadelphia chromosome-positive, resistant to imatinib, Somatic mutation", "leukemia, chronic myeloid, Philadelphia chromosome positive, somatic", "myeloid leukemia, chronic", "leukemia, chronic myelogenous", "leukemia, chronic myeloid", "leukemia, chronic myeloid, atypical" ],
+      "annotation" : {
+        "curated content resource" : [ "https://www.malacards.org/card/chronic_myelogenous_leukemia_bcr_abl1_positive", "https://www.malacards.org/card/leukemia_chronic_myeloid" ],
+        "has close match" : [ "http://identifiers.org/meddra/10009013" ],
+        "has exact match" : [ "http://identifiers.org/medgen/75993", "http://linkedlifedata.com/resource/umls/id/C0279543", "http://purl.obolibrary.org/obo/DOID_0081088", "http://purl.obolibrary.org/obo/DOID_8552", "http://purl.obolibrary.org/obo/NCIT_C3174", "http://www.ebi.ac.uk/efo/EFO_0000339", "http://www.orpha.net/ORDO/Orphanet_521", "https://omim.org/entry/608232" ],
+        "has_dbxref" : [ "DOID:0081088", "DOID:8552", "EFO:0000339", "GARD:6105", "ICD9:205.1", "ICDO:9863/3", "ICDO:9875/3", "MEDGEN:75993", "MedDRA:10009013", "NANDO:2200013", "NCIT:C3174", "NCIT:C3177", "OMIM:608232", "ONCOTREE:CML", "Orphanet:521", "UMLS:C0279543" ],
+        "id" : [ "MONDO:0011996" ],
+        "term tracker item" : [ "https://github.com/monarch-initiative/mondo/issues/4521" ]
+      },
+      "label" : "chronic myelogenous leukemia, BCR-ABL1 positive",
+      "ontology_name" : "mondo",
+      "ontology_prefix" : "MONDO",
+      "ontology_iri" : "http://purl.obolibrary.org/obo/mondo/mondo-international.owl",
+      "is_obsolete" : false,
+      "term_replaced_by" : null,
+      "is_defining_ontology" : true,
+      "has_children" : true,
+      "is_root" : false,
+      "short_form" : "MONDO_0011996",
+      "obo_id" : "MONDO:0011996",
+      "in_subset" : [ "gard_rare", "nord_rare", "ordo_disorder", "orphanet_rare", "otar", "rare" ],
+      "obo_definition_citation" : [ {
+        "definition" : "A chronic myeloproliferative neoplasm characterized by the expression of the BCR-ABL1 fusion gene. It presents with neutrophilic leukocytosis. It can appear at any age, but it mostly affects middle aged and older individuals. Patients usually present with fatigue, weight loss, anemia, night sweats, and splenomegaly. If untreated, it follows a biphasic or triphasic natural course; an initial indolent chronic phase which is followed by an accelerated phase, a blast phase, or both. Allogeneic stem cell transplantation and tyrosine kinase inhibitors delay disease progression and prolong overall survival.",
+        "oboXrefs" : [ {
+          "database" : "NCIT",
+          "id" : "C3174",
+          "description" : null,
+          "url" : "http://purl.obolibrary.org/obo/NCIT_C3174"
+        } ]
+      } ],
+      "obo_xref" : [ {
+        "database" : "DOID",
+        "id" : "0081088",
+        "description" : "MONDO:equivalentTo",
+        "url" : "http://purl.obolibrary.org/obo/DOID_0081088"
+      }, {
+        "database" : "DOID",
+        "id" : "8552",
+        "description" : "MONDO:equivalentTo",
+        "url" : "http://purl.obolibrary.org/obo/DOID_8552"
+      }, {
+        "database" : "EFO",
+        "id" : "0000339",
+        "description" : "MONDO:equivalentTo",
+        "url" : "http://www.ebi.ac.uk/efo/EFO_0000339"
+      }, {
+        "database" : "GARD",
+        "id" : "6105",
+        "description" : "MONDO:GARD",
+        "url" : "https://rarediseases.info.nih.gov/diseases/6105/index"
+      }, {
+        "database" : "ICD9",
+        "id" : "205.1",
+        "description" : "EFO:0000339",
+        "url" : null
+      }, {
+        "database" : "ICDO",
+        "id" : "9863/3",
+        "description" : "NCIT:C3174",
+        "url" : null
+      }, {
+        "database" : "ICDO",
+        "id" : "9875/3",
+        "description" : "NCIT:C3174",
+        "url" : null
+      }, {
+        "database" : "MEDGEN",
+        "id" : "75993",
+        "description" : "MONDO:equivalentTo",
+        "url" : "https://www.ncbi.nlm.nih.gov/medgen/75993"
+      }, {
+        "database" : "MedDRA",
+        "id" : "10009013",
+        "description" : "Orphanet:521/e",
+        "url" : "http://bioportal.bioontology.org/ontologies/MEDDRA?p=classes&conceptid=10009013"
+      }, {
+        "database" : "NANDO",
+        "id" : "2200013",
+        "description" : "https://orcid.org/0000-0003-0011-764X",
+        "url" : "https://nanbyodata.jp/disease/NANDO:2200013"
+      }, {
+        "database" : "NCIT",
+        "id" : "C3174",
+        "description" : "MONDO:equivalentTo",
+        "url" : "http://purl.obolibrary.org/obo/NCIT_C3174"
+      }, {
+        "database" : "NCIT",
+        "id" : "C3177",
+        "description" : "MONDO:directSiblingOf",
+        "url" : "http://purl.obolibrary.org/obo/NCIT_C3177"
+      }, {
+        "database" : "OMIM",
+        "id" : "608232",
+        "description" : "Orphanet:521/e",
+        "url" : "https://omim.org/entry/608232"
+      }, {
+        "database" : "ONCOTREE",
+        "id" : "CML",
+        "description" : "MONDO:equivalentTo",
+        "url" : null
+      }, {
+        "database" : "Orphanet",
+        "id" : "521",
+        "description" : "OMIM:608232",
+        "url" : "http://www.orpha.net/ORDO/Orphanet_521"
+      }, {
+        "database" : "UMLS",
+        "id" : "C0279543",
+        "description" : "MONDO:equivalentTo",
+        "url" : "https://uts.nlm.nih.gov/uts/umls/concept/C0279543"
+      } ],
+      "obo_synonym" : [ {
+        "name" : "BCR-ABL Positive chronic myelogenous leukaemia",
+        "scope" : "hasExactSynonym",
+        "type" : "UK spelling synonym",
+        "xrefs" : [ ]
+      }, {
+        "name" : "BCR-ABL Positive chronic myelogenous leukemia",
+        "scope" : "hasExactSynonym",
+        "type" : null,
+        "xrefs" : [ {
+          "database" : "NCIT",
+          "id" : "C3174",
+          "description" : null,
+          "url" : "http://purl.obolibrary.org/obo/NCIT_C3174"
+        } ]
+      }, {
+        "name" : "CML",
+        "scope" : "hasExactSynonym",
+        "type" : "abbreviation",
+        "xrefs" : [ {
+          "database" : "DOID",
+          "id" : "8552",
+          "description" : null,
+          "url" : "http://purl.obolibrary.org/obo/DOID_8552"
+        }, {
+          "database" : "MONDO",
+          "id" : "Lexical",
+          "description" : null,
+          "url" : null
+        }, {
+          "database" : "NCIT",
+          "id" : "C3174",
+          "description" : null,
+          "url" : "http://purl.obolibrary.org/obo/NCIT_C3174"
+        }, {
+          "database" : "OMIM",
+          "id" : "608232",
+          "description" : null,
+          "url" : "https://omim.org/entry/608232"
+        }, {
+          "database" : "Orphanet",
+          "id" : "521",
+          "description" : null,
+          "url" : "http://www.orpha.net/ORDO/Orphanet_521"
+        } ]
+      }, {
+        "name" : "CML - chronic myelogenous leukaemia",
+        "scope" : "hasExactSynonym",
+        "type" : "UK spelling synonym",
+        "xrefs" : [ ]
+      }, {
+        "name" : "CML - chronic myelogenous leukemia",
+        "scope" : "hasExactSynonym",
+        "type" : null,
+        "xrefs" : [ {
+          "database" : "DOID",
+          "id" : "8552",
+          "description" : null,
+          "url" : "http://purl.obolibrary.org/obo/DOID_8552"
+        }, {
+          "database" : "NCIT",
+          "id" : "C3174",
+          "description" : null,
+          "url" : "http://purl.obolibrary.org/obo/NCIT_C3174"
+        } ]
+      }, {
+        "name" : "chronic granulocytic leukaemia",
+        "scope" : "hasExactSynonym",
+        "type" : "UK spelling synonym",
+        "xrefs" : [ {
+          "database" : "DOID",
+          "id" : "8552",
+          "description" : null,
+          "url" : "http://purl.obolibrary.org/obo/DOID_8552"
+        } ]
+      }, {
+        "name" : "chronic granulocytic leukemia",
+        "scope" : "hasExactSynonym",
+        "type" : null,
+        "xrefs" : [ {
+          "database" : "DOID",
+          "id" : "8552",
+          "description" : null,
+          "url" : "http://purl.obolibrary.org/obo/DOID_8552"
+        }, {
+          "database" : "NCIT",
+          "id" : "C3174",
+          "description" : null,
+          "url" : "http://purl.obolibrary.org/obo/NCIT_C3174"
+        }, {
+          "database" : "Orphanet",
+          "id" : "521",
+          "description" : null,
+          "url" : "http://www.orpha.net/ORDO/Orphanet_521"
+        } ]
+      }, {
+        "name" : "chronic myelocytic leukaemia",
+        "scope" : "hasExactSynonym",
+        "type" : "UK spelling synonym",
+        "xrefs" : [ ]
+      }, {
+        "name" : "chronic myelocytic leukemia",
+        "scope" : "hasExactSynonym",
+        "type" : null,
+        "xrefs" : [ {
+          "database" : "NCIT",
+          "id" : "C3174",
+          "description" : null,
+          "url" : "http://purl.obolibrary.org/obo/NCIT_C3174"
+        } ]
+      }, {
+        "name" : "chronic myelogenous leukaemia",
+        "scope" : "hasExactSynonym",
+        "type" : "UK spelling synonym",
+        "xrefs" : [ {
+          "database" : "DOID",
+          "id" : "8552",
+          "description" : null,
+          "url" : "http://purl.obolibrary.org/obo/DOID_8552"
+        } ]
+      }, {
+        "name" : "chronic myelogenous leukaemia (CML)",
+        "scope" : "hasExactSynonym",
+        "type" : "UK spelling synonym",
+        "xrefs" : [ ]
+      }, {
+        "name" : "chronic myelogenous leukemia",
+        "scope" : "hasExactSynonym",
+        "type" : null,
+        "xrefs" : [ {
+          "database" : "DOID",
+          "id" : "8552",
+          "description" : null,
+          "url" : "http://purl.obolibrary.org/obo/DOID_8552"
+        }, {
+          "database" : "NCIT",
+          "id" : "C3174",
+          "description" : null,
+          "url" : "http://purl.obolibrary.org/obo/NCIT_C3174"
+        }, {
+          "database" : "Orphanet",
+          "id" : "521",
+          "description" : null,
+          "url" : "http://www.orpha.net/ORDO/Orphanet_521"
+        } ]
+      }, {
+        "name" : "chronic myelogenous leukemia (CML)",
+        "scope" : "hasExactSynonym",
+        "type" : null,
+        "xrefs" : [ {
+          "database" : "NCIT",
+          "id" : "C3174",
+          "description" : null,
+          "url" : "http://purl.obolibrary.org/obo/NCIT_C3174"
+        } ]
+      }, {
+        "name" : "chronic myelogenous leukemia, BCR-ABL1 Positive",
+        "scope" : "hasExactSynonym",
+        "type" : null,
+        "xrefs" : [ {
+          "database" : "DOID",
+          "id" : "0081088",
+          "description" : null,
+          "url" : "http://purl.obolibrary.org/obo/DOID_0081088"
+        }, {
+          "database" : "NCIT",
+          "id" : "C3174",
+          "description" : null,
+          "url" : "http://purl.obolibrary.org/obo/NCIT_C3174"
+        } ]
+      }, {
+        "name" : "chronic myelogenous leukemias",
+        "scope" : "hasExactSynonym",
+        "type" : null,
+        "xrefs" : [ {
+          "database" : "NCIT",
+          "id" : "C3174",
+          "description" : null,
+          "url" : "http://purl.obolibrary.org/obo/NCIT_C3174"
+        } ]
+      }, {
+        "name" : "chronic myeloid leukaemia",
+        "scope" : "hasExactSynonym",
+        "type" : "UK spelling synonym",
+        "xrefs" : [ {
+          "database" : "DOID",
+          "id" : "8552",
+          "description" : null,
+          "url" : "http://purl.obolibrary.org/obo/DOID_8552"
+        } ]
+      }, {
+        "name" : "chronic myeloid leukemia",
+        "scope" : "hasExactSynonym",
+        "type" : null,
+        "xrefs" : [ {
+          "database" : "DOID",
+          "id" : "8552",
+          "description" : null,
+          "url" : "http://purl.obolibrary.org/obo/DOID_8552"
+        }, {
+          "database" : "NCIT",
+          "id" : "C3174",
+          "description" : null,
+          "url" : "http://purl.obolibrary.org/obo/NCIT_C3174"
+        }, {
+          "database" : "Orphanet",
+          "id" : "521",
+          "description" : null,
+          "url" : "http://www.orpha.net/ORDO/Orphanet_521"
+        } ]
+      }, {
+        "name" : "hematopoeitic - chronic myelocytic leukaemia (CML)",
+        "scope" : "hasExactSynonym",
+        "type" : "UK spelling synonym",
+        "xrefs" : [ ]
+      }, {
+        "name" : "hematopoeitic - chronic myelocytic leukemia (CML)",
+        "scope" : "hasExactSynonym",
+        "type" : null,
+        "xrefs" : [ {
+          "database" : "NCIT",
+          "id" : "C3174",
+          "description" : null,
+          "url" : "http://purl.obolibrary.org/obo/NCIT_C3174"
+        } ]
+      }, {
+        "name" : "myeloid leukemia, chronic",
+        "scope" : "hasExactSynonym",
+        "type" : null,
+        "xrefs" : [ {
+          "database" : "DOID",
+          "id" : "8552",
+          "description" : null,
+          "url" : "http://purl.obolibrary.org/obo/DOID_8552"
+        }, {
+          "database" : "MONDO",
+          "id" : "patterns/chronic",
+          "description" : null,
+          "url" : null
+        }, {
+          "database" : "MTH",
+          "id" : "NOCODE",
+          "description" : null,
+          "url" : null
+        } ]
+      }, {
+        "name" : "leukemia, chronic myeloid",
+        "scope" : "hasRelatedSynonym",
+        "type" : null,
+        "xrefs" : [ {
+          "database" : "MONDO",
+          "id" : "Lexical",
+          "description" : null,
+          "url" : null
+        } ]
+      } ],
+      "is_preferred_root" : false,
+      "_links" : {
+        "self" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0011996?lang=en"
+        },
+        "parents" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0011996/parents"
+        },
+        "ancestors" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0011996/ancestors"
+        },
+        "hierarchicalParents" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0011996/hierarchicalParents"
+        },
+        "hierarchicalAncestors" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0011996/hierarchicalAncestors"
+        },
+        "jstree" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0011996/jstree"
+        },
+        "children" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0011996/children"
+        },
+        "descendants" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0011996/descendants"
+        },
+        "hierarchicalChildren" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0011996/hierarchicalChildren"
+        },
+        "hierarchicalDescendants" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0011996/hierarchicalDescendants"
+        },
+        "graph" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0011996/graph"
+        },
+        "has_material_basis_in_germline_mutation_in" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0011996/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FRO_0004003"
+        }
+      }
+    }, {
+      "iri" : "http://purl.obolibrary.org/obo/MONDO_0018874",
+      "lang" : "en",
+      "description" : [ "Acute myeloid leukemia (AML) is a group of neoplasms arising from precursor cells committed to the myeloid cell-line differentiation. All of them are characterized by clonal expansion of myeloid blasts. AML manifests by fever, pallor, anemia, hemorrhages and recurrent infections." ],
+      "synonyms" : [ "AML", "AML - acute myeloid leukaemia", "AML - acute myeloid leukemia", "ANLL", "acute Nonlymphocytic leukaemia", "acute Nonlymphocytic leukemia", "acute granulocytic leukaemia", "acute granulocytic leukemia", "acute myeloblastic leukaemia", "acute myeloblastic leukemia", "acute myelocytic leukaemia", "acute myelocytic leukemia", "acute myelogenous leukaemia", "acute myelogenous leukemia", "acute myelogenous leukemias", "acute myeloid leukaemia (AML)", "acute myeloid leukemia", "acute myeloid leukemia (AML)", "acute myeloid leukemia, somatic", "acute nonlymphocytic leukaemia", "acute nonlymphocytic leukemia", "hematopoeitic - acute Myleogenous leukaemia (AML)", "hematopoeitic - acute Myleogenous leukemia (AML)", "leukemia, acute myeloid, autosomal dominant, somatic mutation", "leukemia, acute myeloid, reduced survival in, somatic", "leukemia, acute myeloid, somatic", "leukemia, acute myeloid, susceptibility to, autosomal dominant, somatic mutation", "leukemia, myelocytic, acute", "myeloid leukemia, acute", "myeloid leukemia, acute, M4/M4Eo subtype, somatic", "acute non lymphoblastic leukaemia", "acute non lymphoblastic leukemia", "leukemia, acute myelogenous", "leukemia, acute myeloid", "leukemia, acute myeloid, susceptibility to" ],
+      "annotation" : {
+        "curated content resource" : [ "https://search.clinicalgenome.org/kb/conditions/MONDO:0018874" ],
+        "has close match" : [ "http://identifiers.org/meddra/10000880" ],
+        "has exact match" : [ "http://identifiers.org/medgen/9730", "http://identifiers.org/mesh/D015470", "http://identifiers.org/snomedct/91861009", "http://linkedlifedata.com/resource/umls/id/C0023467", "http://purl.bioontology.org/ontology/ICD10CM/C92.0", "http://purl.obolibrary.org/obo/DOID_9119", "http://purl.obolibrary.org/obo/NCIT_C3171", "http://www.ebi.ac.uk/efo/EFO_0000222", "http://www.orpha.net/ORDO/Orphanet_519", "https://omim.org/entry/601626" ],
+        "has_dbxref" : [ "DOID:9119", "EFO:0000222", "GARD:12757", "ICD10CM:C92.0", "ICD9:205.0", "ICD9:205.00", "ICDO:9861/3", "MEDGEN:9730", "MESH:D015470", "MedDRA:10000880", "NCIT:C3171", "NORD:1905", "OMIM:601626", "ONCOTREE:AML", "Orphanet:519", "SCTID:91861009", "UMLS:C0023467" ],
+        "id" : [ "MONDO:0018874" ],
+        "seeAlso" : [ "https://rarediseases.info.nih.gov/diseases/12757/acute-myeloid-leukemia", "https://rarediseases.info.nih.gov/diseases/537/acute-non-lymphoblastic-leukemia" ],
+        "term tracker item" : [ "https://github.com/monarch-initiative/mondo/issues/4521", "https://github.com/monarch-initiative/mondo/issues/9097" ]
+      },
+      "label" : "acute myeloid leukemia",
+      "ontology_name" : "mondo",
+      "ontology_prefix" : "MONDO",
+      "ontology_iri" : "http://purl.obolibrary.org/obo/mondo/mondo-international.owl",
+      "is_obsolete" : false,
+      "term_replaced_by" : null,
+      "is_defining_ontology" : true,
+      "has_children" : true,
+      "is_root" : false,
+      "short_form" : "MONDO_0018874",
+      "obo_id" : "MONDO:0018874",
+      "in_subset" : [ "clingen", "disease_grouping", "gard_rare", "nord_rare", "ordo_group_of_disorders", "otar", "rare" ],
+      "obo_definition_citation" : [ {
+        "definition" : "Acute myeloid leukemia (AML) is a group of neoplasms arising from precursor cells committed to the myeloid cell-line differentiation. All of them are characterized by clonal expansion of myeloid blasts. AML manifests by fever, pallor, anemia, hemorrhages and recurrent infections.",
+        "oboXrefs" : [ {
+          "database" : "Orphanet",
+          "id" : "519",
+          "description" : null,
+          "url" : "http://www.orpha.net/ORDO/Orphanet_519"
+        } ]
+      } ],
+      "obo_xref" : [ {
+        "database" : "DOID",
+        "id" : "9119",
+        "description" : "MONDO:equivalentTo",
+        "url" : "http://purl.obolibrary.org/obo/DOID_9119"
+      }, {
+        "database" : "EFO",
+        "id" : "0000222",
+        "description" : "MONDO:equivalentTo",
+        "url" : "http://www.ebi.ac.uk/efo/EFO_0000222"
+      }, {
+        "database" : "GARD",
+        "id" : "12757",
+        "description" : "MONDO:GARD",
+        "url" : "https://rarediseases.info.nih.gov/diseases/12757/index"
+      }, {
+        "database" : "ICD10CM",
+        "id" : "C92.0",
+        "description" : "https://orcid.org/0009-0001-6494-4831",
+        "url" : null
+      }, {
+        "database" : "ICD9",
+        "id" : "205.0",
+        "description" : "EFO:0000222",
+        "url" : null
+      }, {
+        "database" : "ICD9",
+        "id" : "205.00",
+        "description" : "MONDO:i2s",
+        "url" : null
+      }, {
+        "database" : "ICDO",
+        "id" : "9861/3",
+        "description" : "NCIT:C3171",
+        "url" : null
+      }, {
+        "database" : "MEDGEN",
+        "id" : "9730",
+        "description" : "MONDO:equivalentTo",
+        "url" : "https://www.ncbi.nlm.nih.gov/medgen/9730"
+      }, {
+        "database" : "MESH",
+        "id" : "D015470",
+        "description" : "Orphanet:519/e",
+        "url" : "http://id.nlm.nih.gov/mesh/D015470"
+      }, {
+        "database" : "MedDRA",
+        "id" : "10000880",
+        "description" : "Orphanet:519/e",
+        "url" : "http://bioportal.bioontology.org/ontologies/MEDDRA?p=classes&conceptid=10000880"
+      }, {
+        "database" : "NCIT",
+        "id" : "C3171",
+        "description" : "MONDO:equivalentTo",
+        "url" : "http://purl.obolibrary.org/obo/NCIT_C3171"
+      }, {
+        "database" : "NORD",
+        "id" : "1905",
+        "description" : "MONDO:NORD",
+        "url" : "https://rarediseases.org/?p=1905"
+      }, {
+        "database" : "OMIM",
+        "id" : "601626",
+        "description" : "Orphanet:519/e",
+        "url" : "https://omim.org/entry/601626"
+      }, {
+        "database" : "ONCOTREE",
+        "id" : "AML",
+        "description" : "MONDO:equivalentTo",
+        "url" : null
+      }, {
+        "database" : "Orphanet",
+        "id" : "519",
+        "description" : "MONDO:equivalentTo",
+        "url" : "http://www.orpha.net/ORDO/Orphanet_519"
+      }, {
+        "database" : "SCTID",
+        "id" : "91861009",
+        "description" : "MONDO:equivalentTo",
+        "url" : "http://snomed.info/id/91861009"
+      }, {
+        "database" : "UMLS",
+        "id" : "C0023467",
+        "description" : "MONDO:equivalentTo",
+        "url" : "https://uts.nlm.nih.gov/uts/umls/concept/C0023467"
+      } ],
+      "obo_synonym" : [ {
+        "name" : "AML",
+        "scope" : "hasExactSynonym",
+        "type" : "abbreviation",
+        "xrefs" : [ {
+          "database" : "MONDO",
+          "id" : "Lexical",
+          "description" : null,
+          "url" : null
+        }, {
+          "database" : "NCIT",
+          "id" : "C3171",
+          "description" : null,
+          "url" : "http://purl.obolibrary.org/obo/NCIT_C3171"
+        }, {
+          "database" : "OMIM",
+          "id" : "601626",
+          "description" : null,
+          "url" : "https://omim.org/entry/601626"
+        }, {
+          "database" : "Orphanet",
+          "id" : "519",
+          "description" : null,
+          "url" : "http://www.orpha.net/ORDO/Orphanet_519"
+        } ]
+      }, {
+        "name" : "AML - acute myeloid leukaemia",
+        "scope" : "hasExactSynonym",
+        "type" : "UK spelling synonym",
+        "xrefs" : [ ]
+      }, {
+        "name" : "AML - acute myeloid leukemia",
+        "scope" : "hasExactSynonym",
+        "type" : null,
+        "xrefs" : [ {
+          "database" : "DOID",
+          "id" : "9119",
+          "description" : null,
+          "url" : "http://purl.obolibrary.org/obo/DOID_9119"
+        }, {
+          "database" : "NCIT",
+          "id" : "C3171",
+          "description" : null,
+          "url" : "http://purl.obolibrary.org/obo/NCIT_C3171"
+        } ]
+      }, {
+        "name" : "ANLL",
+        "scope" : "hasExactSynonym",
+        "type" : "abbreviation",
+        "xrefs" : [ {
+          "database" : "NCIT",
+          "id" : "C3171",
+          "description" : null,
+          "url" : "http://purl.obolibrary.org/obo/NCIT_C3171"
+        } ]
+      }, {
+        "name" : "acute Nonlymphocytic leukaemia",
+        "scope" : "hasExactSynonym",
+        "type" : "UK spelling synonym",
+        "xrefs" : [ ]
+      }, {
+        "name" : "acute Nonlymphocytic leukemia",
+        "scope" : "hasExactSynonym",
+        "type" : null,
+        "xrefs" : [ {
+          "database" : "NCIT",
+          "id" : "C3171",
+          "description" : null,
+          "url" : "http://purl.obolibrary.org/obo/NCIT_C3171"
+        } ]
+      }, {
+        "name" : "acute granulocytic leukaemia",
+        "scope" : "hasExactSynonym",
+        "type" : "UK spelling synonym",
+        "xrefs" : [ ]
+      }, {
+        "name" : "acute granulocytic leukemia",
+        "scope" : "hasExactSynonym",
+        "type" : null,
+        "xrefs" : [ {
+          "database" : "NCIT",
+          "id" : "C3171",
+          "description" : null,
+          "url" : "http://purl.obolibrary.org/obo/NCIT_C3171"
+        } ]
+      }, {
+        "name" : "acute myeloblastic leukaemia",
+        "scope" : "hasExactSynonym",
+        "type" : "UK spelling synonym",
+        "xrefs" : [ {
+          "database" : "DOID",
+          "id" : "9119",
+          "description" : null,
+          "url" : "http://purl.obolibrary.org/obo/DOID_9119"
+        } ]
+      }, {
+        "name" : "acute myeloblastic leukemia",
+        "scope" : "hasExactSynonym",
+        "type" : null,
+        "xrefs" : [ {
+          "database" : "DOID",
+          "id" : "9119",
+          "description" : null,
+          "url" : "http://purl.obolibrary.org/obo/DOID_9119"
+        }, {
+          "database" : "NCIT",
+          "id" : "C3171",
+          "description" : null,
+          "url" : "http://purl.obolibrary.org/obo/NCIT_C3171"
+        } ]
+      }, {
+        "name" : "acute myelocytic leukaemia",
+        "scope" : "hasExactSynonym",
+        "type" : "UK spelling synonym",
+        "xrefs" : [ ]
+      }, {
+        "name" : "acute myelocytic leukemia",
+        "scope" : "hasExactSynonym",
+        "type" : null,
+        "xrefs" : [ {
+          "database" : "NCIT",
+          "id" : "C3171",
+          "description" : null,
+          "url" : "http://purl.obolibrary.org/obo/NCIT_C3171"
+        } ]
+      }, {
+        "name" : "acute myelogenous leukaemia",
+        "scope" : "hasExactSynonym",
+        "type" : "UK spelling synonym",
+        "xrefs" : [ {
+          "database" : "DOID",
+          "id" : "9119",
+          "description" : null,
+          "url" : "http://purl.obolibrary.org/obo/DOID_9119"
+        } ]
+      }, {
+        "name" : "acute myelogenous leukemia",
+        "scope" : "hasExactSynonym",
+        "type" : null,
+        "xrefs" : [ {
+          "database" : "DOID",
+          "id" : "9119",
+          "description" : null,
+          "url" : "http://purl.obolibrary.org/obo/DOID_9119"
+        }, {
+          "database" : "NCIT",
+          "id" : "C3171",
+          "description" : null,
+          "url" : "http://purl.obolibrary.org/obo/NCIT_C3171"
+        }, {
+          "database" : "Orphanet",
+          "id" : "519",
+          "description" : null,
+          "url" : "http://www.orpha.net/ORDO/Orphanet_519"
+        } ]
+      }, {
+        "name" : "acute myelogenous leukemias",
+        "scope" : "hasExactSynonym",
+        "type" : null,
+        "xrefs" : [ {
+          "database" : "NCIT",
+          "id" : "C3171",
+          "description" : null,
+          "url" : "http://purl.obolibrary.org/obo/NCIT_C3171"
+        } ]
+      }, {
+        "name" : "acute myeloid leukaemia (AML)",
+        "scope" : "hasExactSynonym",
+        "type" : "UK spelling synonym",
+        "xrefs" : [ ]
+      }, {
+        "name" : "acute myeloid leukemia",
+        "scope" : "hasExactSynonym",
+        "type" : "ClinGen label",
+        "xrefs" : [ {
+          "database" : "DOID",
+          "id" : "9119",
+          "description" : null,
+          "url" : "http://purl.obolibrary.org/obo/DOID_9119"
+        }, {
+          "database" : "NCIT",
+          "id" : "C3171",
+          "description" : null,
+          "url" : "http://purl.obolibrary.org/obo/NCIT_C3171"
+        }, {
+          "database" : "Orphanet",
+          "id" : "519",
+          "description" : null,
+          "url" : "http://www.orpha.net/ORDO/Orphanet_519"
+        } ]
+      }, {
+        "name" : "acute myeloid leukemia (AML)",
+        "scope" : "hasExactSynonym",
+        "type" : null,
+        "xrefs" : [ {
+          "database" : "NCIT",
+          "id" : "C3171",
+          "description" : null,
+          "url" : "http://purl.obolibrary.org/obo/NCIT_C3171"
+        } ]
+      }, {
+        "name" : "acute nonlymphocytic leukaemia",
+        "scope" : "hasExactSynonym",
+        "type" : "UK spelling synonym",
+        "xrefs" : [ ]
+      }, {
+        "name" : "acute nonlymphocytic leukemia",
+        "scope" : "hasExactSynonym",
+        "type" : null,
+        "xrefs" : [ {
+          "database" : "NCIT",
+          "id" : "C3171",
+          "description" : null,
+          "url" : "http://purl.obolibrary.org/obo/NCIT_C3171"
+        } ]
+      }, {
+        "name" : "hematopoeitic - acute Myleogenous leukaemia (AML)",
+        "scope" : "hasExactSynonym",
+        "type" : "UK spelling synonym",
+        "xrefs" : [ ]
+      }, {
+        "name" : "hematopoeitic - acute Myleogenous leukemia (AML)",
+        "scope" : "hasExactSynonym",
+        "type" : null,
+        "xrefs" : [ {
+          "database" : "NCIT",
+          "id" : "C3171",
+          "description" : null,
+          "url" : "http://purl.obolibrary.org/obo/NCIT_C3171"
+        } ]
+      }, {
+        "name" : "leukemia, myelocytic, acute",
+        "scope" : "hasExactSynonym",
+        "type" : null,
+        "xrefs" : [ {
+          "database" : "DOID",
+          "id" : "9119",
+          "description" : null,
+          "url" : "http://purl.obolibrary.org/obo/DOID_9119"
+        }, {
+          "database" : "MTH",
+          "id" : "NOCODE",
+          "description" : null,
+          "url" : null
+        } ]
+      }, {
+        "name" : "myeloid leukemia, acute",
+        "scope" : "hasExactSynonym",
+        "type" : null,
+        "xrefs" : [ {
+          "database" : "MONDO",
+          "id" : "patterns/acute",
+          "description" : null,
+          "url" : null
+        } ]
+      }, {
+        "name" : "acute non lymphoblastic leukaemia",
+        "scope" : "hasRelatedSynonym",
+        "type" : "UK spelling synonym",
+        "xrefs" : [ ]
+      }, {
+        "name" : "acute non lymphoblastic leukemia",
+        "scope" : "hasRelatedSynonym",
+        "type" : null,
+        "xrefs" : [ {
+          "database" : "GARD",
+          "id" : "0000537",
+          "description" : null,
+          "url" : "https://rarediseases.info.nih.gov/diseases/0000537/index"
+        } ]
+      }, {
+        "name" : "leukemia, acute myeloid",
+        "scope" : "hasRelatedSynonym",
+        "type" : null,
+        "xrefs" : [ {
+          "database" : "MONDO",
+          "id" : "Lexical",
+          "description" : null,
+          "url" : null
+        } ]
+      } ],
+      "is_preferred_root" : false,
+      "_links" : {
+        "self" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0018874?lang=en"
+        },
+        "parents" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0018874/parents"
+        },
+        "ancestors" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0018874/ancestors"
+        },
+        "hierarchicalParents" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0018874/hierarchicalParents"
+        },
+        "hierarchicalAncestors" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0018874/hierarchicalAncestors"
+        },
+        "jstree" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0018874/jstree"
+        },
+        "children" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0018874/children"
+        },
+        "descendants" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0018874/descendants"
+        },
+        "hierarchicalChildren" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0018874/hierarchicalChildren"
+        },
+        "hierarchicalDescendants" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0018874/hierarchicalDescendants"
+        },
+        "graph" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0018874/graph"
+        },
+        "disease_has_feature" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0018874/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FRO_0004029"
+        }
+      }
+    }, {
+      "iri" : "http://purl.obolibrary.org/obo/MONDO_0004653",
+      "lang" : "en",
+      "description" : [ "A myelodysplastic/myeloproliferative neoplasm characterized by the principal involvement of the neutrophil series with leukocytosis and multilineage dysplasia. The neoplastic cells do not have a Philadelphia chromosome or the BCR/ABL fusion gene. (WHO, 2001)" ],
+      "synonyms" : [ "aCML", "atypical CML", "atypical chronic myeloid leukaemia", "atypical chronic myeloid leukaemia BCR-ABL1 negative", "atypical chronic myeloid leukemia", "atypical chronic myeloid leukemia BCR-ABL1 negative", "atypical chronic myeloid leukemia, BCR-ABL1 Negative", "subacute granulocytic leukaemia", "subacute granulocytic leukemia", "subacute myelogenous leukaemia", "subacute myelogenous leukemia", "subacute myeloid leukaemia", "subacute myeloid leukemia" ],
+      "annotation" : {
+        "curated content resource" : [ "https://www.malacards.org/card/atypical_chronic_myeloid_leukemia_bcr_abl1_negative" ],
+        "has close match" : [ "http://identifiers.org/meddra/10054651" ],
+        "has exact match" : [ "http://identifiers.org/medgen/266233", "http://identifiers.org/snomedct/277589003", "http://linkedlifedata.com/resource/umls/id/C1292772", "http://purl.obolibrary.org/obo/DOID_0060597", "http://purl.obolibrary.org/obo/NCIT_C3519", "http://purl.obolibrary.org/obo/mondo/sources/icd11foundation/331838766", "http://www.orpha.net/ORDO/Orphanet_98824" ],
+        "has_dbxref" : [ "DOID:0060597", "DOID:8747", "GARD:19583", "ICDO:9876/3", "MEDGEN:266233", "MedDRA:10054651", "NCIT:C3519", "Orphanet:98824", "SCTID:277589003", "UMLS:C1292772", "icd11.foundation:331838766" ],
+        "id" : [ "MONDO:0004653" ],
+        "term tracker item" : [ "https://github.com/monarch-initiative/mondo/issues/4487" ]
+      },
+      "label" : "atypical chronic myeloid leukemia, BCR-ABL1 negative",
+      "ontology_name" : "mondo",
+      "ontology_prefix" : "MONDO",
+      "ontology_iri" : "http://purl.obolibrary.org/obo/mondo/mondo-international.owl",
+      "is_obsolete" : false,
+      "term_replaced_by" : null,
+      "is_defining_ontology" : true,
+      "has_children" : false,
+      "is_root" : false,
+      "short_form" : "MONDO_0004653",
+      "obo_id" : "MONDO:0004653",
+      "in_subset" : [ "gard_rare", "nord_rare", "ordo_disorder", "orphanet_rare", "rare" ],
+      "obo_definition_citation" : [ {
+        "definition" : "A myelodysplastic/myeloproliferative neoplasm characterized by the principal involvement of the neutrophil series with leukocytosis and multilineage dysplasia. The neoplastic cells do not have a Philadelphia chromosome or the BCR/ABL fusion gene. (WHO, 2001)",
+        "oboXrefs" : [ {
+          "database" : "NCIT",
+          "id" : "C3519",
+          "description" : null,
+          "url" : "http://purl.obolibrary.org/obo/NCIT_C3519"
+        } ]
+      } ],
+      "obo_xref" : [ {
+        "database" : "DOID",
+        "id" : "0060597",
+        "description" : "MONDO:equivalentTo",
+        "url" : "http://purl.obolibrary.org/obo/DOID_0060597"
+      }, {
+        "database" : "DOID",
+        "id" : "8747",
+        "description" : "MONDO:equivalentObsolete",
+        "url" : "http://purl.obolibrary.org/obo/DOID_8747"
+      }, {
+        "database" : "GARD",
+        "id" : "19583",
+        "description" : "MONDO:GARD",
+        "url" : "https://rarediseases.info.nih.gov/diseases/19583/index"
+      }, {
+        "database" : "ICDO",
+        "id" : "9876/3",
+        "description" : "NCIT:C3519",
+        "url" : null
+      }, {
+        "database" : "MEDGEN",
+        "id" : "266233",
+        "description" : "MONDO:equivalentTo",
+        "url" : "https://www.ncbi.nlm.nih.gov/medgen/266233"
+      }, {
+        "database" : "MedDRA",
+        "id" : "10054651",
+        "description" : "Orphanet:98824/e",
+        "url" : "http://bioportal.bioontology.org/ontologies/MEDDRA?p=classes&conceptid=10054651"
+      }, {
+        "database" : "NCIT",
+        "id" : "C3519",
+        "description" : "MONDO:equivalentTo",
+        "url" : "http://purl.obolibrary.org/obo/NCIT_C3519"
+      }, {
+        "database" : "Orphanet",
+        "id" : "98824",
+        "description" : "MONDO:equivalentTo",
+        "url" : "http://www.orpha.net/ORDO/Orphanet_98824"
+      }, {
+        "database" : "SCTID",
+        "id" : "277589003",
+        "description" : "MONDO:equivalentTo",
+        "url" : "http://snomed.info/id/277589003"
+      }, {
+        "database" : "UMLS",
+        "id" : "C1292772",
+        "description" : "MONDO:equivalentTo",
+        "url" : "https://uts.nlm.nih.gov/uts/umls/concept/C1292772"
+      }, {
+        "database" : "icd11.foundation",
+        "id" : "331838766",
+        "description" : "https://orcid.org/0000-0001-5208-3432",
+        "url" : null
+      } ],
+      "obo_synonym" : [ {
+        "name" : "aCML",
+        "scope" : "hasExactSynonym",
+        "type" : "abbreviation",
+        "xrefs" : [ {
+          "database" : "DOID",
+          "id" : "0060597",
+          "description" : null,
+          "url" : "http://purl.obolibrary.org/obo/DOID_0060597"
+        }, {
+          "database" : "NCIT",
+          "id" : "C3519",
+          "description" : null,
+          "url" : "http://purl.obolibrary.org/obo/NCIT_C3519"
+        } ]
+      }, {
+        "name" : "atypical CML",
+        "scope" : "hasExactSynonym",
+        "type" : null,
+        "xrefs" : [ {
+          "database" : "DOID",
+          "id" : "0060597",
+          "description" : null,
+          "url" : "http://purl.obolibrary.org/obo/DOID_0060597"
+        }, {
+          "database" : "NCIT",
+          "id" : "C3519",
+          "description" : null,
+          "url" : "http://purl.obolibrary.org/obo/NCIT_C3519"
+        } ]
+      }, {
+        "name" : "atypical chronic myeloid leukaemia",
+        "scope" : "hasExactSynonym",
+        "type" : "UK spelling synonym",
+        "xrefs" : [ {
+          "database" : "DOID",
+          "id" : "0060597",
+          "description" : null,
+          "url" : "http://purl.obolibrary.org/obo/DOID_0060597"
+        }, {
+          "database" : "icd11.foundation",
+          "id" : "331838766",
+          "description" : null,
+          "url" : null
+        } ]
+      }, {
+        "name" : "atypical chronic myeloid leukaemia BCR-ABL1 negative",
+        "scope" : "hasExactSynonym",
+        "type" : "UK spelling synonym",
+        "xrefs" : [ {
+          "database" : "DOID",
+          "id" : "0060597",
+          "description" : null,
+          "url" : "http://purl.obolibrary.org/obo/DOID_0060597"
+        } ]
+      }, {
+        "name" : "atypical chronic myeloid leukemia",
+        "scope" : "hasExactSynonym",
+        "type" : null,
+        "xrefs" : [ {
+          "database" : "NCIT",
+          "id" : "C3519",
+          "description" : null,
+          "url" : "http://purl.obolibrary.org/obo/NCIT_C3519"
+        }, {
+          "database" : "Orphanet",
+          "id" : "98824",
+          "description" : null,
+          "url" : "http://www.orpha.net/ORDO/Orphanet_98824"
+        } ]
+      }, {
+        "name" : "atypical chronic myeloid leukemia BCR-ABL1 negative",
+        "scope" : "hasExactSynonym",
+        "type" : null,
+        "xrefs" : [ {
+          "database" : "DOID",
+          "id" : "0060597",
+          "description" : null,
+          "url" : "http://purl.obolibrary.org/obo/DOID_0060597"
+        } ]
+      }, {
+        "name" : "atypical chronic myeloid leukemia, BCR-ABL1 Negative",
+        "scope" : "hasExactSynonym",
+        "type" : null,
+        "xrefs" : [ {
+          "database" : "DOID",
+          "id" : "0060597",
+          "description" : null,
+          "url" : "http://purl.obolibrary.org/obo/DOID_0060597"
+        }, {
+          "database" : "NCIT",
+          "id" : "C3519",
+          "description" : null,
+          "url" : "http://purl.obolibrary.org/obo/NCIT_C3519"
+        } ]
+      }, {
+        "name" : "subacute granulocytic leukaemia",
+        "scope" : "hasExactSynonym",
+        "type" : "UK spelling synonym",
+        "xrefs" : [ ]
+      }, {
+        "name" : "subacute granulocytic leukemia",
+        "scope" : "hasExactSynonym",
+        "type" : null,
+        "xrefs" : [ {
+          "database" : "NCIT",
+          "id" : "C3519",
+          "description" : null,
+          "url" : "http://purl.obolibrary.org/obo/NCIT_C3519"
+        } ]
+      }, {
+        "name" : "subacute myelogenous leukaemia",
+        "scope" : "hasExactSynonym",
+        "type" : "UK spelling synonym",
+        "xrefs" : [ {
+          "database" : "icd11.foundation",
+          "id" : "331838766",
+          "description" : null,
+          "url" : null
+        } ]
+      }, {
+        "name" : "subacute myelogenous leukemia",
+        "scope" : "hasExactSynonym",
+        "type" : null,
+        "xrefs" : [ {
+          "database" : "NCIT",
+          "id" : "C3519",
+          "description" : null,
+          "url" : "http://purl.obolibrary.org/obo/NCIT_C3519"
+        } ]
+      }, {
+        "name" : "subacute myeloid leukaemia",
+        "scope" : "hasExactSynonym",
+        "type" : "UK spelling synonym",
+        "xrefs" : [ {
+          "database" : "icd11.foundation",
+          "id" : "331838766",
+          "description" : null,
+          "url" : null
+        } ]
+      }, {
+        "name" : "subacute myeloid leukemia",
+        "scope" : "hasExactSynonym",
+        "type" : null,
+        "xrefs" : [ {
+          "database" : "DOID",
+          "id" : "0060597",
+          "description" : null,
+          "url" : "http://purl.obolibrary.org/obo/DOID_0060597"
+        }, {
+          "database" : "NCIT",
+          "id" : "C3519",
+          "description" : null,
+          "url" : "http://purl.obolibrary.org/obo/NCIT_C3519"
+        }, {
+          "database" : "Orphanet",
+          "id" : "98824",
+          "description" : null,
+          "url" : "http://www.orpha.net/ORDO/Orphanet_98824"
+        } ]
+      } ],
+      "is_preferred_root" : false,
+      "_links" : {
+        "self" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0004653?lang=en"
+        },
+        "parents" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0004653/parents"
+        },
+        "ancestors" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0004653/ancestors"
+        },
+        "hierarchicalParents" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0004653/hierarchicalParents"
+        },
+        "hierarchicalAncestors" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0004653/hierarchicalAncestors"
+        },
+        "jstree" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0004653/jstree"
+        },
+        "graph" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0004653/graph"
+        },
+        "disease_arises_from_alteration_in_structure" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0004653/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FRO_0004030"
+        }
+      }
+    } ]
+  },
+  "_links" : {
+    "self" : {
+      "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0004643/children?page=0&size=1000"
+    }
+  },
+  "page" : {
+    "size" : 1000,
+    "totalElements" : 4,
+    "totalPages" : 1,
+    "number" : 0
+  }
+}

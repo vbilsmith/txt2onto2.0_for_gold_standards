@@ -1,0 +1,4250 @@
+{
+  "_embedded" : {
+    "terms" : [ {
+      "iri" : "http://purl.obolibrary.org/obo/MONDO_0021138",
+      "lang" : "en",
+      "description" : [ "Malignant neoplasms that either originate from the bone marrow (e.g. myeloid leukemias) or involve the bone marrow as secondary-metastatic tumors (e.g. metastatic carcinomas to the bone marrow). --2003" ],
+      "synonyms" : [ "bone marrow cancer", "cancer of bone marrow", "malignant bone marrow neoplasm", "malignant bone marrow tumor", "malignant bone marrow tumour", "malignant neoplasm of bone marrow" ],
+      "annotation" : {
+        "Conforms To" : [ "http://purl.obolibrary.org/obo/mondo/patterns/cancer.yaml" ],
+        "has exact match" : [ "http://identifiers.org/medgen/438070", "http://linkedlifedata.com/resource/umls/id/C2703042", "http://purl.obolibrary.org/obo/NCIT_C35501" ],
+        "has_dbxref" : [ "MEDGEN:438070", "NCIT:C35501", "UMLS:C2703042" ],
+        "id" : [ "MONDO:0021138" ]
+      },
+      "label" : "bone marrow cancer",
+      "ontology_name" : "mondo",
+      "ontology_prefix" : "MONDO",
+      "ontology_iri" : "http://purl.obolibrary.org/obo/mondo/mondo-international.owl",
+      "is_obsolete" : false,
+      "term_replaced_by" : null,
+      "is_defining_ontology" : true,
+      "has_children" : true,
+      "is_root" : false,
+      "short_form" : "MONDO_0021138",
+      "obo_id" : "MONDO:0021138",
+      "in_subset" : [ "gard_rare", "otar", "rare" ],
+      "obo_definition_citation" : [ {
+        "definition" : "Malignant neoplasms that either originate from the bone marrow (e.g. myeloid leukemias) or involve the bone marrow as secondary-metastatic tumors (e.g. metastatic carcinomas to the bone marrow). --2003",
+        "oboXrefs" : [ {
+          "database" : "NCIT",
+          "id" : "C35501",
+          "description" : null,
+          "url" : "http://purl.obolibrary.org/obo/NCIT_C35501"
+        } ]
+      } ],
+      "obo_xref" : [ {
+        "database" : "MEDGEN",
+        "id" : "438070",
+        "description" : "MONDO:equivalentTo",
+        "url" : "https://www.ncbi.nlm.nih.gov/medgen/438070"
+      }, {
+        "database" : "NCIT",
+        "id" : "C35501",
+        "description" : "MONDO:equivalentTo",
+        "url" : "http://purl.obolibrary.org/obo/NCIT_C35501"
+      }, {
+        "database" : "UMLS",
+        "id" : "C2703042",
+        "description" : "MONDO:equivalentTo",
+        "url" : "https://uts.nlm.nih.gov/uts/umls/concept/C2703042"
+      } ],
+      "obo_synonym" : [ {
+        "name" : "bone marrow cancer",
+        "scope" : "hasExactSynonym",
+        "type" : null,
+        "xrefs" : [ {
+          "database" : "MONDO",
+          "id" : "patterns/location",
+          "description" : null,
+          "url" : null
+        } ]
+      }, {
+        "name" : "cancer of bone marrow",
+        "scope" : "hasExactSynonym",
+        "type" : null,
+        "xrefs" : [ {
+          "database" : "MONDO",
+          "id" : "patterns/cancer",
+          "description" : null,
+          "url" : null
+        } ]
+      }, {
+        "name" : "malignant bone marrow neoplasm",
+        "scope" : "hasExactSynonym",
+        "type" : null,
+        "xrefs" : [ {
+          "database" : "MONDO",
+          "id" : "patterns/cancer",
+          "description" : null,
+          "url" : null
+        }, {
+          "database" : "NCIT",
+          "id" : "C35501",
+          "description" : null,
+          "url" : "http://purl.obolibrary.org/obo/NCIT_C35501"
+        } ]
+      }, {
+        "name" : "malignant bone marrow tumor",
+        "scope" : "hasExactSynonym",
+        "type" : null,
+        "xrefs" : [ {
+          "database" : "NCIT",
+          "id" : "C35501",
+          "description" : null,
+          "url" : "http://purl.obolibrary.org/obo/NCIT_C35501"
+        } ]
+      }, {
+        "name" : "malignant bone marrow tumour",
+        "scope" : "hasExactSynonym",
+        "type" : "UK spelling synonym",
+        "xrefs" : [ ]
+      }, {
+        "name" : "malignant neoplasm of bone marrow",
+        "scope" : "hasExactSynonym",
+        "type" : null,
+        "xrefs" : [ {
+          "database" : "MONDO",
+          "id" : "patterns/cancer",
+          "description" : null,
+          "url" : null
+        } ]
+      } ],
+      "is_preferred_root" : false,
+      "_links" : {
+        "self" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0021138?lang=en"
+        },
+        "parents" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0021138/parents"
+        },
+        "ancestors" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0021138/ancestors"
+        },
+        "hierarchicalParents" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0021138/hierarchicalParents"
+        },
+        "hierarchicalAncestors" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0021138/hierarchicalAncestors"
+        },
+        "jstree" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0021138/jstree"
+        },
+        "children" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0021138/children"
+        },
+        "descendants" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0021138/descendants"
+        },
+        "hierarchicalChildren" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0021138/hierarchicalChildren"
+        },
+        "hierarchicalDescendants" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0021138/hierarchicalDescendants"
+        },
+        "graph" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0021138/graph"
+        }
+      }
+    }, {
+      "iri" : "http://purl.obolibrary.org/obo/MONDO_0019475",
+      "lang" : "en",
+      "description" : [ "Subcutaneous panniculitis-like T-cell lymphoma (SPTCL) is a rare cytotoxic cutaneous lymphoma that has been recognized as a distinct subset of peripheral T-cell lymphomas originating and presenting primarily in the subcutaneous fat tissue." ],
+      "synonyms" : [ "SPTCL", "subcutaneous panniculitic T-cell lymphoma", "subcutaneous panniculitis-like T-cell lymphoma", "subcutaneous panniculitis-like T-cell lymphoma (Alpha/Beta type)", "subcutaneous panniculitis-like T-cell lymphoma, Alpha/Beta type", "T-CELL LYMPHOMA, SUBCUTANEOUS PANNICULITIS-LIKE" ],
+      "annotation" : {
+        "curated content resource" : [ "https://www.malacards.org/card/t_cell_lymphoma_subcutaneous_panniculitis_like" ],
+        "has exact match" : [ "http://identifiers.org/medgen/99306", "http://identifiers.org/mesh/C537503", "http://identifiers.org/snomedct/404133000", "http://linkedlifedata.com/resource/umls/id/C0522624", "http://purl.bioontology.org/ontology/ICD10CM/C86.3", "http://purl.obolibrary.org/obo/NCIT_C6918", "http://purl.obolibrary.org/obo/mondo/sources/icd11foundation/1550338805", "http://www.ebi.ac.uk/efo/EFO_1000552", "http://www.orpha.net/ORDO/Orphanet_86884", "https://omim.org/entry/618398" ],
+        "has_dbxref" : [ "EFO:1000552", "GARD:10193", "ICD10CM:C86.3", "ICD9:202.70", "ICDO:9708/3", "MEDGEN:99306", "MESH:C537503", "NANDO:2200030", "NCIT:C6918", "OMIM:618398", "ONCOTREE:SPTCL", "Orphanet:86884", "SCTID:404133000", "UMLS:C0522624", "icd11.foundation:1550338805" ],
+        "id" : [ "MONDO:0019475" ]
+      },
+      "label" : "subcutaneous panniculitis-like T-cell lymphoma",
+      "ontology_name" : "mondo",
+      "ontology_prefix" : "MONDO",
+      "ontology_iri" : "http://purl.obolibrary.org/obo/mondo/mondo-international.owl",
+      "is_obsolete" : false,
+      "term_replaced_by" : null,
+      "is_defining_ontology" : true,
+      "has_children" : false,
+      "is_root" : false,
+      "short_form" : "MONDO_0019475",
+      "obo_id" : "MONDO:0019475",
+      "in_subset" : [ "gard_rare", "nord_rare", "ordo_disorder", "orphanet_rare", "otar", "rare" ],
+      "obo_definition_citation" : [ {
+        "definition" : "Subcutaneous panniculitis-like T-cell lymphoma (SPTCL) is a rare cytotoxic cutaneous lymphoma that has been recognized as a distinct subset of peripheral T-cell lymphomas originating and presenting primarily in the subcutaneous fat tissue.",
+        "oboXrefs" : [ {
+          "database" : "Orphanet",
+          "id" : "86884",
+          "description" : null,
+          "url" : "http://www.orpha.net/ORDO/Orphanet_86884"
+        } ]
+      } ],
+      "obo_xref" : [ {
+        "database" : "EFO",
+        "id" : "1000552",
+        "description" : "MONDO:equivalentTo",
+        "url" : "http://www.ebi.ac.uk/efo/EFO_1000552"
+      }, {
+        "database" : "GARD",
+        "id" : "10193",
+        "description" : "MONDO:GARD",
+        "url" : "https://rarediseases.info.nih.gov/diseases/10193/index"
+      }, {
+        "database" : "ICD10CM",
+        "id" : "C86.3",
+        "description" : "MONDO:equivalentTo",
+        "url" : null
+      }, {
+        "database" : "ICD9",
+        "id" : "202.70",
+        "description" : "MONDO:relatedTo",
+        "url" : null
+      }, {
+        "database" : "ICDO",
+        "id" : "9708/3",
+        "description" : "NCIT:C6918",
+        "url" : null
+      }, {
+        "database" : "MEDGEN",
+        "id" : "99306",
+        "description" : "MONDO:equivalentTo",
+        "url" : "https://www.ncbi.nlm.nih.gov/medgen/99306"
+      }, {
+        "database" : "MESH",
+        "id" : "C537503",
+        "description" : "Orphanet:86884/e",
+        "url" : "http://id.nlm.nih.gov/mesh/C537503"
+      }, {
+        "database" : "NANDO",
+        "id" : "2200030",
+        "description" : "https://orcid.org/0000-0003-0011-764X",
+        "url" : "https://nanbyodata.jp/disease/NANDO:2200030"
+      }, {
+        "database" : "NCIT",
+        "id" : "C6918",
+        "description" : "MONDO:equivalentTo",
+        "url" : "http://purl.obolibrary.org/obo/NCIT_C6918"
+      }, {
+        "database" : "OMIM",
+        "id" : "618398",
+        "description" : "MONDO:equivalentTo",
+        "url" : "https://omim.org/entry/618398"
+      }, {
+        "database" : "ONCOTREE",
+        "id" : "SPTCL",
+        "description" : "MONDO:equivalentTo",
+        "url" : null
+      }, {
+        "database" : "Orphanet",
+        "id" : "86884",
+        "description" : "OMIM:618398",
+        "url" : "http://www.orpha.net/ORDO/Orphanet_86884"
+      }, {
+        "database" : "SCTID",
+        "id" : "404133000",
+        "description" : "MONDO:equivalentTo",
+        "url" : "http://snomed.info/id/404133000"
+      }, {
+        "database" : "UMLS",
+        "id" : "C0522624",
+        "description" : "MONDO:equivalentTo",
+        "url" : "https://uts.nlm.nih.gov/uts/umls/concept/C0522624"
+      }, {
+        "database" : "icd11.foundation",
+        "id" : "1550338805",
+        "description" : "Orphanet:86884",
+        "url" : null
+      } ],
+      "obo_synonym" : [ {
+        "name" : "SPTCL",
+        "scope" : "hasExactSynonym",
+        "type" : "abbreviation",
+        "xrefs" : [ {
+          "database" : "NCIT",
+          "id" : "C6918",
+          "description" : null,
+          "url" : "http://purl.obolibrary.org/obo/NCIT_C6918"
+        }, {
+          "database" : "OMIM",
+          "id" : "618398",
+          "description" : null,
+          "url" : "https://omim.org/entry/618398"
+        }, {
+          "database" : "ONCOTREE",
+          "id" : "SPTCL",
+          "description" : null,
+          "url" : null
+        }, {
+          "database" : "Orphanet",
+          "id" : "86884",
+          "description" : null,
+          "url" : "http://www.orpha.net/ORDO/Orphanet_86884"
+        } ]
+      }, {
+        "name" : "subcutaneous panniculitic T-cell lymphoma",
+        "scope" : "hasExactSynonym",
+        "type" : null,
+        "xrefs" : [ {
+          "database" : "Orphanet",
+          "id" : "86884",
+          "description" : null,
+          "url" : "http://www.orpha.net/ORDO/Orphanet_86884"
+        } ]
+      }, {
+        "name" : "subcutaneous panniculitis-like T-cell lymphoma",
+        "scope" : "hasExactSynonym",
+        "type" : null,
+        "xrefs" : [ {
+          "database" : "ICD10CM",
+          "id" : "C86.3",
+          "description" : null,
+          "url" : null
+        }, {
+          "database" : "MONDO",
+          "id" : "0006433",
+          "description" : null,
+          "url" : "http://purl.obolibrary.org/obo/MONDO_0006433"
+        }, {
+          "database" : "NCIT",
+          "id" : "C6918",
+          "description" : null,
+          "url" : "http://purl.obolibrary.org/obo/NCIT_C6918"
+        }, {
+          "database" : "Orphanet",
+          "id" : "86884",
+          "description" : null,
+          "url" : "http://www.orpha.net/ORDO/Orphanet_86884"
+        }, {
+          "database" : "icd11.foundation",
+          "id" : "1550338805",
+          "description" : null,
+          "url" : null
+        } ]
+      }, {
+        "name" : "subcutaneous panniculitis-like T-cell lymphoma (Alpha/Beta type)",
+        "scope" : "hasExactSynonym",
+        "type" : null,
+        "xrefs" : [ {
+          "database" : "NCIT",
+          "id" : "C6918",
+          "description" : null,
+          "url" : "http://purl.obolibrary.org/obo/NCIT_C6918"
+        } ]
+      }, {
+        "name" : "subcutaneous panniculitis-like T-cell lymphoma, Alpha/Beta type",
+        "scope" : "hasExactSynonym",
+        "type" : null,
+        "xrefs" : [ {
+          "database" : "NCIT",
+          "id" : "C6918",
+          "description" : null,
+          "url" : "http://purl.obolibrary.org/obo/NCIT_C6918"
+        } ]
+      } ],
+      "is_preferred_root" : false,
+      "_links" : {
+        "self" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0019475?lang=en"
+        },
+        "parents" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0019475/parents"
+        },
+        "ancestors" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0019475/ancestors"
+        },
+        "hierarchicalParents" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0019475/hierarchicalParents"
+        },
+        "hierarchicalAncestors" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0019475/hierarchicalAncestors"
+        },
+        "jstree" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0019475/jstree"
+        },
+        "graph" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0019475/graph"
+        },
+        "has_material_basis_in_germline_mutation_in" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0019475/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FRO_0004003"
+        },
+        "disease_has_location" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0019475/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FRO_0004026"
+        }
+      }
+    }, {
+      "iri" : "http://purl.obolibrary.org/obo/MONDO_0019024",
+      "lang" : "en",
+      "description" : [ "A rare entity characterized by localized but destructive growth of a tumor consisting of highly atypical, immature mast cells.(WHO, 2001)" ],
+      "synonyms" : [ "MCS", "mast cell sarcoma", "mast-cell sarcoma", "sarcoma of mast cell", "MCSL" ],
+      "annotation" : {
+        "Conforms To" : [ "http://purl.obolibrary.org/obo/mondo/patterns/sarcoma.yaml" ],
+        "curated content resource" : [ "https://www.malacards.org/card/mast_cell_sarcoma" ],
+        "has exact match" : [ "http://identifiers.org/medgen/11322", "http://identifiers.org/mesh/D012515", "http://identifiers.org/snomedct/118615008", "http://linkedlifedata.com/resource/umls/id/C0036221", "http://purl.bioontology.org/ontology/ICD10CM/C96.22", "http://purl.obolibrary.org/obo/DOID_355", "http://purl.obolibrary.org/obo/NCIT_C9348", "http://purl.obolibrary.org/obo/mondo/sources/icd11foundation/1993363632", "http://purl.obolibrary.org/obo/mondo/sources/icd11foundation/233404891", "http://www.ebi.ac.uk/efo/EFO_1000364", "http://www.orpha.net/ORDO/Orphanet_66661" ],
+        "has_dbxref" : [ "DOID:355", "EFO:1000364", "GARD:18870", "ICD10CM:C96.22", "ICD9:202.6", "ICDO:9740/3", "MEDGEN:11322", "MESH:D012515", "NCIT:C9348", "ONCOTREE:MCSL", "Orphanet:66661", "SCTID:118615008", "UMLS:C0036221", "icd11.foundation:1993363632", "icd11.foundation:233404891" ],
+        "id" : [ "MONDO:0019024" ],
+        "term tracker item" : [ "https://github.com/monarch-initiative/mondo/issues/9097" ]
+      },
+      "label" : "mast cell sarcoma",
+      "ontology_name" : "mondo",
+      "ontology_prefix" : "MONDO",
+      "ontology_iri" : "http://purl.obolibrary.org/obo/mondo/mondo-international.owl",
+      "is_obsolete" : false,
+      "term_replaced_by" : null,
+      "is_defining_ontology" : true,
+      "has_children" : false,
+      "is_root" : false,
+      "short_form" : "MONDO_0019024",
+      "obo_id" : "MONDO:0019024",
+      "in_subset" : [ "gard_rare", "nord_rare", "ordo_disorder", "orphanet_rare", "otar", "rare" ],
+      "obo_definition_citation" : [ {
+        "definition" : "A rare entity characterized by localized but destructive growth of a tumor consisting of highly atypical, immature mast cells.(WHO, 2001)",
+        "oboXrefs" : [ {
+          "database" : "NCIT",
+          "id" : "C9348",
+          "description" : null,
+          "url" : "http://purl.obolibrary.org/obo/NCIT_C9348"
+        } ]
+      } ],
+      "obo_xref" : [ {
+        "database" : "DOID",
+        "id" : "355",
+        "description" : "MONDO:equivalentTo",
+        "url" : "http://purl.obolibrary.org/obo/DOID_355"
+      }, {
+        "database" : "EFO",
+        "id" : "1000364",
+        "description" : "MONDO:equivalentTo",
+        "url" : "http://www.ebi.ac.uk/efo/EFO_1000364"
+      }, {
+        "database" : "GARD",
+        "id" : "18870",
+        "description" : "MONDO:GARD",
+        "url" : "https://rarediseases.info.nih.gov/diseases/18870/index"
+      }, {
+        "database" : "ICD10CM",
+        "id" : "C96.22",
+        "description" : "https://orcid.org/0009-0001-6494-4831",
+        "url" : null
+      }, {
+        "database" : "ICD9",
+        "id" : "202.6",
+        "description" : "DOID:355",
+        "url" : null
+      }, {
+        "database" : "ICDO",
+        "id" : "9740/3",
+        "description" : "NCIT:C9348",
+        "url" : null
+      }, {
+        "database" : "MEDGEN",
+        "id" : "11322",
+        "description" : "MONDO:equivalentTo",
+        "url" : "https://www.ncbi.nlm.nih.gov/medgen/11322"
+      }, {
+        "database" : "MESH",
+        "id" : "D012515",
+        "description" : "Orphanet:66661/e",
+        "url" : "http://id.nlm.nih.gov/mesh/D012515"
+      }, {
+        "database" : "NCIT",
+        "id" : "C9348",
+        "description" : "MONDO:equivalentTo",
+        "url" : "http://purl.obolibrary.org/obo/NCIT_C9348"
+      }, {
+        "database" : "ONCOTREE",
+        "id" : "MCSL",
+        "description" : "MONDO:equivalentTo",
+        "url" : null
+      }, {
+        "database" : "Orphanet",
+        "id" : "66661",
+        "description" : "MONDO:equivalentTo",
+        "url" : "http://www.orpha.net/ORDO/Orphanet_66661"
+      }, {
+        "database" : "SCTID",
+        "id" : "118615008",
+        "description" : "MONDO:equivalentTo",
+        "url" : "http://snomed.info/id/118615008"
+      }, {
+        "database" : "UMLS",
+        "id" : "C0036221",
+        "description" : "MONDO:equivalentTo",
+        "url" : "https://uts.nlm.nih.gov/uts/umls/concept/C0036221"
+      }, {
+        "database" : "icd11.foundation",
+        "id" : "1993363632",
+        "description" : "MONDO:equivalentTo",
+        "url" : null
+      }, {
+        "database" : "icd11.foundation",
+        "id" : "233404891",
+        "description" : "Orphanet:66661",
+        "url" : null
+      } ],
+      "obo_synonym" : [ {
+        "name" : "MCS",
+        "scope" : "hasExactSynonym",
+        "type" : "abbreviation",
+        "xrefs" : [ {
+          "database" : "NCIT",
+          "id" : "C9348",
+          "description" : null,
+          "url" : "http://purl.obolibrary.org/obo/NCIT_C9348"
+        } ]
+      }, {
+        "name" : "mast cell sarcoma",
+        "scope" : "hasExactSynonym",
+        "type" : null,
+        "xrefs" : [ {
+          "database" : "MONDO",
+          "id" : "0006296",
+          "description" : null,
+          "url" : "http://purl.obolibrary.org/obo/MONDO_0006296"
+        }, {
+          "database" : "MONDO",
+          "id" : "patterns/location",
+          "description" : null,
+          "url" : null
+        }, {
+          "database" : "NCIT",
+          "id" : "C9348",
+          "description" : null,
+          "url" : "http://purl.obolibrary.org/obo/NCIT_C9348"
+        }, {
+          "database" : "Orphanet",
+          "id" : "66661",
+          "description" : null,
+          "url" : "http://www.orpha.net/ORDO/Orphanet_66661"
+        }, {
+          "database" : "icd11.foundation",
+          "id" : "233404891",
+          "description" : null,
+          "url" : null
+        } ]
+      }, {
+        "name" : "mast-cell sarcoma",
+        "scope" : "hasExactSynonym",
+        "type" : null,
+        "xrefs" : [ {
+          "database" : "DOID",
+          "id" : "355",
+          "description" : null,
+          "url" : "http://purl.obolibrary.org/obo/DOID_355"
+        }, {
+          "database" : "MONDO",
+          "id" : "0002686",
+          "description" : null,
+          "url" : "http://purl.obolibrary.org/obo/MONDO_0002686"
+        } ]
+      }, {
+        "name" : "sarcoma of mast cell",
+        "scope" : "hasExactSynonym",
+        "type" : null,
+        "xrefs" : [ {
+          "database" : "MONDO",
+          "id" : "patterns/sarcoma",
+          "description" : null,
+          "url" : null
+        } ]
+      }, {
+        "name" : "MCSL",
+        "scope" : "hasRelatedSynonym",
+        "type" : "abbreviation",
+        "xrefs" : [ {
+          "database" : "ONCOTREE",
+          "id" : "MCSL",
+          "description" : null,
+          "url" : null
+        } ]
+      } ],
+      "is_preferred_root" : false,
+      "_links" : {
+        "self" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0019024?lang=en"
+        },
+        "parents" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0019024/parents"
+        },
+        "ancestors" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0019024/ancestors"
+        },
+        "hierarchicalParents" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0019024/hierarchicalParents"
+        },
+        "hierarchicalAncestors" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0019024/hierarchicalAncestors"
+        },
+        "jstree" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0019024/jstree"
+        },
+        "graph" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0019024/graph"
+        },
+        "disease_has_location" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0019024/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FRO_0004026"
+        }
+      }
+    }, {
+      "iri" : "http://purl.obolibrary.org/obo/MONDO_0018223",
+      "lang" : "en",
+      "description" : [ "Systemic Epstein-Barr virus (EBV)-positive T-cell lymphoproliferative disease of childhood is a rare and very aggressive neoplastic disease emerging after a primary acute or chronic active EBV infection. It presents with persisting fever and malaise, hepatosplenomegaly with or without lymphadenopathy, liver failure, severe pancytopenia and a rapid progression towards multi-organ failure and hemophagocytic syndrome with a fatal issue. It is characterized by clonal proliferation of EBV-infected T cells with an activated cytotoxic phenotype." ],
+      "synonyms" : [ "EBV-positive T-cell lymphoproliferative disorder of childhood", "systemic EBV+ T-cell LPD of childhood", "systemic EBV-positive T-cell lymphoma of childhood", "systemic EBV-positive T-cell lymphoproliferative disease of childhood", "systemic EBV-positive T-cell lymphoproliferative disorder of childhood" ],
+      "annotation" : {
+        "curated content resource" : [ "https://www.malacards.org/card/systemic_epstein_barr_virus_positive_t_cell_lymphoma_of_childhood_2", "https://www.malacards.org/card/systemic_epstein_barr_virus_positive_t_cell_lymphoproliferative_disease_of_childhood" ],
+        "has exact match" : [ "http://identifiers.org/medgen/397492", "http://identifiers.org/snomedct/721311006", "http://linkedlifedata.com/resource/umls/id/C2699747", "http://purl.obolibrary.org/obo/DOID_0070324", "http://purl.obolibrary.org/obo/NCIT_C80374", "http://www.orpha.net/ORDO/Orphanet_364033" ],
+        "has_dbxref" : [ "DOID:0070324", "GARD:21562", "ICDO:9724/3", "MEDGEN:397492", "NCIT:C80374", "Orphanet:364033", "SCTID:721311006", "UMLS:C2699747" ],
+        "id" : [ "MONDO:0018223" ]
+      },
+      "label" : "systemic Epstein-Barr virus-positive T-cell lymphoproliferative disease of childhood",
+      "ontology_name" : "mondo",
+      "ontology_prefix" : "MONDO",
+      "ontology_iri" : "http://purl.obolibrary.org/obo/mondo/mondo-international.owl",
+      "is_obsolete" : false,
+      "term_replaced_by" : null,
+      "is_defining_ontology" : true,
+      "has_children" : false,
+      "is_root" : false,
+      "short_form" : "MONDO_0018223",
+      "obo_id" : "MONDO:0018223",
+      "in_subset" : [ "gard_rare", "nord_rare", "ordo_disorder", "orphanet_rare", "rare" ],
+      "obo_definition_citation" : [ {
+        "definition" : "Systemic Epstein-Barr virus (EBV)-positive T-cell lymphoproliferative disease of childhood is a rare and very aggressive neoplastic disease emerging after a primary acute or chronic active EBV infection. It presents with persisting fever and malaise, hepatosplenomegaly with or without lymphadenopathy, liver failure, severe pancytopenia and a rapid progression towards multi-organ failure and hemophagocytic syndrome with a fatal issue. It is characterized by clonal proliferation of EBV-infected T cells with an activated cytotoxic phenotype.",
+        "oboXrefs" : [ {
+          "database" : "Orphanet",
+          "id" : "364033",
+          "description" : null,
+          "url" : "http://www.orpha.net/ORDO/Orphanet_364033"
+        } ]
+      } ],
+      "obo_xref" : [ {
+        "database" : "DOID",
+        "id" : "0070324",
+        "description" : "MONDO:equivalentTo",
+        "url" : "http://purl.obolibrary.org/obo/DOID_0070324"
+      }, {
+        "database" : "GARD",
+        "id" : "21562",
+        "description" : "MONDO:GARD",
+        "url" : "https://rarediseases.info.nih.gov/diseases/21562/index"
+      }, {
+        "database" : "ICDO",
+        "id" : "9724/3",
+        "description" : "NCIT:C80374",
+        "url" : null
+      }, {
+        "database" : "MEDGEN",
+        "id" : "397492",
+        "description" : "MONDO:equivalentTo",
+        "url" : "https://www.ncbi.nlm.nih.gov/medgen/397492"
+      }, {
+        "database" : "NCIT",
+        "id" : "C80374",
+        "description" : "MONDO:equivalentTo",
+        "url" : "http://purl.obolibrary.org/obo/NCIT_C80374"
+      }, {
+        "database" : "Orphanet",
+        "id" : "364033",
+        "description" : "MONDO:equivalentTo",
+        "url" : "http://www.orpha.net/ORDO/Orphanet_364033"
+      }, {
+        "database" : "SCTID",
+        "id" : "721311006",
+        "description" : "MONDO:equivalentTo",
+        "url" : "http://snomed.info/id/721311006"
+      }, {
+        "database" : "UMLS",
+        "id" : "C2699747",
+        "description" : "MONDO:equivalentTo",
+        "url" : "https://uts.nlm.nih.gov/uts/umls/concept/C2699747"
+      } ],
+      "obo_synonym" : [ {
+        "name" : "systemic EBV+ T-cell LPD of childhood",
+        "scope" : "hasExactSynonym",
+        "type" : null,
+        "xrefs" : [ {
+          "database" : "Orphanet",
+          "id" : "364033",
+          "description" : null,
+          "url" : "http://www.orpha.net/ORDO/Orphanet_364033"
+        } ]
+      }, {
+        "name" : "systemic EBV-positive T-cell lymphoma of childhood",
+        "scope" : "hasExactSynonym",
+        "type" : null,
+        "xrefs" : [ {
+          "database" : "DOID",
+          "id" : "0070324",
+          "description" : null,
+          "url" : "http://purl.obolibrary.org/obo/DOID_0070324"
+        }, {
+          "database" : "NCIT",
+          "id" : "C80374",
+          "description" : null,
+          "url" : "http://purl.obolibrary.org/obo/NCIT_C80374"
+        } ]
+      }, {
+        "name" : "systemic EBV-positive T-cell lymphoproliferative disease of childhood",
+        "scope" : "hasExactSynonym",
+        "type" : null,
+        "xrefs" : [ {
+          "database" : "NCIT",
+          "id" : "C80374",
+          "description" : null,
+          "url" : "http://purl.obolibrary.org/obo/NCIT_C80374"
+        }, {
+          "database" : "Orphanet",
+          "id" : "364033",
+          "description" : null,
+          "url" : "http://www.orpha.net/ORDO/Orphanet_364033"
+        } ]
+      }, {
+        "name" : "systemic EBV-positive T-cell lymphoproliferative disorder of childhood",
+        "scope" : "hasExactSynonym",
+        "type" : null,
+        "xrefs" : [ {
+          "database" : "NCIT",
+          "id" : "C80374",
+          "description" : null,
+          "url" : "http://purl.obolibrary.org/obo/NCIT_C80374"
+        } ]
+      } ],
+      "is_preferred_root" : false,
+      "_links" : {
+        "self" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0018223?lang=en"
+        },
+        "parents" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0018223/parents"
+        },
+        "ancestors" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0018223/ancestors"
+        },
+        "hierarchicalParents" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0018223/hierarchicalParents"
+        },
+        "hierarchicalAncestors" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0018223/hierarchicalAncestors"
+        },
+        "jstree" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0018223/jstree"
+        },
+        "graph" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0018223/graph"
+        }
+      }
+    }, {
+      "iri" : "http://purl.obolibrary.org/obo/MONDO_0015819",
+      "lang" : "en",
+      "description" : [ ],
+      "synonyms" : [ ],
+      "annotation" : {
+        "curated content resource" : [ "https://www.malacards.org/card/indolent_primary_cutaneous_b_cell_lymphoma" ],
+        "has exact match" : [ "http://identifiers.org/medgen/1843003", "http://linkedlifedata.com/resource/umls/id/C5680499", "http://www.orpha.net/ORDO/Orphanet_178557" ],
+        "has_dbxref" : [ "GARD:20164", "MEDGEN:1843003", "Orphanet:178557", "UMLS:C5680499" ],
+        "id" : [ "MONDO:0015819" ]
+      },
+      "label" : "indolent primary cutaneous B-cell lymphoma",
+      "ontology_name" : "mondo",
+      "ontology_prefix" : "MONDO",
+      "ontology_iri" : "http://purl.obolibrary.org/obo/mondo/mondo-international.owl",
+      "is_obsolete" : false,
+      "term_replaced_by" : null,
+      "is_defining_ontology" : true,
+      "has_children" : true,
+      "is_root" : false,
+      "short_form" : "MONDO_0015819",
+      "obo_id" : "MONDO:0015819",
+      "in_subset" : [ "disease_grouping", "gard_rare", "ordo_group_of_disorders", "rare" ],
+      "obo_definition_citation" : null,
+      "obo_xref" : [ {
+        "database" : "GARD",
+        "id" : "20164",
+        "description" : "MONDO:GARD",
+        "url" : "https://rarediseases.info.nih.gov/diseases/20164/index"
+      }, {
+        "database" : "MEDGEN",
+        "id" : "1843003",
+        "description" : "MONDO:equivalentTo",
+        "url" : "https://www.ncbi.nlm.nih.gov/medgen/1843003"
+      }, {
+        "database" : "Orphanet",
+        "id" : "178557",
+        "description" : "MONDO:equivalentTo",
+        "url" : "http://www.orpha.net/ORDO/Orphanet_178557"
+      }, {
+        "database" : "UMLS",
+        "id" : "C5680499",
+        "description" : "MONDO:equivalentTo",
+        "url" : "https://uts.nlm.nih.gov/uts/umls/concept/C5680499"
+      } ],
+      "obo_synonym" : null,
+      "is_preferred_root" : false,
+      "_links" : {
+        "self" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0015819?lang=en"
+        },
+        "parents" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0015819/parents"
+        },
+        "ancestors" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0015819/ancestors"
+        },
+        "hierarchicalParents" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0015819/hierarchicalParents"
+        },
+        "hierarchicalAncestors" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0015819/hierarchicalAncestors"
+        },
+        "jstree" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0015819/jstree"
+        },
+        "children" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0015819/children"
+        },
+        "descendants" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0015819/descendants"
+        },
+        "hierarchicalChildren" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0015819/hierarchicalChildren"
+        },
+        "hierarchicalDescendants" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0015819/hierarchicalDescendants"
+        },
+        "graph" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0015819/graph"
+        }
+      }
+    }, {
+      "iri" : "http://purl.obolibrary.org/obo/MONDO_0009693",
+      "lang" : "en",
+      "description" : [ "A bone marrow-based plasma cell neoplasm characterized by a serum monoclonal protein and skeletal destruction with osteolytic lesions, pathological fractures, bone pain, hypercalcemia, and anemia. Clinical variants include non-secretory myeloma, smoldering myeloma, indolent myeloma, and plasma cell leukemia. (WHO, 2001)" ],
+      "synonyms" : [ "Kahler disease", "Kahler's disease", "Multiple Myeloma", "medullary plasmacytoma", "multiple myeloma", "multiple myeloma, resistance to, Somatic mutation", "multiple myeloma, susceptibility to, Somatic mutation", "multiple myeloma/plasma cell myeloma", "myeloid neoplasm of plasma cell", "myeloma", "myeloma, multiple", "myeloma, plasma cell, malignant", "myelomatosis", "plasma cell myeloid neoplasm", "plasma cell myeloma", "Al amyloidosis", "amyloidosis, systemic", "myeloma - multiple" ],
+      "annotation" : {
+        "curated content resource" : [ "https://www.malacards.org/card/myeloma_multiple" ],
+        "has close match" : [ "http://identifiers.org/meddra/10028228" ],
+        "has exact match" : [ "http://identifiers.org/medgen/10122", "http://identifiers.org/mesh/D009101", "http://linkedlifedata.com/resource/umls/id/C0026764", "http://purl.bioontology.org/ontology/ICD10CM/C90.0", "http://purl.obolibrary.org/obo/DOID_9538", "http://purl.obolibrary.org/obo/NCIT_C3242", "http://purl.obolibrary.org/obo/mondo/sources/icd11foundation/1582389689", "http://purl.obolibrary.org/obo/mondo/sources/icd11foundation/526287100", "http://www.ebi.ac.uk/efo/EFO_0001378", "http://www.orpha.net/ORDO/Orphanet_29073", "https://omim.org/entry/254500" ],
+        "has_dbxref" : [ "DOID:9538", "EFO:0001378", "GARD:7108", "ICD10CM:C90.0", "ICD9:203.0", "ICDO:9732/3", "MEDGEN:10122", "MESH:D009101", "MedDRA:10028228", "NCIT:C3242", "NORD:1469", "OMIM:254500", "ONCOTREE:PCM", "Orphanet:29073", "UMLS:C0026764", "icd11.foundation:1582389689", "icd11.foundation:526287100" ],
+        "id" : [ "MONDO:0009693" ],
+        "term tracker item" : [ "https://github.com/monarch-initiative/mondo/issues/1506", "https://github.com/monarch-initiative/mondo/issues/4521" ]
+      },
+      "label" : "plasma cell myeloma",
+      "ontology_name" : "mondo",
+      "ontology_prefix" : "MONDO",
+      "ontology_iri" : "http://purl.obolibrary.org/obo/mondo/mondo-international.owl",
+      "is_obsolete" : false,
+      "term_replaced_by" : null,
+      "is_defining_ontology" : true,
+      "has_children" : true,
+      "is_root" : false,
+      "short_form" : "MONDO_0009693",
+      "obo_id" : "MONDO:0009693",
+      "in_subset" : [ "gard_rare", "nord_rare", "ordo_disorder", "orphanet_rare", "otar", "rare" ],
+      "obo_definition_citation" : [ {
+        "definition" : "A bone marrow-based plasma cell neoplasm characterized by a serum monoclonal protein and skeletal destruction with osteolytic lesions, pathological fractures, bone pain, hypercalcemia, and anemia. Clinical variants include non-secretory myeloma, smoldering myeloma, indolent myeloma, and plasma cell leukemia. (WHO, 2001)",
+        "oboXrefs" : [ {
+          "database" : "NCIT",
+          "id" : "C3242",
+          "description" : null,
+          "url" : "http://purl.obolibrary.org/obo/NCIT_C3242"
+        } ]
+      } ],
+      "obo_xref" : [ {
+        "database" : "DOID",
+        "id" : "9538",
+        "description" : "MONDO:equivalentTo",
+        "url" : "http://purl.obolibrary.org/obo/DOID_9538"
+      }, {
+        "database" : "EFO",
+        "id" : "0001378",
+        "description" : "MONDO:equivalentTo",
+        "url" : "http://www.ebi.ac.uk/efo/EFO_0001378"
+      }, {
+        "database" : "GARD",
+        "id" : "7108",
+        "description" : "MONDO:GARD",
+        "url" : "https://rarediseases.info.nih.gov/diseases/7108/index"
+      }, {
+        "database" : "ICD10CM",
+        "id" : "C90.0",
+        "description" : "Orphanet:29073/e",
+        "url" : null
+      }, {
+        "database" : "ICD9",
+        "id" : "203.0",
+        "description" : "EFO:0001378",
+        "url" : null
+      }, {
+        "database" : "ICDO",
+        "id" : "9732/3",
+        "description" : "NCIT:C3242",
+        "url" : null
+      }, {
+        "database" : "MEDGEN",
+        "id" : "10122",
+        "description" : "MONDO:equivalentTo",
+        "url" : "https://www.ncbi.nlm.nih.gov/medgen/10122"
+      }, {
+        "database" : "MESH",
+        "id" : "D009101",
+        "description" : "Orphanet:29073/e",
+        "url" : "http://id.nlm.nih.gov/mesh/D009101"
+      }, {
+        "database" : "MedDRA",
+        "id" : "10028228",
+        "description" : "Orphanet:29073/e",
+        "url" : "http://bioportal.bioontology.org/ontologies/MEDDRA?p=classes&conceptid=10028228"
+      }, {
+        "database" : "NCIT",
+        "id" : "C3242",
+        "description" : "MONDO:equivalentTo",
+        "url" : "http://purl.obolibrary.org/obo/NCIT_C3242"
+      }, {
+        "database" : "NORD",
+        "id" : "1469",
+        "description" : "MONDO:NORD",
+        "url" : "https://rarediseases.org/?p=1469"
+      }, {
+        "database" : "OMIM",
+        "id" : "254500",
+        "description" : "Orphanet:29073/e",
+        "url" : "https://omim.org/entry/254500"
+      }, {
+        "database" : "ONCOTREE",
+        "id" : "PCM",
+        "description" : "MONDO:equivalentTo",
+        "url" : null
+      }, {
+        "database" : "Orphanet",
+        "id" : "29073",
+        "description" : "OMIM:254500",
+        "url" : "http://www.orpha.net/ORDO/Orphanet_29073"
+      }, {
+        "database" : "UMLS",
+        "id" : "C0026764",
+        "description" : "MONDO:equivalentTo",
+        "url" : "https://uts.nlm.nih.gov/uts/umls/concept/C0026764"
+      }, {
+        "database" : "icd11.foundation",
+        "id" : "1582389689",
+        "description" : "MONDO:equivalentTo",
+        "url" : null
+      }, {
+        "database" : "icd11.foundation",
+        "id" : "526287100",
+        "description" : "Orphanet:29073",
+        "url" : null
+      } ],
+      "obo_synonym" : [ {
+        "name" : "Kahler disease",
+        "scope" : "hasExactSynonym",
+        "type" : null,
+        "xrefs" : [ {
+          "database" : "Orphanet",
+          "id" : "29073",
+          "description" : null,
+          "url" : "http://www.orpha.net/ORDO/Orphanet_29073"
+        }, {
+          "database" : "icd11.foundation",
+          "id" : "526287100",
+          "description" : null,
+          "url" : null
+        } ]
+      }, {
+        "name" : "Kahler's disease",
+        "scope" : "hasExactSynonym",
+        "type" : null,
+        "xrefs" : [ {
+          "database" : "ICD10CM",
+          "id" : "C90.0",
+          "description" : null,
+          "url" : null
+        } ]
+      }, {
+        "name" : "Multiple Myeloma",
+        "scope" : "hasExactSynonym",
+        "type" : null,
+        "xrefs" : [ {
+          "database" : "DOID",
+          "id" : "9538",
+          "description" : null,
+          "url" : "http://purl.obolibrary.org/obo/DOID_9538"
+        }, {
+          "database" : "ICD10CM",
+          "id" : "C90.0",
+          "description" : null,
+          "url" : null
+        }, {
+          "database" : "NCIT",
+          "id" : "C3242",
+          "description" : null,
+          "url" : "http://purl.obolibrary.org/obo/NCIT_C3242"
+        }, {
+          "database" : "NORD",
+          "id" : "1469",
+          "description" : null,
+          "url" : "https://rarediseases.org/?p=1469"
+        }, {
+          "database" : "Orphanet",
+          "id" : "29073",
+          "description" : null,
+          "url" : "http://www.orpha.net/ORDO/Orphanet_29073"
+        }, {
+          "database" : "icd11.foundation",
+          "id" : "526287100",
+          "description" : null,
+          "url" : null
+        } ]
+      }, {
+        "name" : "medullary plasmacytoma",
+        "scope" : "hasExactSynonym",
+        "type" : null,
+        "xrefs" : [ {
+          "database" : "ICD10CM",
+          "id" : "C90.0",
+          "description" : null,
+          "url" : null
+        }, {
+          "database" : "Orphanet",
+          "id" : "29073",
+          "description" : null,
+          "url" : "http://www.orpha.net/ORDO/Orphanet_29073"
+        }, {
+          "database" : "icd11.foundation",
+          "id" : "526287100",
+          "description" : null,
+          "url" : null
+        } ]
+      }, {
+        "name" : "multiple myeloma",
+        "scope" : "hasExactSynonym",
+        "type" : null,
+        "xrefs" : [ {
+          "database" : "DOID",
+          "id" : "9538",
+          "description" : null,
+          "url" : "http://purl.obolibrary.org/obo/DOID_9538"
+        }, {
+          "database" : "ICD10CM",
+          "id" : "C90.0",
+          "description" : null,
+          "url" : null
+        }, {
+          "database" : "NCIT",
+          "id" : "C3242",
+          "description" : null,
+          "url" : "http://purl.obolibrary.org/obo/NCIT_C3242"
+        }, {
+          "database" : "Orphanet",
+          "id" : "29073",
+          "description" : null,
+          "url" : "http://www.orpha.net/ORDO/Orphanet_29073"
+        }, {
+          "database" : "icd11.foundation",
+          "id" : "526287100",
+          "description" : null,
+          "url" : null
+        } ]
+      }, {
+        "name" : "multiple myeloma/plasma cell myeloma",
+        "scope" : "hasExactSynonym",
+        "type" : null,
+        "xrefs" : [ {
+          "database" : "NCIT",
+          "id" : "C3242",
+          "description" : null,
+          "url" : "http://purl.obolibrary.org/obo/NCIT_C3242"
+        } ]
+      }, {
+        "name" : "myeloid neoplasm of plasma cell",
+        "scope" : "hasExactSynonym",
+        "type" : null,
+        "xrefs" : [ {
+          "database" : "MONDO",
+          "id" : "design_pattern",
+          "description" : null,
+          "url" : null
+        } ]
+      }, {
+        "name" : "myeloma",
+        "scope" : "hasExactSynonym",
+        "type" : null,
+        "xrefs" : [ {
+          "database" : "DOID",
+          "id" : "9538",
+          "description" : null,
+          "url" : "http://purl.obolibrary.org/obo/DOID_9538"
+        }, {
+          "database" : "NCIT",
+          "id" : "C3242",
+          "description" : null,
+          "url" : "http://purl.obolibrary.org/obo/NCIT_C3242"
+        }, {
+          "database" : "icd11.foundation",
+          "id" : "526287100",
+          "description" : null,
+          "url" : null
+        } ]
+      }, {
+        "name" : "myeloma, multiple",
+        "scope" : "hasExactSynonym",
+        "type" : null,
+        "xrefs" : [ {
+          "database" : "OMIM",
+          "id" : "254500",
+          "description" : null,
+          "url" : "https://omim.org/entry/254500"
+        } ]
+      }, {
+        "name" : "myeloma, plasma cell, malignant",
+        "scope" : "hasExactSynonym",
+        "type" : null,
+        "xrefs" : [ {
+          "database" : "NCIT",
+          "id" : "C3242",
+          "description" : null,
+          "url" : "http://purl.obolibrary.org/obo/NCIT_C3242"
+        } ]
+      }, {
+        "name" : "myelomatosis",
+        "scope" : "hasExactSynonym",
+        "type" : null,
+        "xrefs" : [ {
+          "database" : "ICD10CM",
+          "id" : "C90.0",
+          "description" : null,
+          "url" : null
+        }, {
+          "database" : "NCIT",
+          "id" : "C3242",
+          "description" : null,
+          "url" : "http://purl.obolibrary.org/obo/NCIT_C3242"
+        }, {
+          "database" : "Orphanet",
+          "id" : "29073",
+          "description" : null,
+          "url" : "http://www.orpha.net/ORDO/Orphanet_29073"
+        }, {
+          "database" : "icd11.foundation",
+          "id" : "526287100",
+          "description" : null,
+          "url" : null
+        } ]
+      }, {
+        "name" : "plasma cell myeloid neoplasm",
+        "scope" : "hasExactSynonym",
+        "type" : null,
+        "xrefs" : [ {
+          "database" : "MONDO",
+          "id" : "patterns/location",
+          "description" : null,
+          "url" : null
+        } ]
+      }, {
+        "name" : "plasma cell myeloma",
+        "scope" : "hasExactSynonym",
+        "type" : null,
+        "xrefs" : [ {
+          "database" : "ICD10CM",
+          "id" : "C90.0",
+          "description" : null,
+          "url" : null
+        }, {
+          "database" : "NCIT",
+          "id" : "C3242",
+          "description" : null,
+          "url" : "http://purl.obolibrary.org/obo/NCIT_C3242"
+        }, {
+          "database" : "Orphanet",
+          "id" : "29073",
+          "description" : null,
+          "url" : "http://www.orpha.net/ORDO/Orphanet_29073"
+        }, {
+          "database" : "icd11.foundation",
+          "id" : "526287100",
+          "description" : null,
+          "url" : null
+        } ]
+      }, {
+        "name" : "myeloma - multiple",
+        "scope" : "hasRelatedSynonym",
+        "type" : null,
+        "xrefs" : [ {
+          "database" : "GARD",
+          "id" : "0007108",
+          "description" : null,
+          "url" : "https://rarediseases.info.nih.gov/diseases/0007108/index"
+        } ]
+      } ],
+      "is_preferred_root" : false,
+      "_links" : {
+        "self" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0009693?lang=en"
+        },
+        "parents" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0009693/parents"
+        },
+        "ancestors" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0009693/ancestors"
+        },
+        "hierarchicalParents" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0009693/hierarchicalParents"
+        },
+        "hierarchicalAncestors" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0009693/hierarchicalAncestors"
+        },
+        "jstree" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0009693/jstree"
+        },
+        "children" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0009693/children"
+        },
+        "descendants" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0009693/descendants"
+        },
+        "hierarchicalChildren" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0009693/hierarchicalChildren"
+        },
+        "hierarchicalDescendants" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0009693/hierarchicalDescendants"
+        },
+        "graph" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0009693/graph"
+        },
+        "disease_has_location" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0009693/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FRO_0004026"
+        }
+      }
+    }, {
+      "iri" : "http://purl.obolibrary.org/obo/MONDO_0006462",
+      "lang" : "en",
+      "description" : [ "A diffuse large B-cell lymphoma primarily involving the thyroid gland." ],
+      "synonyms" : [ "diffuse large B-cell lymphoma of the thyroid", "diffuse large B-cell lymphoma of the thyroid gland", "diffuse large B-cell lymphoma of thyroid", "diffuse large B-cell lymphoma of thyroid gland", "primary thyroid gland diffuse large B-cell lymphoma", "thyroid diffuse large B-cell lymphoma", "thyroid gland diffuse large B-cell lymphoma" ],
+      "annotation" : {
+        "excluded_from_qc_check" : [ "http://purl.obolibrary.org/obo/mondo/sparql/qc/general/qc-single-child.sparql" ],
+        "has exact match" : [ "http://identifiers.org/medgen/234429", "http://linkedlifedata.com/resource/umls/id/C1336749", "http://purl.obolibrary.org/obo/NCIT_C6046", "http://www.ebi.ac.uk/efo/EFO_1000587" ],
+        "has_dbxref" : [ "EFO:1000587", "MEDGEN:234429", "NCIT:C6046", "UMLS:C1336749" ],
+        "id" : [ "MONDO:0006462" ]
+      },
+      "label" : "thyroid gland diffuse large B-cell lymphoma",
+      "ontology_name" : "mondo",
+      "ontology_prefix" : "MONDO",
+      "ontology_iri" : "http://purl.obolibrary.org/obo/mondo/mondo-international.owl",
+      "is_obsolete" : false,
+      "term_replaced_by" : null,
+      "is_defining_ontology" : true,
+      "has_children" : false,
+      "is_root" : false,
+      "short_form" : "MONDO_0006462",
+      "obo_id" : "MONDO:0006462",
+      "in_subset" : [ "gard_rare", "otar", "rare" ],
+      "obo_definition_citation" : [ {
+        "definition" : "A diffuse large B-cell lymphoma primarily involving the thyroid gland.",
+        "oboXrefs" : [ {
+          "database" : "NCIT",
+          "id" : "C6046",
+          "description" : null,
+          "url" : "http://purl.obolibrary.org/obo/NCIT_C6046"
+        } ]
+      } ],
+      "obo_xref" : [ {
+        "database" : "EFO",
+        "id" : "1000587",
+        "description" : "MONDO:equivalentTo",
+        "url" : "http://www.ebi.ac.uk/efo/EFO_1000587"
+      }, {
+        "database" : "MEDGEN",
+        "id" : "234429",
+        "description" : "MONDO:equivalentTo",
+        "url" : "https://www.ncbi.nlm.nih.gov/medgen/234429"
+      }, {
+        "database" : "NCIT",
+        "id" : "C6046",
+        "description" : "MONDO:exact-label-match",
+        "url" : "http://purl.obolibrary.org/obo/NCIT_C6046"
+      }, {
+        "database" : "UMLS",
+        "id" : "C1336749",
+        "description" : "MONDO:equivalentTo",
+        "url" : "https://uts.nlm.nih.gov/uts/umls/concept/C1336749"
+      } ],
+      "obo_synonym" : [ {
+        "name" : "diffuse large B-cell lymphoma of the thyroid",
+        "scope" : "hasExactSynonym",
+        "type" : null,
+        "xrefs" : [ {
+          "database" : "NCIT",
+          "id" : "C6046",
+          "description" : null,
+          "url" : "http://purl.obolibrary.org/obo/NCIT_C6046"
+        } ]
+      }, {
+        "name" : "diffuse large B-cell lymphoma of the thyroid gland",
+        "scope" : "hasExactSynonym",
+        "type" : null,
+        "xrefs" : [ {
+          "database" : "NCIT",
+          "id" : "C6046",
+          "description" : null,
+          "url" : "http://purl.obolibrary.org/obo/NCIT_C6046"
+        } ]
+      }, {
+        "name" : "diffuse large B-cell lymphoma of thyroid",
+        "scope" : "hasExactSynonym",
+        "type" : null,
+        "xrefs" : [ {
+          "database" : "NCIT",
+          "id" : "C6046",
+          "description" : null,
+          "url" : "http://purl.obolibrary.org/obo/NCIT_C6046"
+        } ]
+      }, {
+        "name" : "diffuse large B-cell lymphoma of thyroid gland",
+        "scope" : "hasExactSynonym",
+        "type" : null,
+        "xrefs" : [ {
+          "database" : "NCIT",
+          "id" : "C6046",
+          "description" : null,
+          "url" : "http://purl.obolibrary.org/obo/NCIT_C6046"
+        } ]
+      }, {
+        "name" : "primary thyroid gland diffuse large B-cell lymphoma",
+        "scope" : "hasExactSynonym",
+        "type" : null,
+        "xrefs" : [ {
+          "database" : "NCIT",
+          "id" : "C6046",
+          "description" : null,
+          "url" : "http://purl.obolibrary.org/obo/NCIT_C6046"
+        } ]
+      }, {
+        "name" : "thyroid diffuse large B-cell lymphoma",
+        "scope" : "hasExactSynonym",
+        "type" : null,
+        "xrefs" : [ {
+          "database" : "NCIT",
+          "id" : "C6046",
+          "description" : null,
+          "url" : "http://purl.obolibrary.org/obo/NCIT_C6046"
+        } ]
+      }, {
+        "name" : "thyroid gland diffuse large B-cell lymphoma",
+        "scope" : "hasExactSynonym",
+        "type" : null,
+        "xrefs" : [ {
+          "database" : "MONDO",
+          "id" : "patterns/location",
+          "description" : null,
+          "url" : null
+        }, {
+          "database" : "NCIT",
+          "id" : "C6046",
+          "description" : null,
+          "url" : "http://purl.obolibrary.org/obo/NCIT_C6046"
+        } ]
+      } ],
+      "is_preferred_root" : false,
+      "_links" : {
+        "self" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0006462?lang=en"
+        },
+        "parents" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0006462/parents"
+        },
+        "ancestors" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0006462/ancestors"
+        },
+        "hierarchicalParents" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0006462/hierarchicalParents"
+        },
+        "hierarchicalAncestors" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0006462/hierarchicalAncestors"
+        },
+        "jstree" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0006462/jstree"
+        },
+        "graph" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0006462/graph"
+        }
+      }
+    }, {
+      "iri" : "http://purl.obolibrary.org/obo/MONDO_0006418",
+      "lang" : "en",
+      "description" : [ "An enteropathy-associated T-cell lymphoma arising from the small intestine, most commonly the jejunum or ileum. Patients usually present with abdominal pain, often associated with intestinal perforation. There is often a history of celiac disease. The lymphoma cells are usually medium-sized to large and form an ulcerating mucosal lesion with invasion of the small intestinal wall. Villous atrophy is present in the adjacent small intestinal mucosa. In a minority of cases the lymphoma cells are medium-sized and form a monomorphic infiltrate." ],
+      "synonyms" : [ "enteropathy-associated T-cell lymphoma of small intestine", "small intestinal EATL", "small intestinal enteropathy-type T-cell lymphoma", "small intestine enteropathy-associated T-cell lymphoma" ],
+      "annotation" : {
+        "excluded_from_qc_check" : [ "http://purl.obolibrary.org/obo/mondo/sparql/qc/general/qc-single-child.sparql" ],
+        "has exact match" : [ "http://identifiers.org/medgen/275445", "http://linkedlifedata.com/resource/umls/id/C1519371", "http://purl.obolibrary.org/obo/NCIT_C39610", "http://www.ebi.ac.uk/efo/EFO_1000535" ],
+        "has_dbxref" : [ "EFO:1000535", "MEDGEN:275445", "NCIT:C39610", "UMLS:C1519371" ],
+        "id" : [ "MONDO:0006418" ]
+      },
+      "label" : "small intestinal enteropathy-associated T-cell lymphoma",
+      "ontology_name" : "mondo",
+      "ontology_prefix" : "MONDO",
+      "ontology_iri" : "http://purl.obolibrary.org/obo/mondo/mondo-international.owl",
+      "is_obsolete" : false,
+      "term_replaced_by" : null,
+      "is_defining_ontology" : true,
+      "has_children" : false,
+      "is_root" : false,
+      "short_form" : "MONDO_0006418",
+      "obo_id" : "MONDO:0006418",
+      "in_subset" : [ "gard_rare", "otar", "rare" ],
+      "obo_definition_citation" : [ {
+        "definition" : "An enteropathy-associated T-cell lymphoma arising from the small intestine, most commonly the jejunum or ileum. Patients usually present with abdominal pain, often associated with intestinal perforation. There is often a history of celiac disease. The lymphoma cells are usually medium-sized to large and form an ulcerating mucosal lesion with invasion of the small intestinal wall. Villous atrophy is present in the adjacent small intestinal mucosa. In a minority of cases the lymphoma cells are medium-sized and form a monomorphic infiltrate.",
+        "oboXrefs" : [ {
+          "database" : "NCIT",
+          "id" : "P378",
+          "description" : null,
+          "url" : "http://purl.obolibrary.org/obo/NCIT_P378"
+        } ]
+      } ],
+      "obo_xref" : [ {
+        "database" : "EFO",
+        "id" : "1000535",
+        "description" : "MONDO:equivalentTo",
+        "url" : "http://www.ebi.ac.uk/efo/EFO_1000535"
+      }, {
+        "database" : "MEDGEN",
+        "id" : "275445",
+        "description" : "MONDO:equivalentTo",
+        "url" : "https://www.ncbi.nlm.nih.gov/medgen/275445"
+      }, {
+        "database" : "NCIT",
+        "id" : "C39610",
+        "description" : "MONDO:equivalentTo",
+        "url" : "http://purl.obolibrary.org/obo/NCIT_C39610"
+      }, {
+        "database" : "UMLS",
+        "id" : "C1519371",
+        "description" : "MONDO:equivalentTo",
+        "url" : "https://uts.nlm.nih.gov/uts/umls/concept/C1519371"
+      } ],
+      "obo_synonym" : [ {
+        "name" : "enteropathy-associated T-cell lymphoma of small intestine",
+        "scope" : "hasExactSynonym",
+        "type" : null,
+        "xrefs" : [ {
+          "database" : "MONDO",
+          "id" : "design_pattern",
+          "description" : null,
+          "url" : null
+        } ]
+      }, {
+        "name" : "small intestinal EATL",
+        "scope" : "hasExactSynonym",
+        "type" : null,
+        "xrefs" : [ {
+          "database" : "NCIT",
+          "id" : "C39610",
+          "description" : null,
+          "url" : "http://purl.obolibrary.org/obo/NCIT_C39610"
+        } ]
+      }, {
+        "name" : "small intestinal enteropathy-type T-cell lymphoma",
+        "scope" : "hasExactSynonym",
+        "type" : null,
+        "xrefs" : [ {
+          "database" : "NCIT",
+          "id" : "C39610",
+          "description" : null,
+          "url" : "http://purl.obolibrary.org/obo/NCIT_C39610"
+        } ]
+      }, {
+        "name" : "small intestine enteropathy-associated T-cell lymphoma",
+        "scope" : "hasExactSynonym",
+        "type" : null,
+        "xrefs" : [ {
+          "database" : "MONDO",
+          "id" : "design_pattern",
+          "description" : null,
+          "url" : null
+        }, {
+          "database" : "MONDO",
+          "id" : "patterns/location",
+          "description" : null,
+          "url" : null
+        } ]
+      } ],
+      "is_preferred_root" : false,
+      "_links" : {
+        "self" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0006418?lang=en"
+        },
+        "parents" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0006418/parents"
+        },
+        "ancestors" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0006418/ancestors"
+        },
+        "hierarchicalParents" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0006418/hierarchicalParents"
+        },
+        "hierarchicalAncestors" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0006418/hierarchicalAncestors"
+        },
+        "jstree" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0006418/jstree"
+        },
+        "graph" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0006418/graph"
+        },
+        "disease_has_location" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0006418/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FRO_0004026"
+        }
+      }
+    }, {
+      "iri" : "http://purl.obolibrary.org/obo/MONDO_0006417",
+      "lang" : "en",
+      "description" : [ "A diffuse large B-cell lymphoma that arises from the small intestine." ],
+      "synonyms" : [ "diffuse large B-cell lymphoma of small intestine", "small intestinal diffuse large B-cell lymphoma", "small intestine diffuse large B-cell lymphoma" ],
+      "annotation" : {
+        "has exact match" : [ "http://identifiers.org/medgen/474155", "http://linkedlifedata.com/resource/umls/id/C3272522", "http://purl.obolibrary.org/obo/NCIT_C96055", "http://www.ebi.ac.uk/efo/EFO_1000534" ],
+        "has_dbxref" : [ "EFO:1000534", "MEDGEN:474155", "NCIT:C96055", "UMLS:C3272522" ],
+        "id" : [ "MONDO:0006417" ]
+      },
+      "label" : "small intestinal diffuse large B-cell lymphoma",
+      "ontology_name" : "mondo",
+      "ontology_prefix" : "MONDO",
+      "ontology_iri" : "http://purl.obolibrary.org/obo/mondo/mondo-international.owl",
+      "is_obsolete" : false,
+      "term_replaced_by" : null,
+      "is_defining_ontology" : true,
+      "has_children" : false,
+      "is_root" : false,
+      "short_form" : "MONDO_0006417",
+      "obo_id" : "MONDO:0006417",
+      "in_subset" : [ "gard_rare", "otar", "rare" ],
+      "obo_definition_citation" : [ {
+        "definition" : "A diffuse large B-cell lymphoma that arises from the small intestine.",
+        "oboXrefs" : [ {
+          "database" : "NCIT",
+          "id" : "C96055",
+          "description" : null,
+          "url" : "http://purl.obolibrary.org/obo/NCIT_C96055"
+        } ]
+      } ],
+      "obo_xref" : [ {
+        "database" : "EFO",
+        "id" : "1000534",
+        "description" : "MONDO:equivalentTo",
+        "url" : "http://www.ebi.ac.uk/efo/EFO_1000534"
+      }, {
+        "database" : "MEDGEN",
+        "id" : "474155",
+        "description" : "MONDO:equivalentTo",
+        "url" : "https://www.ncbi.nlm.nih.gov/medgen/474155"
+      }, {
+        "database" : "NCIT",
+        "id" : "C96055",
+        "description" : "MONDO:exact-label-match",
+        "url" : "http://purl.obolibrary.org/obo/NCIT_C96055"
+      }, {
+        "database" : "UMLS",
+        "id" : "C3272522",
+        "description" : "MONDO:equivalentTo",
+        "url" : "https://uts.nlm.nih.gov/uts/umls/concept/C3272522"
+      } ],
+      "obo_synonym" : [ {
+        "name" : "diffuse large B-cell lymphoma of small intestine",
+        "scope" : "hasExactSynonym",
+        "type" : null,
+        "xrefs" : [ {
+          "database" : "MONDO",
+          "id" : "design_pattern",
+          "description" : null,
+          "url" : null
+        } ]
+      }, {
+        "name" : "small intestinal diffuse large B-cell lymphoma",
+        "scope" : "hasExactSynonym",
+        "type" : null,
+        "xrefs" : [ {
+          "database" : "NCIT",
+          "id" : "C96055",
+          "description" : null,
+          "url" : "http://purl.obolibrary.org/obo/NCIT_C96055"
+        } ]
+      }, {
+        "name" : "small intestine diffuse large B-cell lymphoma",
+        "scope" : "hasExactSynonym",
+        "type" : null,
+        "xrefs" : [ {
+          "database" : "MONDO",
+          "id" : "patterns/location",
+          "description" : null,
+          "url" : null
+        } ]
+      } ],
+      "is_preferred_root" : false,
+      "_links" : {
+        "self" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0006417?lang=en"
+        },
+        "parents" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0006417/parents"
+        },
+        "ancestors" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0006417/ancestors"
+        },
+        "hierarchicalParents" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0006417/hierarchicalParents"
+        },
+        "hierarchicalAncestors" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0006417/hierarchicalAncestors"
+        },
+        "jstree" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0006417/jstree"
+        },
+        "graph" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0006417/graph"
+        }
+      }
+    }, {
+      "iri" : "http://purl.obolibrary.org/obo/MONDO_0006416",
+      "lang" : "en",
+      "description" : [ "A Burkitt lymphoma that arises from the small intestine." ],
+      "synonyms" : [ "Burkitt lymphoma of small intestine", "Burkitts lymphoma of small intestine", "primary small intestinal Burkitt's lymphoma", "small intestinal Burkitt lymphoma", "small intestinal Burkitt's lymphoma", "small intestine Burkitt lymphoma", "small intestine Burkitt's lymphoma", "small intestine Burkitts lymphoma" ],
+      "annotation" : {
+        "has exact match" : [ "http://identifiers.org/medgen/277650", "http://linkedlifedata.com/resource/umls/id/C1335991", "http://purl.obolibrary.org/obo/NCIT_C27409" ],
+        "has_dbxref" : [ "MEDGEN:277650", "NCIT:C27409", "UMLS:C1335991" ],
+        "id" : [ "MONDO:0006416" ]
+      },
+      "label" : "small intestinal Burkitt lymphoma",
+      "ontology_name" : "mondo",
+      "ontology_prefix" : "MONDO",
+      "ontology_iri" : "http://purl.obolibrary.org/obo/mondo/mondo-international.owl",
+      "is_obsolete" : false,
+      "term_replaced_by" : null,
+      "is_defining_ontology" : true,
+      "has_children" : false,
+      "is_root" : false,
+      "short_form" : "MONDO_0006416",
+      "obo_id" : "MONDO:0006416",
+      "in_subset" : [ "gard_rare", "rare" ],
+      "obo_definition_citation" : [ {
+        "definition" : "A Burkitt lymphoma that arises from the small intestine.",
+        "oboXrefs" : [ {
+          "database" : "NCIT",
+          "id" : "C27409",
+          "description" : null,
+          "url" : "http://purl.obolibrary.org/obo/NCIT_C27409"
+        } ]
+      } ],
+      "obo_xref" : [ {
+        "database" : "MEDGEN",
+        "id" : "277650",
+        "description" : "MONDO:equivalentTo",
+        "url" : "https://www.ncbi.nlm.nih.gov/medgen/277650"
+      }, {
+        "database" : "NCIT",
+        "id" : "C27409",
+        "description" : "MONDO:exact-label-match",
+        "url" : "http://purl.obolibrary.org/obo/NCIT_C27409"
+      }, {
+        "database" : "UMLS",
+        "id" : "C1335991",
+        "description" : "MONDO:equivalentTo",
+        "url" : "https://uts.nlm.nih.gov/uts/umls/concept/C1335991"
+      } ],
+      "obo_synonym" : [ {
+        "name" : "Burkitts lymphoma of small intestine",
+        "scope" : "hasExactSynonym",
+        "type" : null,
+        "xrefs" : [ {
+          "database" : "MONDO",
+          "id" : "design_pattern",
+          "description" : null,
+          "url" : null
+        } ]
+      }, {
+        "name" : "primary small intestinal Burkitt's lymphoma",
+        "scope" : "hasExactSynonym",
+        "type" : null,
+        "xrefs" : [ {
+          "database" : "NCIT",
+          "id" : "C27409",
+          "description" : null,
+          "url" : "http://purl.obolibrary.org/obo/NCIT_C27409"
+        } ]
+      }, {
+        "name" : "small intestinal Burkitt lymphoma",
+        "scope" : "hasExactSynonym",
+        "type" : null,
+        "xrefs" : [ {
+          "database" : "NCIT",
+          "id" : "C27409",
+          "description" : null,
+          "url" : "http://purl.obolibrary.org/obo/NCIT_C27409"
+        } ]
+      }, {
+        "name" : "small intestinal Burkitt's lymphoma",
+        "scope" : "hasExactSynonym",
+        "type" : null,
+        "xrefs" : [ {
+          "database" : "NCIT",
+          "id" : "C27409",
+          "description" : null,
+          "url" : "http://purl.obolibrary.org/obo/NCIT_C27409"
+        } ]
+      }, {
+        "name" : "small intestine Burkitt lymphoma",
+        "scope" : "hasExactSynonym",
+        "type" : null,
+        "xrefs" : [ {
+          "database" : "MONDO",
+          "id" : "patterns/location",
+          "description" : null,
+          "url" : null
+        }, {
+          "database" : "NCIT",
+          "id" : "C27409",
+          "description" : null,
+          "url" : "http://purl.obolibrary.org/obo/NCIT_C27409"
+        } ]
+      }, {
+        "name" : "small intestine Burkitt's lymphoma",
+        "scope" : "hasExactSynonym",
+        "type" : null,
+        "xrefs" : [ {
+          "database" : "NCIT",
+          "id" : "C27409",
+          "description" : null,
+          "url" : "http://purl.obolibrary.org/obo/NCIT_C27409"
+        } ]
+      }, {
+        "name" : "small intestine Burkitts lymphoma",
+        "scope" : "hasExactSynonym",
+        "type" : null,
+        "xrefs" : [ {
+          "database" : "MONDO",
+          "id" : "patterns/location",
+          "description" : null,
+          "url" : null
+        } ]
+      } ],
+      "is_preferred_root" : false,
+      "_links" : {
+        "self" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0006416?lang=en"
+        },
+        "parents" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0006416/parents"
+        },
+        "ancestors" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0006416/ancestors"
+        },
+        "hierarchicalParents" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0006416/hierarchicalParents"
+        },
+        "hierarchicalAncestors" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0006416/hierarchicalAncestors"
+        },
+        "jstree" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0006416/jstree"
+        },
+        "graph" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0006416/graph"
+        }
+      }
+    }, {
+      "iri" : "http://purl.obolibrary.org/obo/MONDO_0006387",
+      "lang" : "en",
+      "description" : [ "A diffuse large B-cell lymphoma that is localized to the lungs at the time of presentation. Signs and symptoms include cough, dyspnea, and hemoptysis." ],
+      "synonyms" : [ "diffuse large B-cell lymphoma of lung", "high grade MALT lymphoma of the lung", "lung diffuse large B-cell lymphoma", "primary pulmonary diffuse large B-cell lymphoma", "pulmonary diffuse large B-cell lymphoma" ],
+      "annotation" : {
+        "excluded_from_qc_check" : [ "http://purl.obolibrary.org/obo/mondo/sparql/qc/general/qc-single-child.sparql" ],
+        "has exact match" : [ "http://identifiers.org/medgen/1789549", "http://linkedlifedata.com/resource/umls/id/C2200138", "http://purl.obolibrary.org/obo/NCIT_C45605", "http://www.ebi.ac.uk/efo/EFO_1000495" ],
+        "has_dbxref" : [ "EFO:1000495", "MEDGEN:1789549", "NCIT:C45605", "UMLS:C2200138" ],
+        "id" : [ "MONDO:0006387" ]
+      },
+      "label" : "primary pulmonary diffuse large B-cell lymphoma",
+      "ontology_name" : "mondo",
+      "ontology_prefix" : "MONDO",
+      "ontology_iri" : "http://purl.obolibrary.org/obo/mondo/mondo-international.owl",
+      "is_obsolete" : false,
+      "term_replaced_by" : null,
+      "is_defining_ontology" : true,
+      "has_children" : false,
+      "is_root" : false,
+      "short_form" : "MONDO_0006387",
+      "obo_id" : "MONDO:0006387",
+      "in_subset" : [ "gard_rare", "otar", "rare" ],
+      "obo_definition_citation" : [ {
+        "definition" : "A diffuse large B-cell lymphoma that is localized to the lungs at the time of presentation. Signs and symptoms include cough, dyspnea, and hemoptysis.",
+        "oboXrefs" : [ {
+          "database" : "NCIT",
+          "id" : "C45605",
+          "description" : null,
+          "url" : "http://purl.obolibrary.org/obo/NCIT_C45605"
+        } ]
+      } ],
+      "obo_xref" : [ {
+        "database" : "EFO",
+        "id" : "1000495",
+        "description" : "MONDO:equivalentTo",
+        "url" : "http://www.ebi.ac.uk/efo/EFO_1000495"
+      }, {
+        "database" : "MEDGEN",
+        "id" : "1789549",
+        "description" : "MONDO:equivalentTo",
+        "url" : "https://www.ncbi.nlm.nih.gov/medgen/1789549"
+      }, {
+        "database" : "NCIT",
+        "id" : "C45605",
+        "description" : "MONDO:exact-label-match",
+        "url" : "http://purl.obolibrary.org/obo/NCIT_C45605"
+      }, {
+        "database" : "UMLS",
+        "id" : "C2200138",
+        "description" : "MONDO:equivalentTo",
+        "url" : "https://uts.nlm.nih.gov/uts/umls/concept/C2200138"
+      } ],
+      "obo_synonym" : [ {
+        "name" : "high grade MALT lymphoma of the lung",
+        "scope" : "hasExactSynonym",
+        "type" : null,
+        "xrefs" : [ {
+          "database" : "NCIT",
+          "id" : "C45605",
+          "description" : null,
+          "url" : "http://purl.obolibrary.org/obo/NCIT_C45605"
+        } ]
+      }, {
+        "name" : "lung diffuse large B-cell lymphoma",
+        "scope" : "hasExactSynonym",
+        "type" : null,
+        "xrefs" : [ {
+          "database" : "MONDO",
+          "id" : "patterns/location",
+          "description" : null,
+          "url" : null
+        }, {
+          "database" : "NCIT",
+          "id" : "C45605",
+          "description" : null,
+          "url" : "http://purl.obolibrary.org/obo/NCIT_C45605"
+        } ]
+      }, {
+        "name" : "primary pulmonary diffuse large B-cell lymphoma",
+        "scope" : "hasExactSynonym",
+        "type" : null,
+        "xrefs" : [ {
+          "database" : "NCIT",
+          "id" : "C45605",
+          "description" : null,
+          "url" : "http://purl.obolibrary.org/obo/NCIT_C45605"
+        } ]
+      }, {
+        "name" : "pulmonary diffuse large B-cell lymphoma",
+        "scope" : "hasExactSynonym",
+        "type" : null,
+        "xrefs" : [ {
+          "database" : "NCIT",
+          "id" : "C45605",
+          "description" : null,
+          "url" : "http://purl.obolibrary.org/obo/NCIT_C45605"
+        } ]
+      } ],
+      "is_preferred_root" : false,
+      "_links" : {
+        "self" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0006387?lang=en"
+        },
+        "parents" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0006387/parents"
+        },
+        "ancestors" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0006387/ancestors"
+        },
+        "hierarchicalParents" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0006387/hierarchicalParents"
+        },
+        "hierarchicalAncestors" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0006387/hierarchicalAncestors"
+        },
+        "jstree" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0006387/jstree"
+        },
+        "graph" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0006387/graph"
+        }
+      }
+    }, {
+      "iri" : "http://purl.obolibrary.org/obo/MONDO_0006268",
+      "lang" : "en",
+      "description" : [ "A rare diffuse large B-cell lymphoma that arises from the liver and the bulk of the tumor is located in the liver." ],
+      "synonyms" : [ "diffuse large B-cell lymphoma of liver", "hepatic diffuse large B-cell lymphoma", "liver diffuse large B-cell lymphoma", "primary hepatic diffuse large B-cell lymphoma", "primary liver diffuse large B-cell lymphoma" ],
+      "annotation" : {
+        "excluded_from_qc_check" : [ "http://purl.obolibrary.org/obo/mondo/sparql/qc/general/qc-single-child.sparql" ],
+        "has exact match" : [ "http://identifiers.org/medgen/473542", "http://linkedlifedata.com/resource/umls/id/C2184126", "http://purl.obolibrary.org/obo/NCIT_C96843", "http://www.ebi.ac.uk/efo/EFO_1000323" ],
+        "has_dbxref" : [ "EFO:1000323", "MEDGEN:473542", "NCIT:C96843", "UMLS:C2184126" ],
+        "id" : [ "MONDO:0006268" ]
+      },
+      "label" : "liver diffuse large B-cell lymphoma",
+      "ontology_name" : "mondo",
+      "ontology_prefix" : "MONDO",
+      "ontology_iri" : "http://purl.obolibrary.org/obo/mondo/mondo-international.owl",
+      "is_obsolete" : false,
+      "term_replaced_by" : null,
+      "is_defining_ontology" : true,
+      "has_children" : false,
+      "is_root" : false,
+      "short_form" : "MONDO_0006268",
+      "obo_id" : "MONDO:0006268",
+      "in_subset" : [ "gard_rare", "otar", "rare" ],
+      "obo_definition_citation" : [ {
+        "definition" : "A rare diffuse large B-cell lymphoma that arises from the liver and the bulk of the tumor is located in the liver.",
+        "oboXrefs" : [ {
+          "database" : "NCIT",
+          "id" : "C96843",
+          "description" : null,
+          "url" : "http://purl.obolibrary.org/obo/NCIT_C96843"
+        } ]
+      } ],
+      "obo_xref" : [ {
+        "database" : "EFO",
+        "id" : "1000323",
+        "description" : "MONDO:equivalentTo",
+        "url" : "http://www.ebi.ac.uk/efo/EFO_1000323"
+      }, {
+        "database" : "MEDGEN",
+        "id" : "473542",
+        "description" : "MONDO:equivalentTo",
+        "url" : "https://www.ncbi.nlm.nih.gov/medgen/473542"
+      }, {
+        "database" : "NCIT",
+        "id" : "C96843",
+        "description" : "MONDO:exact-label-match",
+        "url" : "http://purl.obolibrary.org/obo/NCIT_C96843"
+      }, {
+        "database" : "UMLS",
+        "id" : "C2184126",
+        "description" : "MONDO:equivalentTo",
+        "url" : "https://uts.nlm.nih.gov/uts/umls/concept/C2184126"
+      } ],
+      "obo_synonym" : [ {
+        "name" : "diffuse large B-cell lymphoma of liver",
+        "scope" : "hasExactSynonym",
+        "type" : null,
+        "xrefs" : [ {
+          "database" : "MONDO",
+          "id" : "design_pattern",
+          "description" : null,
+          "url" : null
+        } ]
+      }, {
+        "name" : "hepatic diffuse large B-cell lymphoma",
+        "scope" : "hasExactSynonym",
+        "type" : null,
+        "xrefs" : [ {
+          "database" : "NCIT",
+          "id" : "C96843",
+          "description" : null,
+          "url" : "http://purl.obolibrary.org/obo/NCIT_C96843"
+        } ]
+      }, {
+        "name" : "liver diffuse large B-cell lymphoma",
+        "scope" : "hasExactSynonym",
+        "type" : null,
+        "xrefs" : [ {
+          "database" : "MONDO",
+          "id" : "patterns/location",
+          "description" : null,
+          "url" : null
+        }, {
+          "database" : "NCIT",
+          "id" : "C96843",
+          "description" : null,
+          "url" : "http://purl.obolibrary.org/obo/NCIT_C96843"
+        } ]
+      }, {
+        "name" : "primary hepatic diffuse large B-cell lymphoma",
+        "scope" : "hasExactSynonym",
+        "type" : null,
+        "xrefs" : [ {
+          "database" : "NCIT",
+          "id" : "C96843",
+          "description" : null,
+          "url" : "http://purl.obolibrary.org/obo/NCIT_C96843"
+        } ]
+      }, {
+        "name" : "primary liver diffuse large B-cell lymphoma",
+        "scope" : "hasExactSynonym",
+        "type" : null,
+        "xrefs" : [ {
+          "database" : "NCIT",
+          "id" : "C96843",
+          "description" : null,
+          "url" : "http://purl.obolibrary.org/obo/NCIT_C96843"
+        } ]
+      } ],
+      "is_preferred_root" : false,
+      "_links" : {
+        "self" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0006268?lang=en"
+        },
+        "parents" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0006268/parents"
+        },
+        "ancestors" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0006268/ancestors"
+        },
+        "hierarchicalParents" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0006268/hierarchicalParents"
+        },
+        "hierarchicalAncestors" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0006268/hierarchicalAncestors"
+        },
+        "jstree" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0006268/jstree"
+        },
+        "graph" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0006268/graph"
+        }
+      }
+    }, {
+      "iri" : "http://purl.obolibrary.org/obo/MONDO_0006158",
+      "lang" : "en",
+      "description" : [ "A diffuse large B-cell lymphoma that arises from the colon or rectum." ],
+      "synonyms" : [ "colorectal DLBCL", "colorectal diffuse large B-cell lymphoma", "colorectum diffuse large B-cell lymphoma", "diffuse large B-cell lymphoma of colorectum" ],
+      "annotation" : {
+        "has exact match" : [ "http://identifiers.org/medgen/474460", "http://linkedlifedata.com/resource/umls/id/C3272827", "http://purl.obolibrary.org/obo/NCIT_C96503", "http://www.ebi.ac.uk/efo/EFO_1000191" ],
+        "has_dbxref" : [ "EFO:1000191", "MEDGEN:474460", "NCIT:C96503", "UMLS:C3272827" ],
+        "id" : [ "MONDO:0006158" ]
+      },
+      "label" : "colorectal diffuse large B-cell lymphoma",
+      "ontology_name" : "mondo",
+      "ontology_prefix" : "MONDO",
+      "ontology_iri" : "http://purl.obolibrary.org/obo/mondo/mondo-international.owl",
+      "is_obsolete" : false,
+      "term_replaced_by" : null,
+      "is_defining_ontology" : true,
+      "has_children" : false,
+      "is_root" : false,
+      "short_form" : "MONDO_0006158",
+      "obo_id" : "MONDO:0006158",
+      "in_subset" : [ "gard_rare", "nord_rare", "otar", "rare" ],
+      "obo_definition_citation" : [ {
+        "definition" : "A diffuse large B-cell lymphoma that arises from the colon or rectum.",
+        "oboXrefs" : [ {
+          "database" : "NCIT",
+          "id" : "C96503",
+          "description" : null,
+          "url" : "http://purl.obolibrary.org/obo/NCIT_C96503"
+        } ]
+      } ],
+      "obo_xref" : [ {
+        "database" : "EFO",
+        "id" : "1000191",
+        "description" : "MONDO:equivalentTo",
+        "url" : "http://www.ebi.ac.uk/efo/EFO_1000191"
+      }, {
+        "database" : "MEDGEN",
+        "id" : "474460",
+        "description" : "MONDO:equivalentTo",
+        "url" : "https://www.ncbi.nlm.nih.gov/medgen/474460"
+      }, {
+        "database" : "NCIT",
+        "id" : "C96503",
+        "description" : "MONDO:exact-label-match",
+        "url" : "http://purl.obolibrary.org/obo/NCIT_C96503"
+      }, {
+        "database" : "UMLS",
+        "id" : "C3272827",
+        "description" : "MONDO:equivalentTo",
+        "url" : "https://uts.nlm.nih.gov/uts/umls/concept/C3272827"
+      } ],
+      "obo_synonym" : [ {
+        "name" : "colorectal DLBCL",
+        "scope" : "hasExactSynonym",
+        "type" : null,
+        "xrefs" : [ {
+          "database" : "NCIT",
+          "id" : "C96503",
+          "description" : null,
+          "url" : "http://purl.obolibrary.org/obo/NCIT_C96503"
+        } ]
+      }, {
+        "name" : "colorectal diffuse large B-cell lymphoma",
+        "scope" : "hasExactSynonym",
+        "type" : null,
+        "xrefs" : [ {
+          "database" : "NCIT",
+          "id" : "C96503",
+          "description" : null,
+          "url" : "http://purl.obolibrary.org/obo/NCIT_C96503"
+        } ]
+      }, {
+        "name" : "colorectum diffuse large B-cell lymphoma",
+        "scope" : "hasExactSynonym",
+        "type" : null,
+        "xrefs" : [ {
+          "database" : "MONDO",
+          "id" : "patterns/location",
+          "description" : null,
+          "url" : null
+        } ]
+      }, {
+        "name" : "diffuse large B-cell lymphoma of colorectum",
+        "scope" : "hasExactSynonym",
+        "type" : null,
+        "xrefs" : [ {
+          "database" : "MONDO",
+          "id" : "design_pattern",
+          "description" : null,
+          "url" : null
+        } ]
+      } ],
+      "is_preferred_root" : false,
+      "_links" : {
+        "self" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0006158?lang=en"
+        },
+        "parents" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0006158/parents"
+        },
+        "ancestors" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0006158/ancestors"
+        },
+        "hierarchicalParents" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0006158/hierarchicalParents"
+        },
+        "hierarchicalAncestors" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0006158/hierarchicalAncestors"
+        },
+        "jstree" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0006158/jstree"
+        },
+        "graph" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0006158/graph"
+        }
+      }
+    }, {
+      "iri" : "http://purl.obolibrary.org/obo/MONDO_0006225",
+      "lang" : "en",
+      "description" : [ "A mantle cell lymphoma that affects the stomach. It may arise as a solitary mass or it may be a component of multifocal lymphomatous polyposis of the gastrointestinal tract. It usually has an aggressive clinical course." ],
+      "synonyms" : [ "gastric mantle cell lymphoma", "mantle cell lymphoma of stomach", "mantle cell lymphoma of the stomach", "stomach mantle cell lymphoma" ],
+      "annotation" : {
+        "has exact match" : [ "http://identifiers.org/medgen/234300", "http://linkedlifedata.com/resource/umls/id/C1333780", "http://purl.obolibrary.org/obo/NCIT_C27440", "http://www.ebi.ac.uk/efo/EFO_1000272" ],
+        "has_dbxref" : [ "EFO:1000272", "MEDGEN:234300", "NCIT:C27440", "UMLS:C1333780" ],
+        "id" : [ "MONDO:0006225" ]
+      },
+      "label" : "gastric mantle cell lymphoma",
+      "ontology_name" : "mondo",
+      "ontology_prefix" : "MONDO",
+      "ontology_iri" : "http://purl.obolibrary.org/obo/mondo/mondo-international.owl",
+      "is_obsolete" : false,
+      "term_replaced_by" : null,
+      "is_defining_ontology" : true,
+      "has_children" : false,
+      "is_root" : false,
+      "short_form" : "MONDO_0006225",
+      "obo_id" : "MONDO:0006225",
+      "in_subset" : [ "gard_rare", "otar", "rare" ],
+      "obo_definition_citation" : [ {
+        "definition" : "A mantle cell lymphoma that affects the stomach. It may arise as a solitary mass or it may be a component of multifocal lymphomatous polyposis of the gastrointestinal tract. It usually has an aggressive clinical course.",
+        "oboXrefs" : [ {
+          "database" : "NCIT",
+          "id" : "C27440",
+          "description" : null,
+          "url" : "http://purl.obolibrary.org/obo/NCIT_C27440"
+        } ]
+      } ],
+      "obo_xref" : [ {
+        "database" : "EFO",
+        "id" : "1000272",
+        "description" : "MONDO:equivalentTo",
+        "url" : "http://www.ebi.ac.uk/efo/EFO_1000272"
+      }, {
+        "database" : "MEDGEN",
+        "id" : "234300",
+        "description" : "MONDO:equivalentTo",
+        "url" : "https://www.ncbi.nlm.nih.gov/medgen/234300"
+      }, {
+        "database" : "NCIT",
+        "id" : "C27440",
+        "description" : "MONDO:exact-label-match",
+        "url" : "http://purl.obolibrary.org/obo/NCIT_C27440"
+      }, {
+        "database" : "UMLS",
+        "id" : "C1333780",
+        "description" : "MONDO:equivalentTo",
+        "url" : "https://uts.nlm.nih.gov/uts/umls/concept/C1333780"
+      } ],
+      "obo_synonym" : [ {
+        "name" : "gastric mantle cell lymphoma",
+        "scope" : "hasExactSynonym",
+        "type" : null,
+        "xrefs" : [ {
+          "database" : "NCIT",
+          "id" : "C27440",
+          "description" : null,
+          "url" : "http://purl.obolibrary.org/obo/NCIT_C27440"
+        } ]
+      }, {
+        "name" : "mantle cell lymphoma of stomach",
+        "scope" : "hasExactSynonym",
+        "type" : null,
+        "xrefs" : [ {
+          "database" : "NCIT",
+          "id" : "C27440",
+          "description" : null,
+          "url" : "http://purl.obolibrary.org/obo/NCIT_C27440"
+        } ]
+      }, {
+        "name" : "mantle cell lymphoma of the stomach",
+        "scope" : "hasExactSynonym",
+        "type" : null,
+        "xrefs" : [ {
+          "database" : "NCIT",
+          "id" : "C27440",
+          "description" : null,
+          "url" : "http://purl.obolibrary.org/obo/NCIT_C27440"
+        } ]
+      }, {
+        "name" : "stomach mantle cell lymphoma",
+        "scope" : "hasExactSynonym",
+        "type" : null,
+        "xrefs" : [ {
+          "database" : "MONDO",
+          "id" : "design_pattern",
+          "description" : null,
+          "url" : null
+        }, {
+          "database" : "MONDO",
+          "id" : "patterns/location",
+          "description" : null,
+          "url" : null
+        } ]
+      } ],
+      "is_preferred_root" : false,
+      "_links" : {
+        "self" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0006225?lang=en"
+        },
+        "parents" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0006225/parents"
+        },
+        "ancestors" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0006225/ancestors"
+        },
+        "hierarchicalParents" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0006225/hierarchicalParents"
+        },
+        "hierarchicalAncestors" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0006225/hierarchicalAncestors"
+        },
+        "jstree" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0006225/jstree"
+        },
+        "graph" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0006225/graph"
+        }
+      }
+    }, {
+      "iri" : "http://purl.obolibrary.org/obo/MONDO_0006150",
+      "lang" : "en",
+      "description" : [ "A rare Burkitt lymphoma that arises from the colon." ],
+      "synonyms" : [ "Burkitt lymphoma of colon", "Burkitts lymphoma of colon", "colon Burkitt lymphoma", "colon Burkitt's lymphoma", "colon Burkitts lymphoma", "primary colon Burkitt's lymphoma" ],
+      "annotation" : {
+        "has exact match" : [ "http://identifiers.org/medgen/272491", "http://linkedlifedata.com/resource/umls/id/C1333083", "http://purl.obolibrary.org/obo/NCIT_C27465" ],
+        "has_dbxref" : [ "MEDGEN:272491", "NCIT:C27465", "UMLS:C1333083" ],
+        "id" : [ "MONDO:0006150" ]
+      },
+      "label" : "colon Burkitt lymphoma",
+      "ontology_name" : "mondo",
+      "ontology_prefix" : "MONDO",
+      "ontology_iri" : "http://purl.obolibrary.org/obo/mondo/mondo-international.owl",
+      "is_obsolete" : false,
+      "term_replaced_by" : null,
+      "is_defining_ontology" : true,
+      "has_children" : false,
+      "is_root" : false,
+      "short_form" : "MONDO_0006150",
+      "obo_id" : "MONDO:0006150",
+      "in_subset" : [ "gard_rare", "rare" ],
+      "obo_definition_citation" : [ {
+        "definition" : "A rare Burkitt lymphoma that arises from the colon.",
+        "oboXrefs" : [ {
+          "database" : "NCIT",
+          "id" : "C27465",
+          "description" : null,
+          "url" : "http://purl.obolibrary.org/obo/NCIT_C27465"
+        } ]
+      } ],
+      "obo_xref" : [ {
+        "database" : "MEDGEN",
+        "id" : "272491",
+        "description" : "MONDO:equivalentTo",
+        "url" : "https://www.ncbi.nlm.nih.gov/medgen/272491"
+      }, {
+        "database" : "NCIT",
+        "id" : "C27465",
+        "description" : "MONDO:exact-label-match",
+        "url" : "http://purl.obolibrary.org/obo/NCIT_C27465"
+      }, {
+        "database" : "UMLS",
+        "id" : "C1333083",
+        "description" : "MONDO:equivalentTo",
+        "url" : "https://uts.nlm.nih.gov/uts/umls/concept/C1333083"
+      } ],
+      "obo_synonym" : [ {
+        "name" : "Burkitts lymphoma of colon",
+        "scope" : "hasExactSynonym",
+        "type" : null,
+        "xrefs" : [ {
+          "database" : "MONDO",
+          "id" : "design_pattern",
+          "description" : null,
+          "url" : null
+        } ]
+      }, {
+        "name" : "colon Burkitt lymphoma",
+        "scope" : "hasExactSynonym",
+        "type" : null,
+        "xrefs" : [ {
+          "database" : "MONDO",
+          "id" : "patterns/location",
+          "description" : null,
+          "url" : null
+        }, {
+          "database" : "NCIT",
+          "id" : "C27465",
+          "description" : null,
+          "url" : "http://purl.obolibrary.org/obo/NCIT_C27465"
+        } ]
+      }, {
+        "name" : "colon Burkitt's lymphoma",
+        "scope" : "hasExactSynonym",
+        "type" : null,
+        "xrefs" : [ {
+          "database" : "NCIT",
+          "id" : "C27465",
+          "description" : null,
+          "url" : "http://purl.obolibrary.org/obo/NCIT_C27465"
+        } ]
+      }, {
+        "name" : "colon Burkitts lymphoma",
+        "scope" : "hasExactSynonym",
+        "type" : null,
+        "xrefs" : [ {
+          "database" : "MONDO",
+          "id" : "patterns/location",
+          "description" : null,
+          "url" : null
+        } ]
+      }, {
+        "name" : "primary colon Burkitt's lymphoma",
+        "scope" : "hasExactSynonym",
+        "type" : null,
+        "xrefs" : [ {
+          "database" : "NCIT",
+          "id" : "C27465",
+          "description" : null,
+          "url" : "http://purl.obolibrary.org/obo/NCIT_C27465"
+        } ]
+      } ],
+      "is_preferred_root" : false,
+      "_links" : {
+        "self" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0006150?lang=en"
+        },
+        "parents" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0006150/parents"
+        },
+        "ancestors" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0006150/ancestors"
+        },
+        "hierarchicalParents" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0006150/hierarchicalParents"
+        },
+        "hierarchicalAncestors" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0006150/hierarchicalAncestors"
+        },
+        "jstree" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0006150/jstree"
+        },
+        "graph" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0006150/graph"
+        }
+      }
+    }, {
+      "iri" : "http://purl.obolibrary.org/obo/MONDO_0006117",
+      "lang" : "en",
+      "description" : [ "A diffuse large B-cell lymphoma that arises from the breast. It is the most common type of primary breast lymphoma." ],
+      "synonyms" : [ "breast DLBCL", "breast diffuse large B-cell lymphoma", "diffuse large B-cell lymphoma of breast" ],
+      "annotation" : {
+        "excluded_from_qc_check" : [ "http://purl.obolibrary.org/obo/mondo/sparql/qc/general/qc-single-child.sparql" ],
+        "has exact match" : [ "http://identifiers.org/medgen/267764", "http://linkedlifedata.com/resource/umls/id/C1511306", "http://purl.obolibrary.org/obo/NCIT_C40375", "http://www.ebi.ac.uk/efo/EFO_1000144" ],
+        "has_dbxref" : [ "EFO:1000144", "MEDGEN:267764", "NCIT:C40375", "UMLS:C1511306" ],
+        "id" : [ "MONDO:0006117" ]
+      },
+      "label" : "breast diffuse large B-cell lymphoma",
+      "ontology_name" : "mondo",
+      "ontology_prefix" : "MONDO",
+      "ontology_iri" : "http://purl.obolibrary.org/obo/mondo/mondo-international.owl",
+      "is_obsolete" : false,
+      "term_replaced_by" : null,
+      "is_defining_ontology" : true,
+      "has_children" : false,
+      "is_root" : false,
+      "short_form" : "MONDO_0006117",
+      "obo_id" : "MONDO:0006117",
+      "in_subset" : [ "gard_rare", "otar", "rare" ],
+      "obo_definition_citation" : [ {
+        "definition" : "A diffuse large B-cell lymphoma that arises from the breast. It is the most common type of primary breast lymphoma.",
+        "oboXrefs" : [ {
+          "database" : "NCIT",
+          "id" : "C40375",
+          "description" : null,
+          "url" : "http://purl.obolibrary.org/obo/NCIT_C40375"
+        } ]
+      } ],
+      "obo_xref" : [ {
+        "database" : "EFO",
+        "id" : "1000144",
+        "description" : "MONDO:equivalentTo",
+        "url" : "http://www.ebi.ac.uk/efo/EFO_1000144"
+      }, {
+        "database" : "MEDGEN",
+        "id" : "267764",
+        "description" : "MONDO:equivalentTo",
+        "url" : "https://www.ncbi.nlm.nih.gov/medgen/267764"
+      }, {
+        "database" : "NCIT",
+        "id" : "C40375",
+        "description" : "MONDO:exact-label-match",
+        "url" : "http://purl.obolibrary.org/obo/NCIT_C40375"
+      }, {
+        "database" : "UMLS",
+        "id" : "C1511306",
+        "description" : "MONDO:equivalentTo",
+        "url" : "https://uts.nlm.nih.gov/uts/umls/concept/C1511306"
+      } ],
+      "obo_synonym" : [ {
+        "name" : "breast DLBCL",
+        "scope" : "hasExactSynonym",
+        "type" : null,
+        "xrefs" : [ {
+          "database" : "NCIT",
+          "id" : "C40375",
+          "description" : null,
+          "url" : "http://purl.obolibrary.org/obo/NCIT_C40375"
+        } ]
+      }, {
+        "name" : "breast diffuse large B-cell lymphoma",
+        "scope" : "hasExactSynonym",
+        "type" : null,
+        "xrefs" : [ {
+          "database" : "MONDO",
+          "id" : "patterns/location",
+          "description" : null,
+          "url" : null
+        }, {
+          "database" : "NCIT",
+          "id" : "C40375",
+          "description" : null,
+          "url" : "http://purl.obolibrary.org/obo/NCIT_C40375"
+        } ]
+      }, {
+        "name" : "diffuse large B-cell lymphoma of breast",
+        "scope" : "hasExactSynonym",
+        "type" : null,
+        "xrefs" : [ {
+          "database" : "MONDO",
+          "id" : "design_pattern",
+          "description" : null,
+          "url" : null
+        } ]
+      } ],
+      "is_preferred_root" : false,
+      "_links" : {
+        "self" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0006117?lang=en"
+        },
+        "parents" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0006117/parents"
+        },
+        "ancestors" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0006117/ancestors"
+        },
+        "hierarchicalParents" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0006117/hierarchicalParents"
+        },
+        "hierarchicalAncestors" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0006117/hierarchicalAncestors"
+        },
+        "jstree" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0006117/jstree"
+        },
+        "graph" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0006117/graph"
+        },
+        "disease_has_location" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0006117/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FRO_0004026"
+        }
+      }
+    }, {
+      "iri" : "http://purl.obolibrary.org/obo/MONDO_0004685",
+      "lang" : "en",
+      "description" : [ "A malignant neoplasm involving the tonsillar ring." ],
+      "synonyms" : [ "Waldeyer ring cancer", "cancer of tonsillar ring", "malignant neoplasm of Waldeyer's ring", "malignant neoplasm of tonsillar ring", "malignant tonsillar ring neoplasm", "malignant tumor of Waldeyer's ring", "malignant tumour of Waldeyer's ring", "tonsillar ring cancer" ],
+      "annotation" : {
+        "Conforms To" : [ "http://purl.obolibrary.org/obo/mondo/patterns/cancer.yaml" ],
+        "curated content resource" : [ "https://www.malacards.org/card/waldeyers_ring_cancer" ],
+        "has exact match" : [ "http://identifiers.org/medgen/509279", "http://identifiers.org/snomedct/187716008", "http://linkedlifedata.com/resource/umls/id/C0153406", "http://purl.bioontology.org/ontology/ICD10CM/C14.2", "http://purl.obolibrary.org/obo/DOID_8937", "http://purl.obolibrary.org/obo/NCIT_C194063" ],
+        "has_dbxref" : [ "DOID:8937", "ICD10CM:C14.2", "ICD9:149.1", "MEDGEN:509279", "NCIT:C194063", "SCTID:187716008", "UMLS:C0153406" ],
+        "id" : [ "MONDO:0004685" ],
+        "term tracker item" : [ "https://github.com/monarch-initiative/mondo/issues/8567" ]
+      },
+      "label" : "Waldeyer's ring cancer",
+      "ontology_name" : "mondo",
+      "ontology_prefix" : "MONDO",
+      "ontology_iri" : "http://purl.obolibrary.org/obo/mondo/mondo-international.owl",
+      "is_obsolete" : false,
+      "term_replaced_by" : null,
+      "is_defining_ontology" : true,
+      "has_children" : true,
+      "is_root" : false,
+      "short_form" : "MONDO_0004685",
+      "obo_id" : "MONDO:0004685",
+      "in_subset" : null,
+      "obo_definition_citation" : [ {
+        "definition" : "A malignant neoplasm involving the tonsillar ring.",
+        "oboXrefs" : [ {
+          "database" : null,
+          "id" : "https://orcid.org/0000-0002-6601-2165",
+          "description" : null,
+          "url" : "https://orcid.org/0000-0002-6601-2165"
+        } ]
+      } ],
+      "obo_xref" : [ {
+        "database" : "DOID",
+        "id" : "8937",
+        "description" : "MONDO:equivalentTo",
+        "url" : "http://purl.obolibrary.org/obo/DOID_8937"
+      }, {
+        "database" : "ICD10CM",
+        "id" : "C14.2",
+        "description" : "MONDO:equivalentTo",
+        "url" : null
+      }, {
+        "database" : "ICD9",
+        "id" : "149.1",
+        "description" : "MONDO:i2s",
+        "url" : null
+      }, {
+        "database" : "MEDGEN",
+        "id" : "509279",
+        "description" : "MONDO:equivalentTo",
+        "url" : "https://www.ncbi.nlm.nih.gov/medgen/509279"
+      }, {
+        "database" : "NCIT",
+        "id" : "C194063",
+        "description" : "https://orcid.org/0000-0002-5002-8648",
+        "url" : "http://purl.obolibrary.org/obo/NCIT_C194063"
+      }, {
+        "database" : "SCTID",
+        "id" : "187716008",
+        "description" : "MONDO:equivalentTo",
+        "url" : "http://snomed.info/id/187716008"
+      }, {
+        "database" : "UMLS",
+        "id" : "C0153406",
+        "description" : "MONDO:equivalentTo",
+        "url" : "https://uts.nlm.nih.gov/uts/umls/concept/C0153406"
+      } ],
+      "obo_synonym" : [ {
+        "name" : "Waldeyer ring cancer",
+        "scope" : "hasExactSynonym",
+        "type" : null,
+        "xrefs" : [ {
+          "database" : "DOID",
+          "id" : "8937",
+          "description" : null,
+          "url" : "http://purl.obolibrary.org/obo/DOID_8937"
+        } ]
+      }, {
+        "name" : "cancer of tonsillar ring",
+        "scope" : "hasExactSynonym",
+        "type" : null,
+        "xrefs" : [ {
+          "database" : "MONDO",
+          "id" : "patterns/cancer",
+          "description" : null,
+          "url" : null
+        } ]
+      }, {
+        "name" : "malignant neoplasm of Waldeyer's ring",
+        "scope" : "hasExactSynonym",
+        "type" : null,
+        "xrefs" : [ {
+          "database" : "DOID",
+          "id" : "8937",
+          "description" : null,
+          "url" : "http://purl.obolibrary.org/obo/DOID_8937"
+        }, {
+          "database" : "ICD10CM",
+          "id" : "C14.2",
+          "description" : null,
+          "url" : null
+        } ]
+      }, {
+        "name" : "malignant neoplasm of tonsillar ring",
+        "scope" : "hasExactSynonym",
+        "type" : null,
+        "xrefs" : [ {
+          "database" : "MONDO",
+          "id" : "patterns/cancer",
+          "description" : null,
+          "url" : null
+        } ]
+      }, {
+        "name" : "malignant tonsillar ring neoplasm",
+        "scope" : "hasExactSynonym",
+        "type" : null,
+        "xrefs" : [ {
+          "database" : "MONDO",
+          "id" : "patterns/cancer",
+          "description" : null,
+          "url" : null
+        } ]
+      }, {
+        "name" : "malignant tumor of Waldeyer's ring",
+        "scope" : "hasExactSynonym",
+        "type" : null,
+        "xrefs" : [ {
+          "database" : "DOID",
+          "id" : "8937",
+          "description" : null,
+          "url" : "http://purl.obolibrary.org/obo/DOID_8937"
+        } ]
+      }, {
+        "name" : "malignant tumour of Waldeyer's ring",
+        "scope" : "hasExactSynonym",
+        "type" : "UK spelling synonym",
+        "xrefs" : [ ]
+      }, {
+        "name" : "tonsillar ring cancer",
+        "scope" : "hasExactSynonym",
+        "type" : null,
+        "xrefs" : [ {
+          "database" : "MONDO",
+          "id" : "patterns/location",
+          "description" : null,
+          "url" : null
+        } ]
+      } ],
+      "is_preferred_root" : false,
+      "_links" : {
+        "self" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0004685?lang=en"
+        },
+        "parents" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0004685/parents"
+        },
+        "ancestors" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0004685/ancestors"
+        },
+        "hierarchicalParents" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0004685/hierarchicalParents"
+        },
+        "hierarchicalAncestors" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0004685/hierarchicalAncestors"
+        },
+        "jstree" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0004685/jstree"
+        },
+        "children" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0004685/children"
+        },
+        "descendants" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0004685/descendants"
+        },
+        "hierarchicalChildren" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0004685/hierarchicalChildren"
+        },
+        "hierarchicalDescendants" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0004685/hierarchicalDescendants"
+        },
+        "graph" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0004685/graph"
+        },
+        "disease_has_location" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0004685/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FRO_0004026"
+        }
+      }
+    }, {
+      "iri" : "http://purl.obolibrary.org/obo/MONDO_0004380",
+      "lang" : "en",
+      "description" : [ "A sarcoma that involves the dendritic cell.", "Editor note: we place the NCIT class here even though it is NOS" ],
+      "synonyms" : [ "dendritic cell sarcoma", "sarcoma of dendritic cell", "follicular dendritic cell sarcoma" ],
+      "annotation" : {
+        "Conforms To" : [ "http://purl.obolibrary.org/obo/mondo/patterns/sarcoma.yaml" ],
+        "curated content resource" : [ "https://www.malacards.org/card/dendritic_cell_sarcoma_not_otherwise_specified", "https://www.malacards.org/card/follicular_dendritic_cell_sarcoma" ],
+        "has exact match" : [ "http://identifiers.org/medgen/226984", "http://identifiers.org/snomedct/446643000", "http://linkedlifedata.com/resource/umls/id/C1301364", "http://purl.obolibrary.org/obo/DOID_7849", "http://purl.obolibrary.org/obo/NCIT_C27260", "http://www.orpha.net/ORDO/Orphanet_86903" ],
+        "has_dbxref" : [ "DOID:7849", "GARD:19082", "MEDGEN:226984", "NCIT:C27260", "ONCOTREE:DCS", "Orphanet:86903", "SCTID:446643000", "UMLS:C1301364" ],
+        "id" : [ "MONDO:0004380" ],
+        "term tracker item" : [ "https://github.com/monarch-initiative/mondo/issues/7175" ]
+      },
+      "label" : "dendritic cell sarcoma",
+      "ontology_name" : "mondo",
+      "ontology_prefix" : "MONDO",
+      "ontology_iri" : "http://purl.obolibrary.org/obo/mondo/mondo-international.owl",
+      "is_obsolete" : false,
+      "term_replaced_by" : null,
+      "is_defining_ontology" : true,
+      "has_children" : true,
+      "is_root" : false,
+      "short_form" : "MONDO_0004380",
+      "obo_id" : "MONDO:0004380",
+      "in_subset" : [ "gard_rare", "ordo_disorder", "orphanet_rare", "otar", "rare" ],
+      "obo_definition_citation" : [ {
+        "definition" : "A sarcoma that involves the dendritic cell.",
+        "oboXrefs" : [ {
+          "database" : "MONDO",
+          "id" : "patterns/location",
+          "description" : null,
+          "url" : null
+        } ]
+      } ],
+      "obo_xref" : [ {
+        "database" : "DOID",
+        "id" : "7849",
+        "description" : "MONDO:equivalentTo",
+        "url" : "http://purl.obolibrary.org/obo/DOID_7849"
+      }, {
+        "database" : "GARD",
+        "id" : "19082",
+        "description" : "MONDO:GARD",
+        "url" : "https://rarediseases.info.nih.gov/diseases/19082/index"
+      }, {
+        "database" : "MEDGEN",
+        "id" : "226984",
+        "description" : "MONDO:equivalentTo",
+        "url" : "https://www.ncbi.nlm.nih.gov/medgen/226984"
+      }, {
+        "database" : "NCIT",
+        "id" : "C27260",
+        "description" : "MONDO:equivalentTo",
+        "url" : "http://purl.obolibrary.org/obo/NCIT_C27260"
+      }, {
+        "database" : "ONCOTREE",
+        "id" : "DCS",
+        "description" : "MONDO:equivalentTo",
+        "url" : null
+      }, {
+        "database" : "Orphanet",
+        "id" : "86903",
+        "description" : "MONDO:equivalentTo",
+        "url" : "http://www.orpha.net/ORDO/Orphanet_86903"
+      }, {
+        "database" : "SCTID",
+        "id" : "446643000",
+        "description" : "MONDO:equivalentTo",
+        "url" : "http://snomed.info/id/446643000"
+      }, {
+        "database" : "UMLS",
+        "id" : "C1301364",
+        "description" : "MONDO:equivalentTo",
+        "url" : "https://uts.nlm.nih.gov/uts/umls/concept/C1301364"
+      } ],
+      "obo_synonym" : [ {
+        "name" : "dendritic cell sarcoma",
+        "scope" : "hasExactSynonym",
+        "type" : null,
+        "xrefs" : [ {
+          "database" : "DOID",
+          "id" : "7849",
+          "description" : null,
+          "url" : "http://purl.obolibrary.org/obo/DOID_7849"
+        }, {
+          "database" : "MONDO",
+          "id" : "patterns/location",
+          "description" : null,
+          "url" : null
+        } ]
+      }, {
+        "name" : "sarcoma of dendritic cell",
+        "scope" : "hasExactSynonym",
+        "type" : null,
+        "xrefs" : [ {
+          "database" : "MONDO",
+          "id" : "patterns/sarcoma",
+          "description" : null,
+          "url" : null
+        } ]
+      }, {
+        "name" : "follicular dendritic cell sarcoma",
+        "scope" : "hasRelatedSynonym",
+        "type" : null,
+        "xrefs" : [ {
+          "database" : "DOID",
+          "id" : "7849",
+          "description" : null,
+          "url" : "http://purl.obolibrary.org/obo/DOID_7849"
+        } ]
+      } ],
+      "is_preferred_root" : false,
+      "_links" : {
+        "self" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0004380?lang=en"
+        },
+        "parents" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0004380/parents"
+        },
+        "ancestors" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0004380/ancestors"
+        },
+        "hierarchicalParents" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0004380/hierarchicalParents"
+        },
+        "hierarchicalAncestors" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0004380/hierarchicalAncestors"
+        },
+        "jstree" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0004380/jstree"
+        },
+        "children" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0004380/children"
+        },
+        "descendants" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0004380/descendants"
+        },
+        "hierarchicalChildren" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0004380/hierarchicalChildren"
+        },
+        "hierarchicalDescendants" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0004380/hierarchicalDescendants"
+        },
+        "graph" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0004380/graph"
+        },
+        "disease_has_location" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0004380/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FRO_0004026"
+        }
+      }
+    }, {
+      "iri" : "http://purl.obolibrary.org/obo/MONDO_0002756",
+      "lang" : "en",
+      "description" : [ "A solitary plasmacytoma that arises from the chest wall." ],
+      "synonyms" : [ "chest wall plasmacytoma", "chest wall solitary plasmacytoma", "plasmacytoma of chest wall", "solitary plasmacytoma of chest wall", "solitary plasmacytoma of the chest wall" ],
+      "annotation" : {
+        "curated content resource" : [ "https://www.malacards.org/card/solitary_plasmacytoma_of_chest_wall" ],
+        "excluded_from_qc_check" : [ "http://purl.obolibrary.org/obo/mondo/sparql/qc/general/qc-single-child.sparql" ],
+        "has exact match" : [ "http://identifiers.org/medgen/232340", "http://linkedlifedata.com/resource/umls/id/C1332936", "http://purl.obolibrary.org/obo/DOID_3723", "http://purl.obolibrary.org/obo/NCIT_C6711" ],
+        "has_dbxref" : [ "DOID:3723", "MEDGEN:232340", "NCIT:C6711", "UMLS:C1332936" ],
+        "id" : [ "MONDO:0002756" ]
+      },
+      "label" : "solitary plasmacytoma of chest wall",
+      "ontology_name" : "mondo",
+      "ontology_prefix" : "MONDO",
+      "ontology_iri" : "http://purl.obolibrary.org/obo/mondo/mondo-international.owl",
+      "is_obsolete" : false,
+      "term_replaced_by" : null,
+      "is_defining_ontology" : true,
+      "has_children" : false,
+      "is_root" : false,
+      "short_form" : "MONDO_0002756",
+      "obo_id" : "MONDO:0002756",
+      "in_subset" : [ "gard_rare", "rare" ],
+      "obo_definition_citation" : [ {
+        "definition" : "A solitary plasmacytoma that arises from the chest wall.",
+        "oboXrefs" : [ {
+          "database" : "NCIT",
+          "id" : "C6711",
+          "description" : null,
+          "url" : "http://purl.obolibrary.org/obo/NCIT_C6711"
+        } ]
+      } ],
+      "obo_xref" : [ {
+        "database" : "DOID",
+        "id" : "3723",
+        "description" : "MONDO:equivalentTo",
+        "url" : "http://purl.obolibrary.org/obo/DOID_3723"
+      }, {
+        "database" : "MEDGEN",
+        "id" : "232340",
+        "description" : "MONDO:equivalentTo",
+        "url" : "https://www.ncbi.nlm.nih.gov/medgen/232340"
+      }, {
+        "database" : "NCIT",
+        "id" : "C6711",
+        "description" : "MONDO:equivalentTo",
+        "url" : "http://purl.obolibrary.org/obo/NCIT_C6711"
+      }, {
+        "database" : "UMLS",
+        "id" : "C1332936",
+        "description" : "MONDO:equivalentTo",
+        "url" : "https://uts.nlm.nih.gov/uts/umls/concept/C1332936"
+      } ],
+      "obo_synonym" : [ {
+        "name" : "chest wall plasmacytoma",
+        "scope" : "hasExactSynonym",
+        "type" : null,
+        "xrefs" : [ {
+          "database" : "MONDO",
+          "id" : "patterns/location",
+          "description" : null,
+          "url" : null
+        } ]
+      }, {
+        "name" : "chest wall solitary plasmacytoma",
+        "scope" : "hasExactSynonym",
+        "type" : null,
+        "xrefs" : [ {
+          "database" : "NCIT",
+          "id" : "C6711",
+          "description" : null,
+          "url" : "http://purl.obolibrary.org/obo/NCIT_C6711"
+        } ]
+      }, {
+        "name" : "plasmacytoma of chest wall",
+        "scope" : "hasExactSynonym",
+        "type" : null,
+        "xrefs" : [ {
+          "database" : "MONDO",
+          "id" : "design_pattern",
+          "description" : null,
+          "url" : null
+        } ]
+      }, {
+        "name" : "solitary plasmacytoma of chest wall",
+        "scope" : "hasExactSynonym",
+        "type" : null,
+        "xrefs" : [ {
+          "database" : "DOID",
+          "id" : "3723",
+          "description" : null,
+          "url" : "http://purl.obolibrary.org/obo/DOID_3723"
+        }, {
+          "database" : "NCIT",
+          "id" : "C6711",
+          "description" : null,
+          "url" : "http://purl.obolibrary.org/obo/NCIT_C6711"
+        } ]
+      }, {
+        "name" : "solitary plasmacytoma of the chest wall",
+        "scope" : "hasExactSynonym",
+        "type" : null,
+        "xrefs" : [ {
+          "database" : "DOID",
+          "id" : "3723",
+          "description" : null,
+          "url" : "http://purl.obolibrary.org/obo/DOID_3723"
+        }, {
+          "database" : "NCIT",
+          "id" : "C6711",
+          "description" : null,
+          "url" : "http://purl.obolibrary.org/obo/NCIT_C6711"
+        } ]
+      } ],
+      "is_preferred_root" : false,
+      "_links" : {
+        "self" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0002756?lang=en"
+        },
+        "parents" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0002756/parents"
+        },
+        "ancestors" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0002756/ancestors"
+        },
+        "hierarchicalParents" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0002756/hierarchicalParents"
+        },
+        "hierarchicalAncestors" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0002756/hierarchicalAncestors"
+        },
+        "jstree" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0002756/jstree"
+        },
+        "graph" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0002756/graph"
+        }
+      }
+    }, {
+      "iri" : "http://purl.obolibrary.org/obo/MONDO_0002586",
+      "lang" : "en",
+      "description" : [ "A primary or metastatic malignant neoplasm involving the thymus. This category includes malignant thymomas, thymic lymphomas, primary thymic carcinomas, and metastatic carcinomas from other anatomic sites." ],
+      "synonyms" : [ "thymic neoplasm", "thymic tumor", "thymic tumour", "Thymus cancer", "cancer of Thymus", "cancer of the Thymus", "cancer of thymus", "malignant Thymus neoplasm", "malignant Thymus tumor", "malignant Thymus tumour", "malignant neoplasm of Thymus", "malignant neoplasm of the Thymus", "malignant neoplasm of thymus", "malignant thymus neoplasm", "malignant tumor of Thymus", "malignant tumor of the Thymus", "malignant tumour of Thymus", "malignant tumour of the Thymus", "thymus cancer" ],
+      "annotation" : {
+        "Conforms To" : [ "http://purl.obolibrary.org/obo/mondo/patterns/cancer.yaml" ],
+        "curated content resource" : [ "https://www.malacards.org/card/thymus_cancer" ],
+        "has exact match" : [ "http://identifiers.org/medgen/155883", "http://identifiers.org/snomedct/363434003", "http://linkedlifedata.com/resource/umls/id/C0751552", "http://purl.bioontology.org/ontology/ICD10CM/C37", "http://purl.obolibrary.org/obo/DOID_3277", "http://purl.obolibrary.org/obo/NCIT_C4962" ],
+        "has_dbxref" : [ "DOID:3277", "ICD10CM:C37", "ICD9:164.0", "MEDGEN:155883", "NCIT:C4962", "SCTID:363434003", "UMLS:C0751552" ],
+        "id" : [ "MONDO:0002586" ],
+        "term tracker item" : [ "https://github.com/monarch-initiative/mondo/issues/9097" ]
+      },
+      "label" : "thymus cancer",
+      "ontology_name" : "mondo",
+      "ontology_prefix" : "MONDO",
+      "ontology_iri" : "http://purl.obolibrary.org/obo/mondo/mondo-international.owl",
+      "is_obsolete" : false,
+      "term_replaced_by" : null,
+      "is_defining_ontology" : true,
+      "has_children" : true,
+      "is_root" : false,
+      "short_form" : "MONDO_0002586",
+      "obo_id" : "MONDO:0002586",
+      "in_subset" : [ "gard_rare", "otar", "rare" ],
+      "obo_definition_citation" : [ {
+        "definition" : "A primary or metastatic malignant neoplasm involving the thymus. This category includes malignant thymomas, thymic lymphomas, primary thymic carcinomas, and metastatic carcinomas from other anatomic sites.",
+        "oboXrefs" : [ {
+          "database" : "NCIT",
+          "id" : "C4962",
+          "description" : null,
+          "url" : "http://purl.obolibrary.org/obo/NCIT_C4962"
+        } ]
+      } ],
+      "obo_xref" : [ {
+        "database" : "DOID",
+        "id" : "3277",
+        "description" : "MONDO:equivalentTo",
+        "url" : "http://purl.obolibrary.org/obo/DOID_3277"
+      }, {
+        "database" : "ICD10CM",
+        "id" : "C37",
+        "description" : "https://orcid.org/0009-0001-6494-4831",
+        "url" : "https://icd.codes/icd10cm/C37"
+      }, {
+        "database" : "ICD9",
+        "id" : "164.0",
+        "description" : "MONDO:i2s",
+        "url" : null
+      }, {
+        "database" : "MEDGEN",
+        "id" : "155883",
+        "description" : "MONDO:equivalentTo",
+        "url" : "https://www.ncbi.nlm.nih.gov/medgen/155883"
+      }, {
+        "database" : "NCIT",
+        "id" : "C4962",
+        "description" : "MONDO:equivalentTo",
+        "url" : "http://purl.obolibrary.org/obo/NCIT_C4962"
+      }, {
+        "database" : "SCTID",
+        "id" : "363434003",
+        "description" : "MONDO:equivalentTo",
+        "url" : "http://snomed.info/id/363434003"
+      }, {
+        "database" : "UMLS",
+        "id" : "C0751552",
+        "description" : "MONDO:equivalentTo",
+        "url" : "https://uts.nlm.nih.gov/uts/umls/concept/C0751552"
+      } ],
+      "obo_synonym" : [ {
+        "name" : "Thymus cancer",
+        "scope" : "hasExactSynonym",
+        "type" : null,
+        "xrefs" : [ {
+          "database" : "DOID",
+          "id" : "3277",
+          "description" : null,
+          "url" : "http://purl.obolibrary.org/obo/DOID_3277"
+        }, {
+          "database" : "NCIT",
+          "id" : "C4962",
+          "description" : null,
+          "url" : "http://purl.obolibrary.org/obo/NCIT_C4962"
+        } ]
+      }, {
+        "name" : "cancer of Thymus",
+        "scope" : "hasExactSynonym",
+        "type" : null,
+        "xrefs" : [ {
+          "database" : "NCIT",
+          "id" : "C4962",
+          "description" : null,
+          "url" : "http://purl.obolibrary.org/obo/NCIT_C4962"
+        } ]
+      }, {
+        "name" : "cancer of the Thymus",
+        "scope" : "hasExactSynonym",
+        "type" : null,
+        "xrefs" : [ {
+          "database" : "NCIT",
+          "id" : "C4962",
+          "description" : null,
+          "url" : "http://purl.obolibrary.org/obo/NCIT_C4962"
+        } ]
+      }, {
+        "name" : "cancer of thymus",
+        "scope" : "hasExactSynonym",
+        "type" : null,
+        "xrefs" : [ {
+          "database" : "MONDO",
+          "id" : "patterns/cancer",
+          "description" : null,
+          "url" : null
+        }, {
+          "database" : "NCIT",
+          "id" : "C4962",
+          "description" : null,
+          "url" : "http://purl.obolibrary.org/obo/NCIT_C4962"
+        } ]
+      }, {
+        "name" : "malignant Thymus neoplasm",
+        "scope" : "hasExactSynonym",
+        "type" : null,
+        "xrefs" : [ {
+          "database" : "NCIT",
+          "id" : "C4962",
+          "description" : null,
+          "url" : "http://purl.obolibrary.org/obo/NCIT_C4962"
+        } ]
+      }, {
+        "name" : "malignant Thymus tumor",
+        "scope" : "hasExactSynonym",
+        "type" : null,
+        "xrefs" : [ {
+          "database" : "NCIT",
+          "id" : "C4962",
+          "description" : null,
+          "url" : "http://purl.obolibrary.org/obo/NCIT_C4962"
+        } ]
+      }, {
+        "name" : "malignant Thymus tumour",
+        "scope" : "hasExactSynonym",
+        "type" : "UK spelling synonym",
+        "xrefs" : [ ]
+      }, {
+        "name" : "malignant neoplasm of Thymus",
+        "scope" : "hasExactSynonym",
+        "type" : null,
+        "xrefs" : [ {
+          "database" : "NCIT",
+          "id" : "C4962",
+          "description" : null,
+          "url" : "http://purl.obolibrary.org/obo/NCIT_C4962"
+        } ]
+      }, {
+        "name" : "malignant neoplasm of the Thymus",
+        "scope" : "hasExactSynonym",
+        "type" : null,
+        "xrefs" : [ {
+          "database" : "NCIT",
+          "id" : "C4962",
+          "description" : null,
+          "url" : "http://purl.obolibrary.org/obo/NCIT_C4962"
+        } ]
+      }, {
+        "name" : "malignant neoplasm of thymus",
+        "scope" : "hasExactSynonym",
+        "type" : null,
+        "xrefs" : [ {
+          "database" : "MONDO",
+          "id" : "patterns/cancer",
+          "description" : null,
+          "url" : null
+        }, {
+          "database" : "NCIT",
+          "id" : "C4962",
+          "description" : null,
+          "url" : "http://purl.obolibrary.org/obo/NCIT_C4962"
+        } ]
+      }, {
+        "name" : "malignant thymus neoplasm",
+        "scope" : "hasExactSynonym",
+        "type" : null,
+        "xrefs" : [ {
+          "database" : "MONDO",
+          "id" : "patterns/cancer",
+          "description" : null,
+          "url" : null
+        }, {
+          "database" : "NCIT",
+          "id" : "C4962",
+          "description" : null,
+          "url" : "http://purl.obolibrary.org/obo/NCIT_C4962"
+        } ]
+      }, {
+        "name" : "malignant tumor of Thymus",
+        "scope" : "hasExactSynonym",
+        "type" : null,
+        "xrefs" : [ {
+          "database" : "NCIT",
+          "id" : "C4962",
+          "description" : null,
+          "url" : "http://purl.obolibrary.org/obo/NCIT_C4962"
+        } ]
+      }, {
+        "name" : "malignant tumor of the Thymus",
+        "scope" : "hasExactSynonym",
+        "type" : null,
+        "xrefs" : [ {
+          "database" : "NCIT",
+          "id" : "C4962",
+          "description" : null,
+          "url" : "http://purl.obolibrary.org/obo/NCIT_C4962"
+        } ]
+      }, {
+        "name" : "malignant tumour of Thymus",
+        "scope" : "hasExactSynonym",
+        "type" : "UK spelling synonym",
+        "xrefs" : [ ]
+      }, {
+        "name" : "malignant tumour of the Thymus",
+        "scope" : "hasExactSynonym",
+        "type" : "UK spelling synonym",
+        "xrefs" : [ ]
+      }, {
+        "name" : "thymus cancer",
+        "scope" : "hasExactSynonym",
+        "type" : null,
+        "xrefs" : [ {
+          "database" : "DOID",
+          "id" : "3277",
+          "description" : null,
+          "url" : "http://purl.obolibrary.org/obo/DOID_3277"
+        }, {
+          "database" : "MONDO",
+          "id" : "patterns/location",
+          "description" : null,
+          "url" : null
+        }, {
+          "database" : "NCIT",
+          "id" : "C4962",
+          "description" : null,
+          "url" : "http://purl.obolibrary.org/obo/NCIT_C4962"
+        } ]
+      }, {
+        "name" : "thymic tumour",
+        "scope" : "hasBroadSynonym",
+        "type" : "UK spelling synonym",
+        "xrefs" : [ ]
+      } ],
+      "is_preferred_root" : false,
+      "_links" : {
+        "self" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0002586?lang=en"
+        },
+        "parents" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0002586/parents"
+        },
+        "ancestors" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0002586/ancestors"
+        },
+        "hierarchicalParents" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0002586/hierarchicalParents"
+        },
+        "hierarchicalAncestors" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0002586/hierarchicalAncestors"
+        },
+        "jstree" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0002586/jstree"
+        },
+        "children" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0002586/children"
+        },
+        "descendants" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0002586/descendants"
+        },
+        "hierarchicalChildren" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0002586/hierarchicalChildren"
+        },
+        "hierarchicalDescendants" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0002586/hierarchicalDescendants"
+        },
+        "graph" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0002586/graph"
+        }
+      }
+    }, {
+      "iri" : "http://purl.obolibrary.org/obo/MONDO_0002571",
+      "lang" : "en",
+      "description" : [ "A non-Hodgkin or Hodgkin lymphoma that arises in the brain or spinal cord as a primary lesion. There is no evidence of lymphoma outside the central nervous system at the time of diagnosis." ],
+      "synonyms" : [ "CNS lymphoma", "PCNSL", "central nervous system lymphoma", "lymphoma of central nervous system", "malignant lymphomas of CNS", "malignant lymphomas of the CNS", "microglioma", "primary CNS lymphoma", "primary brain lymphoma", "primary central nervous system lymphoma", "primary lymphoma, CNS" ],
+      "annotation" : {
+        "Conforms To" : [ "http://purl.obolibrary.org/obo/mondo/patterns/lymphoma.yaml" ],
+        "curated content resource" : [ "https://www.malacards.org/card/central_nervous_system_lymphoma" ],
+        "has close match" : [ "http://identifiers.org/meddra/10036685" ],
+        "has exact match" : [ "http://identifiers.org/medgen/79187", "http://identifiers.org/snomedct/307649006", "http://linkedlifedata.com/resource/umls/id/C0280803", "http://purl.obolibrary.org/obo/DOID_3234", "http://purl.obolibrary.org/obo/NCIT_C9301", "http://purl.obolibrary.org/obo/mondo/sources/icd11foundation/1133193893", "http://www.ebi.ac.uk/efo/EFO_1000157", "http://www.orpha.net/ORDO/Orphanet_46135" ],
+        "has_alternative_id" : [ "MONDO:0018732" ],
+        "has_dbxref" : [ "DOID:3234", "EFO:1000157", "GARD:9318", "ICD9:200.5", "MEDGEN:79187", "MedDRA:10036685", "NCIT:C9301", "NORD:2002", "ONCOTREE:PCNSL", "Orphanet:46135", "SCTID:307649006", "UMLS:C0280803", "icd11.foundation:1133193893" ],
+        "id" : [ "MONDO:0002571" ]
+      },
+      "label" : "primary central nervous system lymphoma",
+      "ontology_name" : "mondo",
+      "ontology_prefix" : "MONDO",
+      "ontology_iri" : "http://purl.obolibrary.org/obo/mondo/mondo-international.owl",
+      "is_obsolete" : false,
+      "term_replaced_by" : null,
+      "is_defining_ontology" : true,
+      "has_children" : true,
+      "is_root" : false,
+      "short_form" : "MONDO_0002571",
+      "obo_id" : "MONDO:0002571",
+      "in_subset" : [ "gard_rare", "nord_rare", "ordo_disorder", "orphanet_rare", "otar", "rare" ],
+      "obo_definition_citation" : [ {
+        "definition" : "A non-Hodgkin or Hodgkin lymphoma that arises in the brain or spinal cord as a primary lesion. There is no evidence of lymphoma outside the central nervous system at the time of diagnosis.",
+        "oboXrefs" : [ {
+          "database" : "NCIT",
+          "id" : "C9301",
+          "description" : null,
+          "url" : "http://purl.obolibrary.org/obo/NCIT_C9301"
+        } ]
+      } ],
+      "obo_xref" : [ {
+        "database" : "DOID",
+        "id" : "3234",
+        "description" : "MONDO:equivalentTo",
+        "url" : "http://purl.obolibrary.org/obo/DOID_3234"
+      }, {
+        "database" : "EFO",
+        "id" : "1000157",
+        "description" : "MONDO:equivalentTo",
+        "url" : "http://www.ebi.ac.uk/efo/EFO_1000157"
+      }, {
+        "database" : "GARD",
+        "id" : "9318",
+        "description" : "MONDO:GARD",
+        "url" : "https://rarediseases.info.nih.gov/diseases/9318/index"
+      }, {
+        "database" : "ICD9",
+        "id" : "200.5",
+        "description" : "DOID:3234",
+        "url" : null
+      }, {
+        "database" : "MEDGEN",
+        "id" : "79187",
+        "description" : "MONDO:equivalentTo",
+        "url" : "https://www.ncbi.nlm.nih.gov/medgen/79187"
+      }, {
+        "database" : "MedDRA",
+        "id" : "10036685",
+        "description" : "Orphanet:46135/e",
+        "url" : "http://bioportal.bioontology.org/ontologies/MEDDRA?p=classes&conceptid=10036685"
+      }, {
+        "database" : "NCIT",
+        "id" : "C9301",
+        "description" : "ONCOTREE:PCNSL",
+        "url" : "http://purl.obolibrary.org/obo/NCIT_C9301"
+      }, {
+        "database" : "NORD",
+        "id" : "2002",
+        "description" : "MONDO:NORD",
+        "url" : "https://rarediseases.org/?p=2002"
+      }, {
+        "database" : "ONCOTREE",
+        "id" : "PCNSL",
+        "description" : "MONDO:equivalentTo",
+        "url" : null
+      }, {
+        "database" : "Orphanet",
+        "id" : "46135",
+        "description" : "MONDO:equivalentTo",
+        "url" : "http://www.orpha.net/ORDO/Orphanet_46135"
+      }, {
+        "database" : "SCTID",
+        "id" : "307649006",
+        "description" : "MONDO:equivalentTo",
+        "url" : "http://snomed.info/id/307649006"
+      }, {
+        "database" : "UMLS",
+        "id" : "C0280803",
+        "description" : "MONDO:equivalentTo",
+        "url" : "https://uts.nlm.nih.gov/uts/umls/concept/C0280803"
+      }, {
+        "database" : "icd11.foundation",
+        "id" : "1133193893",
+        "description" : "MONDO:equivalentTo",
+        "url" : null
+      } ],
+      "obo_synonym" : [ {
+        "name" : "CNS lymphoma",
+        "scope" : "hasExactSynonym",
+        "type" : null,
+        "xrefs" : [ {
+          "database" : "NCIT",
+          "id" : "C9301",
+          "description" : null,
+          "url" : "http://purl.obolibrary.org/obo/NCIT_C9301"
+        } ]
+      }, {
+        "name" : "PCNSL",
+        "scope" : "hasExactSynonym",
+        "type" : "abbreviation",
+        "xrefs" : [ {
+          "database" : "Orphanet",
+          "id" : "46135",
+          "description" : null,
+          "url" : "http://www.orpha.net/ORDO/Orphanet_46135"
+        } ]
+      }, {
+        "name" : "central nervous system lymphoma",
+        "scope" : "hasExactSynonym",
+        "type" : null,
+        "xrefs" : [ {
+          "database" : "DOID",
+          "id" : "3234",
+          "description" : null,
+          "url" : "http://purl.obolibrary.org/obo/DOID_3234"
+        }, {
+          "database" : "MONDO",
+          "id" : "0006129",
+          "description" : null,
+          "url" : "http://purl.obolibrary.org/obo/MONDO_0006129"
+        }, {
+          "database" : "MONDO",
+          "id" : "patterns/location",
+          "description" : null,
+          "url" : null
+        }, {
+          "database" : "NCIT",
+          "id" : "C9301",
+          "description" : null,
+          "url" : "http://purl.obolibrary.org/obo/NCIT_C9301"
+        } ]
+      }, {
+        "name" : "lymphoma of central nervous system",
+        "scope" : "hasExactSynonym",
+        "type" : null,
+        "xrefs" : [ {
+          "database" : "MONDO",
+          "id" : "design_pattern",
+          "description" : null,
+          "url" : null
+        } ]
+      }, {
+        "name" : "malignant lymphomas of CNS",
+        "scope" : "hasExactSynonym",
+        "type" : null,
+        "xrefs" : [ {
+          "database" : "NCIT",
+          "id" : "C9301",
+          "description" : null,
+          "url" : "http://purl.obolibrary.org/obo/NCIT_C9301"
+        } ]
+      }, {
+        "name" : "malignant lymphomas of the CNS",
+        "scope" : "hasExactSynonym",
+        "type" : null,
+        "xrefs" : [ {
+          "database" : "NCIT",
+          "id" : "C9301",
+          "description" : null,
+          "url" : "http://purl.obolibrary.org/obo/NCIT_C9301"
+        } ]
+      }, {
+        "name" : "microglioma",
+        "scope" : "hasExactSynonym",
+        "type" : null,
+        "xrefs" : [ {
+          "database" : "DOID",
+          "id" : "3234",
+          "description" : null,
+          "url" : "http://purl.obolibrary.org/obo/DOID_3234"
+        }, {
+          "database" : "Wikipedia",
+          "id" : "Primary_central_nervous_system_lymphoma",
+          "description" : null,
+          "url" : "http://en.wikipedia.org/wiki/Primary_central_nervous_system_lymphoma"
+        } ]
+      }, {
+        "name" : "primary CNS lymphoma",
+        "scope" : "hasExactSynonym",
+        "type" : null,
+        "xrefs" : [ {
+          "database" : "DOID",
+          "id" : "3234",
+          "description" : null,
+          "url" : "http://purl.obolibrary.org/obo/DOID_3234"
+        }, {
+          "database" : "NCIT",
+          "id" : "C9301",
+          "description" : null,
+          "url" : "http://purl.obolibrary.org/obo/NCIT_C9301"
+        }, {
+          "database" : "Orphanet",
+          "id" : "46135",
+          "description" : null,
+          "url" : "http://www.orpha.net/ORDO/Orphanet_46135"
+        } ]
+      }, {
+        "name" : "primary brain lymphoma",
+        "scope" : "hasExactSynonym",
+        "type" : null,
+        "xrefs" : [ {
+          "database" : "Orphanet",
+          "id" : "46135",
+          "description" : null,
+          "url" : "http://www.orpha.net/ORDO/Orphanet_46135"
+        } ]
+      }, {
+        "name" : "primary central nervous system lymphoma",
+        "scope" : "hasExactSynonym",
+        "type" : null,
+        "xrefs" : [ {
+          "database" : "NCIT",
+          "id" : "C9301",
+          "description" : null,
+          "url" : "http://purl.obolibrary.org/obo/NCIT_C9301"
+        }, {
+          "database" : "Orphanet",
+          "id" : "46135",
+          "description" : null,
+          "url" : "http://www.orpha.net/ORDO/Orphanet_46135"
+        }, {
+          "database" : "icd11.foundation",
+          "id" : "1133193893",
+          "description" : null,
+          "url" : null
+        } ]
+      }, {
+        "name" : "primary lymphoma, CNS",
+        "scope" : "hasRelatedSynonym",
+        "type" : null,
+        "xrefs" : [ {
+          "database" : "GARD",
+          "id" : "0009318",
+          "description" : null,
+          "url" : "https://rarediseases.info.nih.gov/diseases/0009318/index"
+        } ]
+      } ],
+      "is_preferred_root" : false,
+      "_links" : {
+        "self" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0002571?lang=en"
+        },
+        "parents" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0002571/parents"
+        },
+        "ancestors" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0002571/ancestors"
+        },
+        "hierarchicalParents" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0002571/hierarchicalParents"
+        },
+        "hierarchicalAncestors" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0002571/hierarchicalAncestors"
+        },
+        "jstree" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0002571/jstree"
+        },
+        "children" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0002571/children"
+        },
+        "descendants" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0002571/descendants"
+        },
+        "hierarchicalChildren" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0002571/hierarchicalChildren"
+        },
+        "hierarchicalDescendants" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0002571/hierarchicalDescendants"
+        },
+        "graph" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0002571/graph"
+        }
+      }
+    }, {
+      "iri" : "http://purl.obolibrary.org/obo/MONDO_0000612",
+      "lang" : "en",
+      "description" : [ "A malignant neoplasm involving the lymphatic part of lymphoid system" ],
+      "synonyms" : [ "cancer of lymphatic part of lymphoid system", "lymphatic part of lymphoid system cancer", "malignant lymphatic part of lymphoid system neoplasm", "malignant neoplasm of lymphatic part of lymphoid system" ],
+      "annotation" : {
+        "Conforms To" : [ "http://purl.obolibrary.org/obo/mondo/patterns/cancer.yaml" ],
+        "curated content resource" : [ "https://www.malacards.org/card/lymphatic_system_cancer" ],
+        "has exact match" : [ "http://purl.obolibrary.org/obo/DOID_0060073" ],
+        "has_dbxref" : [ "DOID:0060073" ],
+        "id" : [ "MONDO:0000612" ]
+      },
+      "label" : "lymphatic system cancer",
+      "ontology_name" : "mondo",
+      "ontology_prefix" : "MONDO",
+      "ontology_iri" : "http://purl.obolibrary.org/obo/mondo/mondo-international.owl",
+      "is_obsolete" : false,
+      "term_replaced_by" : null,
+      "is_defining_ontology" : true,
+      "has_children" : true,
+      "is_root" : false,
+      "short_form" : "MONDO_0000612",
+      "obo_id" : "MONDO:0000612",
+      "in_subset" : [ "otar" ],
+      "obo_definition_citation" : [ {
+        "definition" : "A malignant neoplasm involving the lymphatic part of lymphoid system",
+        "oboXrefs" : [ {
+          "database" : null,
+          "id" : "https://orcid.org/0000-0002-6601-2165",
+          "description" : null,
+          "url" : "https://orcid.org/0000-0002-6601-2165"
+        } ]
+      } ],
+      "obo_xref" : [ {
+        "database" : "DOID",
+        "id" : "0060073",
+        "description" : "MONDO:equivalentTo",
+        "url" : "http://purl.obolibrary.org/obo/DOID_0060073"
+      } ],
+      "obo_synonym" : [ {
+        "name" : "cancer of lymphatic part of lymphoid system",
+        "scope" : "hasExactSynonym",
+        "type" : null,
+        "xrefs" : [ {
+          "database" : "MONDO",
+          "id" : "patterns/cancer",
+          "description" : null,
+          "url" : null
+        } ]
+      }, {
+        "name" : "lymphatic part of lymphoid system cancer",
+        "scope" : "hasExactSynonym",
+        "type" : null,
+        "xrefs" : [ {
+          "database" : "MONDO",
+          "id" : "patterns/location",
+          "description" : null,
+          "url" : null
+        } ]
+      }, {
+        "name" : "malignant lymphatic part of lymphoid system neoplasm",
+        "scope" : "hasExactSynonym",
+        "type" : null,
+        "xrefs" : [ {
+          "database" : "MONDO",
+          "id" : "patterns/cancer",
+          "description" : null,
+          "url" : null
+        } ]
+      }, {
+        "name" : "malignant neoplasm of lymphatic part of lymphoid system",
+        "scope" : "hasExactSynonym",
+        "type" : null,
+        "xrefs" : [ {
+          "database" : "MONDO",
+          "id" : "patterns/cancer",
+          "description" : null,
+          "url" : null
+        } ]
+      } ],
+      "is_preferred_root" : false,
+      "_links" : {
+        "self" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0000612?lang=en"
+        },
+        "parents" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0000612/parents"
+        },
+        "ancestors" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0000612/ancestors"
+        },
+        "hierarchicalParents" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0000612/hierarchicalParents"
+        },
+        "hierarchicalAncestors" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0000612/hierarchicalAncestors"
+        },
+        "jstree" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0000612/jstree"
+        },
+        "children" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0000612/children"
+        },
+        "descendants" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0000612/descendants"
+        },
+        "hierarchicalChildren" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0000612/hierarchicalChildren"
+        },
+        "hierarchicalDescendants" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0000612/hierarchicalDescendants"
+        },
+        "graph" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0000612/graph"
+        }
+      }
+    }, {
+      "iri" : "http://purl.obolibrary.org/obo/MONDO_0000872",
+      "lang" : "en",
+      "description" : [ "An acute B-lymphoblastic leukemia occurring in children." ],
+      "synonyms" : [ "B acute lymphoblastic leukaemia", "B acute lymphoblastic leukemia", "B cell childhood ALL", "B cell childhood acute lymphoblastic leukaemia", "B cell childhood acute lymphoblastic leukemia", "B cell childhood acute lymphocytic leukaemia", "B cell childhood acute lymphocytic leukemia", "B cell paediatric ALL", "B cell paediatric acute lymphoblastic leukaemia", "B cell paediatric acute lymphocytic leukaemia", "B cell pediatric ALL", "B cell pediatric acute lymphoblastic leukemia", "B cell pediatric acute lymphocytic leukemia", "B-cell childhood ALL", "B-cell childhood acute lymphocytic leukaemia", "B-cell childhood acute lymphocytic leukemia", "B-cell childhood acute lymphogenous leukaemia", "B-cell childhood acute lymphogenous leukemia", "B-cell childhood acute lymphoid leukaemia", "B-cell childhood acute lymphoid leukemia", "B-cell paediatric ALL", "B-cell paediatric acute lymphoblastic leukaemia", "B-cell paediatric acute lymphocytic leukaemia", "B-cell paediatric acute lymphogenous leukaemia", "B-cell paediatric acute lymphoid leukaemia", "B-cell pediatric ALL", "B-cell pediatric acute lymphoblastic leukemia", "B-cell pediatric acute lymphocytic leukemia", "B-cell pediatric acute lymphogenous leukemia", "B-cell pediatric acute lymphoid leukemia", "childhood B acute lymphoblastic leukaemia", "childhood B acute lymphoblastic leukemia", "childhood B-ALL", "childhood precursor B-lymphoblastic leukaemia", "childhood precursor B-lymphoblastic leukemia" ],
+      "annotation" : {
+        "curated content resource" : [ "https://www.malacards.org/card/childhood_b_cell_acute_lymphoblastic_leukemia" ],
+        "has exact match" : [ "http://identifiers.org/medgen/83526", "http://linkedlifedata.com/resource/umls/id/C0279584", "http://purl.obolibrary.org/obo/DOID_0080146", "http://purl.obolibrary.org/obo/NCIT_C9140", "http://www.ebi.ac.uk/efo/EFO_1001946" ],
+        "has_dbxref" : [ "DOID:0080146", "EFO:1001946", "MEDGEN:83526", "NANDO:2200002", "NCIT:C9140", "UMLS:C0279584" ],
+        "id" : [ "MONDO:0000872" ]
+      },
+      "label" : "B-cell childhood acute lymphoblastic leukemia",
+      "ontology_name" : "mondo",
+      "ontology_prefix" : "MONDO",
+      "ontology_iri" : "http://purl.obolibrary.org/obo/mondo/mondo-international.owl",
+      "is_obsolete" : false,
+      "term_replaced_by" : null,
+      "is_defining_ontology" : true,
+      "has_children" : false,
+      "is_root" : false,
+      "short_form" : "MONDO_0000872",
+      "obo_id" : "MONDO:0000872",
+      "in_subset" : [ "gard_rare", "otar", "rare" ],
+      "obo_definition_citation" : [ {
+        "definition" : "An acute B-lymphoblastic leukemia occurring in children.",
+        "oboXrefs" : [ {
+          "database" : "NCIT",
+          "id" : "P378",
+          "description" : null,
+          "url" : "http://purl.obolibrary.org/obo/NCIT_P378"
+        } ]
+      } ],
+      "obo_xref" : [ {
+        "database" : "DOID",
+        "id" : "0080146",
+        "description" : "MONDO:equivalentTo",
+        "url" : "http://purl.obolibrary.org/obo/DOID_0080146"
+      }, {
+        "database" : "EFO",
+        "id" : "1001946",
+        "description" : "MONDO:equivalentTo",
+        "url" : "http://www.ebi.ac.uk/efo/EFO_1001946"
+      }, {
+        "database" : "MEDGEN",
+        "id" : "83526",
+        "description" : "MONDO:equivalentTo",
+        "url" : "https://www.ncbi.nlm.nih.gov/medgen/83526"
+      }, {
+        "database" : "NANDO",
+        "id" : "2200002",
+        "description" : "https://orcid.org/0000-0003-0011-764X",
+        "url" : "https://nanbyodata.jp/disease/NANDO:2200002"
+      }, {
+        "database" : "NCIT",
+        "id" : "C9140",
+        "description" : "MONDO:equivalentTo",
+        "url" : "http://purl.obolibrary.org/obo/NCIT_C9140"
+      }, {
+        "database" : "UMLS",
+        "id" : "C0279584",
+        "description" : "MONDO:equivalentTo",
+        "url" : "https://uts.nlm.nih.gov/uts/umls/concept/C0279584"
+      } ],
+      "obo_synonym" : [ {
+        "name" : "B cell childhood ALL",
+        "scope" : "hasExactSynonym",
+        "type" : null,
+        "xrefs" : [ {
+          "database" : "NCIT",
+          "id" : "C9140",
+          "description" : null,
+          "url" : "http://purl.obolibrary.org/obo/NCIT_C9140"
+        } ]
+      }, {
+        "name" : "B cell childhood acute lymphoblastic leukaemia",
+        "scope" : "hasExactSynonym",
+        "type" : "UK spelling synonym",
+        "xrefs" : [ ]
+      }, {
+        "name" : "B cell childhood acute lymphoblastic leukemia",
+        "scope" : "hasExactSynonym",
+        "type" : null,
+        "xrefs" : [ {
+          "database" : "NCIT",
+          "id" : "C9140",
+          "description" : null,
+          "url" : "http://purl.obolibrary.org/obo/NCIT_C9140"
+        } ]
+      }, {
+        "name" : "B cell childhood acute lymphocytic leukaemia",
+        "scope" : "hasExactSynonym",
+        "type" : "UK spelling synonym",
+        "xrefs" : [ ]
+      }, {
+        "name" : "B cell childhood acute lymphocytic leukemia",
+        "scope" : "hasExactSynonym",
+        "type" : null,
+        "xrefs" : [ {
+          "database" : "NCIT",
+          "id" : "C9140",
+          "description" : null,
+          "url" : "http://purl.obolibrary.org/obo/NCIT_C9140"
+        } ]
+      }, {
+        "name" : "B cell paediatric ALL",
+        "scope" : "hasExactSynonym",
+        "type" : "UK spelling synonym",
+        "xrefs" : [ ]
+      }, {
+        "name" : "B cell paediatric acute lymphoblastic leukaemia",
+        "scope" : "hasExactSynonym",
+        "type" : "UK spelling synonym",
+        "xrefs" : [ ]
+      }, {
+        "name" : "B cell paediatric acute lymphocytic leukaemia",
+        "scope" : "hasExactSynonym",
+        "type" : "UK spelling synonym",
+        "xrefs" : [ ]
+      }, {
+        "name" : "B cell pediatric ALL",
+        "scope" : "hasExactSynonym",
+        "type" : null,
+        "xrefs" : [ {
+          "database" : "NCIT",
+          "id" : "C9140",
+          "description" : null,
+          "url" : "http://purl.obolibrary.org/obo/NCIT_C9140"
+        } ]
+      }, {
+        "name" : "B cell pediatric acute lymphoblastic leukemia",
+        "scope" : "hasExactSynonym",
+        "type" : null,
+        "xrefs" : [ {
+          "database" : "NCIT",
+          "id" : "C9140",
+          "description" : null,
+          "url" : "http://purl.obolibrary.org/obo/NCIT_C9140"
+        } ]
+      }, {
+        "name" : "B cell pediatric acute lymphocytic leukemia",
+        "scope" : "hasExactSynonym",
+        "type" : null,
+        "xrefs" : [ {
+          "database" : "NCIT",
+          "id" : "C9140",
+          "description" : null,
+          "url" : "http://purl.obolibrary.org/obo/NCIT_C9140"
+        } ]
+      }, {
+        "name" : "B-cell childhood ALL",
+        "scope" : "hasExactSynonym",
+        "type" : null,
+        "xrefs" : [ {
+          "database" : "NCIT",
+          "id" : "C9140",
+          "description" : null,
+          "url" : "http://purl.obolibrary.org/obo/NCIT_C9140"
+        } ]
+      }, {
+        "name" : "B-cell childhood acute lymphocytic leukaemia",
+        "scope" : "hasExactSynonym",
+        "type" : "UK spelling synonym",
+        "xrefs" : [ ]
+      }, {
+        "name" : "B-cell childhood acute lymphocytic leukemia",
+        "scope" : "hasExactSynonym",
+        "type" : null,
+        "xrefs" : [ {
+          "database" : "NCIT",
+          "id" : "C9140",
+          "description" : null,
+          "url" : "http://purl.obolibrary.org/obo/NCIT_C9140"
+        } ]
+      }, {
+        "name" : "B-cell childhood acute lymphogenous leukaemia",
+        "scope" : "hasExactSynonym",
+        "type" : "UK spelling synonym",
+        "xrefs" : [ ]
+      }, {
+        "name" : "B-cell childhood acute lymphogenous leukemia",
+        "scope" : "hasExactSynonym",
+        "type" : null,
+        "xrefs" : [ {
+          "database" : "NCIT",
+          "id" : "C9140",
+          "description" : null,
+          "url" : "http://purl.obolibrary.org/obo/NCIT_C9140"
+        } ]
+      }, {
+        "name" : "B-cell childhood acute lymphoid leukaemia",
+        "scope" : "hasExactSynonym",
+        "type" : "UK spelling synonym",
+        "xrefs" : [ ]
+      }, {
+        "name" : "B-cell childhood acute lymphoid leukemia",
+        "scope" : "hasExactSynonym",
+        "type" : null,
+        "xrefs" : [ {
+          "database" : "NCIT",
+          "id" : "C9140",
+          "description" : null,
+          "url" : "http://purl.obolibrary.org/obo/NCIT_C9140"
+        } ]
+      }, {
+        "name" : "B-cell paediatric ALL",
+        "scope" : "hasExactSynonym",
+        "type" : "UK spelling synonym",
+        "xrefs" : [ ]
+      }, {
+        "name" : "B-cell paediatric acute lymphoblastic leukaemia",
+        "scope" : "hasExactSynonym",
+        "type" : "UK spelling synonym",
+        "xrefs" : [ ]
+      }, {
+        "name" : "B-cell paediatric acute lymphocytic leukaemia",
+        "scope" : "hasExactSynonym",
+        "type" : "UK spelling synonym",
+        "xrefs" : [ ]
+      }, {
+        "name" : "B-cell paediatric acute lymphogenous leukaemia",
+        "scope" : "hasExactSynonym",
+        "type" : "UK spelling synonym",
+        "xrefs" : [ ]
+      }, {
+        "name" : "B-cell paediatric acute lymphoid leukaemia",
+        "scope" : "hasExactSynonym",
+        "type" : "UK spelling synonym",
+        "xrefs" : [ ]
+      }, {
+        "name" : "B-cell pediatric ALL",
+        "scope" : "hasExactSynonym",
+        "type" : null,
+        "xrefs" : [ {
+          "database" : "NCIT",
+          "id" : "C9140",
+          "description" : null,
+          "url" : "http://purl.obolibrary.org/obo/NCIT_C9140"
+        } ]
+      }, {
+        "name" : "B-cell pediatric acute lymphoblastic leukemia",
+        "scope" : "hasExactSynonym",
+        "type" : null,
+        "xrefs" : [ {
+          "database" : "NCIT",
+          "id" : "C9140",
+          "description" : null,
+          "url" : "http://purl.obolibrary.org/obo/NCIT_C9140"
+        } ]
+      }, {
+        "name" : "B-cell pediatric acute lymphocytic leukemia",
+        "scope" : "hasExactSynonym",
+        "type" : null,
+        "xrefs" : [ {
+          "database" : "NCIT",
+          "id" : "C9140",
+          "description" : null,
+          "url" : "http://purl.obolibrary.org/obo/NCIT_C9140"
+        } ]
+      }, {
+        "name" : "B-cell pediatric acute lymphogenous leukemia",
+        "scope" : "hasExactSynonym",
+        "type" : null,
+        "xrefs" : [ {
+          "database" : "NCIT",
+          "id" : "C9140",
+          "description" : null,
+          "url" : "http://purl.obolibrary.org/obo/NCIT_C9140"
+        } ]
+      }, {
+        "name" : "B-cell pediatric acute lymphoid leukemia",
+        "scope" : "hasExactSynonym",
+        "type" : null,
+        "xrefs" : [ {
+          "database" : "NCIT",
+          "id" : "C9140",
+          "description" : null,
+          "url" : "http://purl.obolibrary.org/obo/NCIT_C9140"
+        } ]
+      }, {
+        "name" : "childhood B acute lymphoblastic leukaemia",
+        "scope" : "hasExactSynonym",
+        "type" : "UK spelling synonym",
+        "xrefs" : [ ]
+      }, {
+        "name" : "childhood B acute lymphoblastic leukemia",
+        "scope" : "hasExactSynonym",
+        "type" : null,
+        "xrefs" : [ {
+          "database" : "NCIT",
+          "id" : "C9140",
+          "description" : null,
+          "url" : "http://purl.obolibrary.org/obo/NCIT_C9140"
+        } ]
+      }, {
+        "name" : "childhood B-ALL",
+        "scope" : "hasExactSynonym",
+        "type" : null,
+        "xrefs" : [ {
+          "database" : "NCIT",
+          "id" : "C9140",
+          "description" : null,
+          "url" : "http://purl.obolibrary.org/obo/NCIT_C9140"
+        } ]
+      }, {
+        "name" : "childhood precursor B-lymphoblastic leukaemia",
+        "scope" : "hasExactSynonym",
+        "type" : "UK spelling synonym",
+        "xrefs" : [ ]
+      }, {
+        "name" : "childhood precursor B-lymphoblastic leukemia",
+        "scope" : "hasExactSynonym",
+        "type" : null,
+        "xrefs" : [ {
+          "database" : "NCIT",
+          "id" : "C9140",
+          "description" : null,
+          "url" : "http://purl.obolibrary.org/obo/NCIT_C9140"
+        } ]
+      }, {
+        "name" : "B acute lymphoblastic leukaemia",
+        "scope" : "hasBroadSynonym",
+        "type" : "UK spelling synonym",
+        "xrefs" : [ ]
+      } ],
+      "is_preferred_root" : false,
+      "_links" : {
+        "self" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0000872?lang=en"
+        },
+        "parents" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0000872/parents"
+        },
+        "ancestors" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0000872/ancestors"
+        },
+        "hierarchicalParents" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0000872/hierarchicalParents"
+        },
+        "hierarchicalAncestors" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0000872/hierarchicalAncestors"
+        },
+        "jstree" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0000872/jstree"
+        },
+        "graph" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0000872/graph"
+        }
+      }
+    }, {
+      "iri" : "http://purl.obolibrary.org/obo/MONDO_0000871",
+      "lang" : "en",
+      "description" : [ "An acute lymphoblastic leukemia of T-cell origin occurring in children." ],
+      "synonyms" : [ "T acute lymphoblastic leukaemia", "T acute lymphoblastic leukemia", "T-cell childhood ALL", "T-cell childhood acute lymphoblastic leukaemia", "T-cell childhood acute lymphoblastic leukemia", "T-cell childhood acute lymphocytic leukemia", "T-cell paediatric ALL", "T-cell paediatric acute lymphoblastic leukaemia", "T-cell paediatric acute lymphocytic leukaemia", "T-cell pediatric ALL", "T-cell pediatric acute lymphoblastic leukemia", "T-cell pediatric acute lymphocytic leukemia", "childhood T acute lymphoblastic leukaemia", "childhood T acute lymphoblastic leukemia", "childhood T-ALL", "childhood T-cell acute lymphoblastic leukaemia", "childhood T-cell acute lymphoblastic leukemia", "childhood precursor T-lymphoblastic leukaemia", "childhood precursor T-lymphoblastic leukemia" ],
+      "annotation" : {
+        "curated content resource" : [ "https://www.malacards.org/card/childhood_t_cell_acute_lymphoblastic_leukemia" ],
+        "has exact match" : [ "http://identifiers.org/medgen/75996", "http://linkedlifedata.com/resource/umls/id/C0279583", "http://purl.obolibrary.org/obo/DOID_0080145", "http://purl.obolibrary.org/obo/NCIT_C7953", "http://www.ebi.ac.uk/efo/EFO_1001947" ],
+        "has_dbxref" : [ "DOID:0080145", "EFO:1001947", "MEDGEN:75996", "NCIT:C7953", "UMLS:C0279583" ],
+        "id" : [ "MONDO:0000871" ]
+      },
+      "label" : "T-cell childhood acute lymphocytic leukemia",
+      "ontology_name" : "mondo",
+      "ontology_prefix" : "MONDO",
+      "ontology_iri" : "http://purl.obolibrary.org/obo/mondo/mondo-international.owl",
+      "is_obsolete" : false,
+      "term_replaced_by" : null,
+      "is_defining_ontology" : true,
+      "has_children" : false,
+      "is_root" : false,
+      "short_form" : "MONDO_0000871",
+      "obo_id" : "MONDO:0000871",
+      "in_subset" : [ "gard_rare", "otar", "rare" ],
+      "obo_definition_citation" : [ {
+        "definition" : "An acute lymphoblastic leukemia of T-cell origin occurring in children.",
+        "oboXrefs" : [ {
+          "database" : "NCIT",
+          "id" : "C7953",
+          "description" : null,
+          "url" : "http://purl.obolibrary.org/obo/NCIT_C7953"
+        } ]
+      } ],
+      "obo_xref" : [ {
+        "database" : "DOID",
+        "id" : "0080145",
+        "description" : "MONDO:equivalentTo",
+        "url" : "http://purl.obolibrary.org/obo/DOID_0080145"
+      }, {
+        "database" : "EFO",
+        "id" : "1001947",
+        "description" : "MONDO:equivalentTo",
+        "url" : "http://www.ebi.ac.uk/efo/EFO_1001947"
+      }, {
+        "database" : "MEDGEN",
+        "id" : "75996",
+        "description" : "MONDO:equivalentTo",
+        "url" : "https://www.ncbi.nlm.nih.gov/medgen/75996"
+      }, {
+        "database" : "NCIT",
+        "id" : "C7953",
+        "description" : "MONDO:equivalentTo",
+        "url" : "http://purl.obolibrary.org/obo/NCIT_C7953"
+      }, {
+        "database" : "UMLS",
+        "id" : "C0279583",
+        "description" : "MONDO:equivalentTo",
+        "url" : "https://uts.nlm.nih.gov/uts/umls/concept/C0279583"
+      } ],
+      "obo_synonym" : [ {
+        "name" : "T-cell childhood ALL",
+        "scope" : "hasExactSynonym",
+        "type" : null,
+        "xrefs" : [ {
+          "database" : "NCIT",
+          "id" : "C7953",
+          "description" : null,
+          "url" : "http://purl.obolibrary.org/obo/NCIT_C7953"
+        } ]
+      }, {
+        "name" : "T-cell childhood acute lymphoblastic leukaemia",
+        "scope" : "hasExactSynonym",
+        "type" : "UK spelling synonym",
+        "xrefs" : [ ]
+      }, {
+        "name" : "T-cell childhood acute lymphoblastic leukemia",
+        "scope" : "hasExactSynonym",
+        "type" : null,
+        "xrefs" : [ {
+          "database" : "NCIT",
+          "id" : "C7953",
+          "description" : null,
+          "url" : "http://purl.obolibrary.org/obo/NCIT_C7953"
+        } ]
+      }, {
+        "name" : "T-cell childhood acute lymphocytic leukemia",
+        "scope" : "hasExactSynonym",
+        "type" : null,
+        "xrefs" : [ {
+          "database" : "DOID",
+          "id" : "0080145",
+          "description" : null,
+          "url" : "http://purl.obolibrary.org/obo/DOID_0080145"
+        }, {
+          "database" : "NCIT",
+          "id" : "C7953",
+          "description" : null,
+          "url" : "http://purl.obolibrary.org/obo/NCIT_C7953"
+        } ]
+      }, {
+        "name" : "T-cell paediatric ALL",
+        "scope" : "hasExactSynonym",
+        "type" : "UK spelling synonym",
+        "xrefs" : [ ]
+      }, {
+        "name" : "T-cell paediatric acute lymphoblastic leukaemia",
+        "scope" : "hasExactSynonym",
+        "type" : "UK spelling synonym",
+        "xrefs" : [ ]
+      }, {
+        "name" : "T-cell paediatric acute lymphocytic leukaemia",
+        "scope" : "hasExactSynonym",
+        "type" : "UK spelling synonym",
+        "xrefs" : [ ]
+      }, {
+        "name" : "T-cell pediatric ALL",
+        "scope" : "hasExactSynonym",
+        "type" : null,
+        "xrefs" : [ {
+          "database" : "NCIT",
+          "id" : "C7953",
+          "description" : null,
+          "url" : "http://purl.obolibrary.org/obo/NCIT_C7953"
+        } ]
+      }, {
+        "name" : "T-cell pediatric acute lymphoblastic leukemia",
+        "scope" : "hasExactSynonym",
+        "type" : null,
+        "xrefs" : [ {
+          "database" : "NCIT",
+          "id" : "C7953",
+          "description" : null,
+          "url" : "http://purl.obolibrary.org/obo/NCIT_C7953"
+        } ]
+      }, {
+        "name" : "T-cell pediatric acute lymphocytic leukemia",
+        "scope" : "hasExactSynonym",
+        "type" : null,
+        "xrefs" : [ {
+          "database" : "NCIT",
+          "id" : "C7953",
+          "description" : null,
+          "url" : "http://purl.obolibrary.org/obo/NCIT_C7953"
+        } ]
+      }, {
+        "name" : "childhood T acute lymphoblastic leukaemia",
+        "scope" : "hasExactSynonym",
+        "type" : "UK spelling synonym",
+        "xrefs" : [ ]
+      }, {
+        "name" : "childhood T acute lymphoblastic leukemia",
+        "scope" : "hasExactSynonym",
+        "type" : null,
+        "xrefs" : [ {
+          "database" : "NCIT",
+          "id" : "C7953",
+          "description" : null,
+          "url" : "http://purl.obolibrary.org/obo/NCIT_C7953"
+        } ]
+      }, {
+        "name" : "childhood T-ALL",
+        "scope" : "hasExactSynonym",
+        "type" : null,
+        "xrefs" : [ {
+          "database" : "NCIT",
+          "id" : "C7953",
+          "description" : null,
+          "url" : "http://purl.obolibrary.org/obo/NCIT_C7953"
+        } ]
+      }, {
+        "name" : "childhood T-cell acute lymphoblastic leukaemia",
+        "scope" : "hasExactSynonym",
+        "type" : "UK spelling synonym",
+        "xrefs" : [ ]
+      }, {
+        "name" : "childhood T-cell acute lymphoblastic leukemia",
+        "scope" : "hasExactSynonym",
+        "type" : null,
+        "xrefs" : [ {
+          "database" : "DOID",
+          "id" : "0080145",
+          "description" : null,
+          "url" : "http://purl.obolibrary.org/obo/DOID_0080145"
+        }, {
+          "database" : "NCIT",
+          "id" : "C7953",
+          "description" : null,
+          "url" : "http://purl.obolibrary.org/obo/NCIT_C7953"
+        } ]
+      }, {
+        "name" : "childhood precursor T-lymphoblastic leukaemia",
+        "scope" : "hasExactSynonym",
+        "type" : "UK spelling synonym",
+        "xrefs" : [ ]
+      }, {
+        "name" : "childhood precursor T-lymphoblastic leukemia",
+        "scope" : "hasExactSynonym",
+        "type" : null,
+        "xrefs" : [ {
+          "database" : "NCIT",
+          "id" : "C7953",
+          "description" : null,
+          "url" : "http://purl.obolibrary.org/obo/NCIT_C7953"
+        } ]
+      }, {
+        "name" : "T acute lymphoblastic leukaemia",
+        "scope" : "hasBroadSynonym",
+        "type" : "UK spelling synonym",
+        "xrefs" : [ ]
+      } ],
+      "is_preferred_root" : false,
+      "_links" : {
+        "self" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0000871?lang=en"
+        },
+        "parents" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0000871/parents"
+        },
+        "ancestors" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0000871/ancestors"
+        },
+        "hierarchicalParents" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0000871/hierarchicalParents"
+        },
+        "hierarchicalAncestors" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0000871/hierarchicalAncestors"
+        },
+        "jstree" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0000871/jstree"
+        },
+        "graph" : {
+          "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0000871/graph"
+        }
+      }
+    } ]
+  },
+  "_links" : {
+    "self" : {
+      "href" : "http://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMONDO_0000621/children?page=0&size=1000"
+    }
+  },
+  "page" : {
+    "size" : 1000,
+    "totalElements" : 24,
+    "totalPages" : 1,
+    "number" : 0
+  }
+}

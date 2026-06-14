@@ -1,0 +1,34 @@
+ids,names,models
+MONDO_0858997,cancer of unknown primary site,False
+MONDO_0850125,malignant adenoma,False
+MONDO_0036501,refractory malignant neoplasm,False
+MONDO_0024881,secondary malignant neoplasm,True
+MONDO_0024637,malignant soft tissue neoplasm,True
+MONDO_0021069,malignant endocrine neoplasm,True
+MONDO_0020665,high grade malignant neoplasm,True
+MONDO_0020663,malignant spindle cell neoplasm,True
+MONDO_0020633,anaplastic cancer,True
+MONDO_0006295,malignant urinary system neoplasm,True
+MONDO_0006292,malignant mesothelioma,True
+MONDO_0006290,malignant germ cell tumor,True
+MONDO_0006517,childhood malignant neoplasm,True
+MONDO_0005872,nervous system cancer,True
+MONDO_0005853,malignant mixed neoplasm,True
+MONDO_0005941,retroperitoneal cancer,True
+MONDO_0005627,head and neck cancer,True
+MONDO_0005565,blastoma,False
+MONDO_0005089,sarcoma,True
+MONDO_0004993,carcinoma,True
+MONDO_0003633,malignant mesenchymoma,False
+MONDO_0003340,malignant glomus tumor,False
+MONDO_0003274,thoracic cancer,True
+MONDO_0002813,lipomatous cancer,True
+MONDO_0002516,digestive system cancer,True
+MONDO_0002402,malignant giant cell tumor,False
+MONDO_0002149,reproductive system cancer,True
+MONDO_0002100,cardiovascular cancer,True
+MONDO_0002087,peritoneum cancer,False
+MONDO_0000653,integumentary system cancer,True
+MONDO_0000376,respiratory system cancer,True
+MONDO_0000637,musculoskeletal system cancer,True
+MONDO_0000621,immune system cancer,True
