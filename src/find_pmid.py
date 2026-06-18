@@ -6,14 +6,21 @@ from pathlib import Path
 import pandas as pd
 from collections import Counter
 
-def check_relationship(df, gse1, gse2):
+from sympy.parsing.sympy_parser import null
+
+
+def is_present(x):
+    if isinstance(x, list):
+        return len(x) > 0
+    return pd.notna(x) and x != "nan"
+
+def check_relationship(data, gse1, gse2):
     """
     Pull rows associated with two GSE accessions from a dataframe.
 
     Parameters
     ----------
-    df : pandas.DataFrame
-        Dataframe with a 'gse' column.
+    df : dictionary with 'gse' as key.
     gse1, gse2 : str
         GSE accessions to retrieve.
 
@@ -22,13 +29,34 @@ def check_relationship(df, gse1, gse2):
     pandas.DataFrame
         Rows matching gse1 or gse2.
     """
-    wanted = [gse1, gse2]
 
-    out = df[df["gse"].isin(wanted)].copy()
+    gse1_data = data[gse1]
+    gse2_data = data[gse2]
 
-    print(out)
+    # Should be the same, but just in case, this way we'll get an error
+    all_keys = set(gse1_data.keys()).union(set(gse2_data.keys()))
 
-    return out
+    matches = {}
+
+    for key in all_keys:
+        gse1_val = gse1_data[key]
+        gse2_val = gse2_data[key]
+        if is_present(gse1_val) or is_present(gse2_val):
+            if gse1_val == gse2_val:
+                matches[key] = True
+            else:
+                matches[key] = False
+        else:
+            matches[key] = null
+
+    if matches["subseries"] and matches['pmid']:
+        return {'prediction': True, 'confidence': "Very High"}
+    elif matches["subseries"] or matches['pmid']:
+        return {'prediction': True, 'confidence': "High"}
+    elif matches["SRA"] or matches['BioProject']:
+        return {'prediction': True, 'confidence': "Moderate"}
+    else:
+        return {'prediction': False, 'confidence': "Unknown"}
 
 def get_gse_soft_metadata(gse: str) -> dict:
     url = "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi"
@@ -173,13 +201,13 @@ def geo_jsonl_to_dataframe(jsonl_path):
 
     return df
 
-def main():
-    input_json = Path("../metadata/metadata_human.json")
+def add_species(species):
+    input_json = Path("../metadata/metadata_{0}.json".format(species))
     gse_metadata = load_original_metadata(input_json)
     total_entries = len(gse_metadata)
 
-    output_jsonl = Path("../metadata/geo_soft_metadata_human.jsonl")
-    failed_jsonl = Path("../metadata/failed_gses_human.jsonl")
+    output_jsonl = Path("../metadata/geo_soft_metadata_{0}.jsonl".format(species))
+    failed_jsonl = Path("../metadata/failed_gses_{0}.jsonl".format(species))
 
     completed = read_completed_gses(output_jsonl)
     failed_before = read_completed_gses(failed_jsonl)
@@ -190,8 +218,8 @@ def main():
     if len(completed) < total_entries:
         get_data(gse_metadata, completed, failed_jsonl, output_jsonl)
 
-    df = geo_jsonl_to_dataframe("../metadata/geo_soft_metadata_human.jsonl")
-    # df.to_csv("../metadata/human_geo_soft.csv", index=False)
+    df = geo_jsonl_to_dataframe("../metadata/geo_soft_metadata_{0}.jsonl".format(species))
+    df.to_csv("../metadata/human_geo_soft.csv", index=False)
 
     info_dict = dict()
     all_pmids = list()
@@ -218,7 +246,6 @@ def main():
             entries.append(contents)
             info_dict[gse][name] = entries
 
-    print(all_keys)
     # Write the data to a file
     rows = []
 
@@ -234,11 +261,29 @@ def main():
         })
 
     outdf = pd.DataFrame(rows)
-    outdf.to_csv("../metadata/gse_pmid_subseries_of.tsv", sep="\t", index=False)
+    outdf.to_csv("../metadata/gse_pmid_subseries_of_{0}.tsv".format(species), sep="\t", index=False)
 
+def load_data(species):
+    data = pd.read_csv("../metadata/gse_pmid_subseries_of_{0}.tsv".format(species), delimiter='\t')
+    return data.set_index("gse").to_dict(orient="index")
+
+def main():
+    #add_species("mouse")
+    #add_species("human")
+
+    all_data = load_data("mouse") | load_data("human")
+
+    with open("../data/GSE_test_set_matches.txt", "r", encoding="utf-8") as f:
+        for line in f:
+            line = line.strip()
+
+            # Skip blank lines
+            if not line:
+                continue
+
+            gse1, gse2 = line.split()
+            print(gse1, gse2, check_relationship(all_data, gse1, gse2))
 
 
 if __name__ == "__main__":
-    #main()
-    data = pd.read_csv("../metadata/gse_pmid_subseries_of.tsv", delimiter='\t')
-    check_relationship(data, "GSE101157", "GSE101167")
+    main()
