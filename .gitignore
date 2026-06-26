@@ -165,3 +165,4 @@ results/meta/*_preds.csv
 __pycache__/
 top_human_mouse_cui_pairs.csv
 top_human_mouse_cui_pairs.csv.gz
+path/to/large_file
